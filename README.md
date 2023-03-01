@@ -1,4 +1,4 @@
-# Redistribution Methods Errors
+# Redistribution Methods Comparisons
 A data site comparing redistribution methods in Arlington county.
 
 Data from the tract-base test case of the

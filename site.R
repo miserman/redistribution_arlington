@@ -1,11 +1,11 @@
 library(community)
 page_head(
-  title = "Redistribution Methods Errors",
+  title = "Redistribution Methods Comparisons",
   icon = "https://raw.githubusercontent.com/uva-bi-sdad/community/main/logo.svg",
   description = "Comparison of desitribution/estimation methods."
 )
 page_navbar(
-  title = "Redistribution Methods Errors",
+  title = "Redistribution Methods Comparisons",
   logo = "https://raw.githubusercontent.com/uva-bi-sdad/community/main/logo.svg",
   input_button("Reset", "reset_selection", "reset.selection", class = "btn-link"),
   list(
@@ -82,7 +82,7 @@ page_section(
       palette = "settings.palette", dataview = "view_a", subto = c("map_a", "plot_a"),
       id = "legend_a", show_na = FALSE
     ),
-    input_select(
+    input_combobox(
       "Variable A", options = "variables",
       default = "sex_female.pums_1step", id = "variable_a"
     ),
@@ -128,7 +128,7 @@ page_section(
       palette = "settings.palette", dataview = "view_b", subto = c("map_b", "plot_b"),
       id = "legend_b", show_na = FALSE
     ),
-    input_select(
+    input_combobox(
       "Variable B", options = "variables",
       default = "sex_female.pums_2step", id = "variable_b"
     ),
@@ -148,7 +148,7 @@ page_section(
 )
 
 # bottom
-input_select(
+input_combobox(
   "X Variable", options = "variables",
-  default = "sex_female.pums_baseline", id = "selected_x"
+  default = "sex_female.original", id = "selected_x"
 )

@@ -1,6 +1,6 @@
 library(community)
 
-file.copy("../estimate_comparison/results.csv", "docs/data/results.csv")
+file.copy("../estimate_comparison/results.csv", "docs/data/results.csv", TRUE)
 data_add(
   "results.csv",
   list(ids = list(variable = "geoid")),
