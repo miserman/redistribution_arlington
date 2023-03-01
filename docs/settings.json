@@ -1,0 +1,2174 @@
+{
+  "settings": {
+    "theme_dark": true,
+    "color_scale_center": "none",
+    "digits": 2,
+    "summary_selection": "all",
+    "color_by_order": false,
+    "boxplots": true,
+    "partial_init": true,
+    "palette": "purple",
+    "hide_url_parameters": false,
+    "background_shapes": true,
+    "iqr_box": true,
+    "polygon_outline": 1.5,
+    "table_autoscroll": true,
+    "table_scroll_behavior": "smooth",
+    "hide_tooltips": false,
+    "map_animations": "all",
+    "trace_limit": 200,
+    "map_overlay": true,
+    "circle_radius": 7,
+    "tracking": false
+  },
+  "metadata": {
+    "package": "data/datapackage.json",
+    "datasets": [
+      "results"
+    ],
+    "variables": {},
+    "info": {
+      "results": {
+        "bytes": 419278,
+        "encoding": "ISO-8859-1",
+        "md5": "1babd9151cb0400664eb890228fc6699",
+        "format": "csv",
+        "name": "results",
+        "filename": "results.csv",
+        "source": [],
+        "ids": [
+          {
+            "variable": "geoid"
+          }
+        ],
+        "id_length": 12,
+        "time": {},
+        "profile": "data-resource",
+        "created": "2023-03-01 16:24:00",
+        "last_modified": "2023-03-01 16:24:00",
+        "row_count": 204,
+        "entity_count": 204,
+        "schema": {
+          "fields": [
+            {
+              "name": "sex_male.prop",
+              "duplicates": 2,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "float",
+              "missing": 0,
+              "mean": 581.0083,
+              "sd": 280.0177,
+              "min": 0,
+              "max": 1615.1756
+            },
+            {
+              "name": "sex_male.prop_adj",
+              "duplicates": 2,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "float",
+              "missing": 0,
+              "mean": 581.0222,
+              "sd": 252.957,
+              "min": 0,
+              "max": 1486.3847
+            },
+            {
+              "name": "sex_male.pums_baseline",
+              "duplicates": 2,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "float",
+              "missing": 0,
+              "mean": 579.2592,
+              "sd": 280.8745,
+              "min": 0,
+              "max": 1621.5028
+            },
+            {
+              "name": "sex_male.pums_1step",
+              "duplicates": 2,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "float",
+              "missing": 0,
+              "mean": 575.5815,
+              "sd": 282.7543,
+              "min": 0,
+              "max": 1585.4904
+            },
+            {
+              "name": "sex_male.pums_2step",
+              "duplicates": 2,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "float",
+              "missing": 0,
+              "mean": 573.5941,
+              "sd": 277.8773,
+              "min": 0,
+              "max": 1598.8105
+            },
+            {
+              "name": "sex_male.pums_general",
+              "duplicates": 5,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "float",
+              "missing": 0,
+              "mean": 557.7416,
+              "sd": 297.4214,
+              "min": 0,
+              "max": 1669.2442
+            },
+            {
+              "name": "sex_female.prop",
+              "duplicates": 2,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "float",
+              "missing": 0,
+              "mean": 574.2945,
+              "sd": 274.8598,
+              "min": 0,
+              "max": 1598.2517
+            },
+            {
+              "name": "sex_female.prop_adj",
+              "duplicates": 2,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "float",
+              "missing": 0,
+              "mean": 574.3115,
+              "sd": 252.9923,
+              "min": 0,
+              "max": 1489.7801
+            },
+            {
+              "name": "sex_female.pums_baseline",
+              "duplicates": 2,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "float",
+              "missing": 0,
+              "mean": 568.2358,
+              "sd": 269.4039,
+              "min": 0,
+              "max": 1501.7481
+            },
+            {
+              "name": "sex_female.pums_1step",
+              "duplicates": 2,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "float",
+              "missing": 0,
+              "mean": 571.9135,
+              "sd": 276.2546,
+              "min": 0,
+              "max": 1566.9867
+            },
+            {
+              "name": "sex_female.pums_2step",
+              "duplicates": 2,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "float",
+              "missing": 0,
+              "mean": 573.9008,
+              "sd": 279.9419,
+              "min": 0,
+              "max": 1564.7505
+            },
+            {
+              "name": "sex_female.pums_general",
+              "duplicates": 5,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "float",
+              "missing": 0,
+              "mean": 556.4349,
+              "sd": 287.739,
+              "min": 0,
+              "max": 1531.5562
+            },
+            {
+              "name": "race_other.prop",
+              "duplicates": 3,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "float",
+              "missing": 0,
+              "mean": 148.1431,
+              "sd": 121.68,
+              "min": 0,
+              "max": 798.0083
+            },
+            {
+              "name": "race_other.prop_adj",
+              "duplicates": 3,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "float",
+              "missing": 0,
+              "mean": 148.1494,
+              "sd": 116.8241,
+              "min": 0,
+              "max": 748.0741
+            },
+            {
+              "name": "race_other.pums_baseline",
+              "duplicates": 2,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "float",
+              "missing": 0,
+              "mean": 247.8963,
+              "sd": 195.6407,
+              "min": 0,
+              "max": 1010.1521
+            },
+            {
+              "name": "race_other.pums_1step",
+              "duplicates": 2,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "float",
+              "missing": 0,
+              "mean": 148.4053,
+              "sd": 129.0497,
+              "min": 0,
+              "max": 748.9991
+            },
+            {
+              "name": "race_other.pums_2step",
+              "duplicates": 2,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "float",
+              "missing": 0,
+              "mean": 145.3769,
+              "sd": 121.9906,
+              "min": 0,
+              "max": 669.9964
+            },
+            {
+              "name": "race_other.pums_general",
+              "duplicates": 9,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "float",
+              "missing": 0,
+              "mean": 201.2208,
+              "sd": 210.291,
+              "min": 0,
+              "max": 1157.6516
+            },
+            {
+              "name": "race_white.prop",
+              "duplicates": 2,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "float",
+              "missing": 0,
+              "mean": 775.9,
+              "sd": 383.2407,
+              "min": 0,
+              "max": 2252.5264
+            },
+            {
+              "name": "race_white.prop_adj",
+              "duplicates": 2,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "float",
+              "missing": 0,
+              "mean": 775.915,
+              "sd": 352.7691,
+              "min": 0,
+              "max": 1993.1886
+            },
+            {
+              "name": "race_white.pums_baseline",
+              "duplicates": 2,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "float",
+              "missing": 0,
+              "mean": 494.1229,
+              "sd": 288.1414,
+              "min": 0,
+              "max": 1367.3244
+            },
+            {
+              "name": "race_white.pums_1step",
+              "duplicates": 2,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "float",
+              "missing": 0,
+              "mean": 754.1499,
+              "sd": 378.6949,
+              "min": 0,
+              "max": 2028.3858
+            },
+            {
+              "name": "race_white.pums_2step",
+              "duplicates": 2,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "float",
+              "missing": 0,
+              "mean": 765.6775,
+              "sd": 377.0515,
+              "min": 0,
+              "max": 1971.6641
+            },
+            {
+              "name": "race_white.pums_general",
+              "duplicates": 6,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "float",
+              "missing": 0,
+              "mean": 502.2801,
+              "sd": 337.6879,
+              "min": 0,
+              "max": 1861.8139
+            },
+            {
+              "name": "race_black.prop",
+              "duplicates": 3,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "float",
+              "missing": 0,
+              "mean": 108.38,
+              "sd": 137.7923,
+              "min": 0,
+              "max": 1023.0655
+            },
+            {
+              "name": "race_black.prop_adj",
+              "duplicates": 3,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "float",
+              "missing": 0,
+              "mean": 108.3787,
+              "sd": 132.2475,
+              "min": 0,
+              "max": 957.8058
+            },
+            {
+              "name": "race_black.pums_baseline",
+              "duplicates": 2,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "float",
+              "missing": 0,
+              "mean": 112.1597,
+              "sd": 113.0425,
+              "min": 0,
+              "max": 669.7863
+            },
+            {
+              "name": "race_black.pums_1step",
+              "duplicates": 2,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "float",
+              "missing": 0,
+              "mean": 118.579,
+              "sd": 173.4315,
+              "min": 0,
+              "max": 1378.9288
+            },
+            {
+              "name": "race_black.pums_2step",
+              "duplicates": 2,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "float",
+              "missing": 0,
+              "mean": 113.08,
+              "sd": 165.2191,
+              "min": 0,
+              "max": 1381.3977
+            },
+            {
+              "name": "race_black.pums_general",
+              "duplicates": 6,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "float",
+              "missing": 0,
+              "mean": 109.3028,
+              "sd": 155.7369,
+              "min": 0,
+              "max": 1108.993
+            },
+            {
+              "name": "race_asian.prop",
+              "duplicates": 2,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "float",
+              "missing": 0,
+              "mean": 118.1754,
+              "sd": 87.7261,
+              "min": 0,
+              "max": 786.7003
+            },
+            {
+              "name": "race_asian.prop_adj",
+              "duplicates": 2,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "float",
+              "missing": 0,
+              "mean": 118.1859,
+              "sd": 84.0706,
+              "min": 0,
+              "max": 735.6038
+            },
+            {
+              "name": "race_asian.pums_baseline",
+              "duplicates": 2,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "float",
+              "missing": 0,
+              "mean": 120.541,
+              "sd": 65.8421,
+              "min": 0,
+              "max": 322.8931
+            },
+            {
+              "name": "race_asian.pums_1step",
+              "duplicates": 2,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "float",
+              "missing": 0,
+              "mean": 121.672,
+              "sd": 96.5607,
+              "min": 0,
+              "max": 684.8622
+            },
+            {
+              "name": "race_asian.pums_2step",
+              "duplicates": 2,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "float",
+              "missing": 0,
+              "mean": 118.811,
+              "sd": 91.7714,
+              "min": 0,
+              "max": 677.7248
+            },
+            {
+              "name": "race_asian.pums_general",
+              "duplicates": 5,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "float",
+              "missing": 0,
+              "mean": 126.7655,
+              "sd": 108.4943,
+              "min": 0,
+              "max": 862.6847
+            },
+            {
+              "name": "race_native.prop",
+              "duplicates": 86,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "float",
+              "missing": 0,
+              "mean": 4.7044,
+              "sd": 8.3364,
+              "min": 0,
+              "max": 54.43
+            },
+            {
+              "name": "race_native.prop_adj",
+              "duplicates": 86,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "float",
+              "missing": 0,
+              "mean": 4.7047,
+              "sd": 8.2569,
+              "min": 0,
+              "max": 54.43
+            },
+            {
+              "name": "race_native.pums_baseline",
+              "duplicates": 3,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "float",
+              "missing": 0,
+              "mean": 172.7751,
+              "sd": 276.7639,
+              "min": 0,
+              "max": 1624.5016
+            },
+            {
+              "name": "race_native.pums_1step",
+              "duplicates": 3,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "float",
+              "missing": 0,
+              "mean": 4.6889,
+              "sd": 8.1076,
+              "min": 0,
+              "max": 39.9416
+            },
+            {
+              "name": "race_native.pums_2step",
+              "duplicates": 3,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "float",
+              "missing": 0,
+              "mean": 4.5496,
+              "sd": 7.6487,
+              "min": 0,
+              "max": 39.9416
+            },
+            {
+              "name": "race_native.pums_general",
+              "duplicates": 38,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "float",
+              "missing": 0,
+              "mean": 174.6073,
+              "sd": 301.1658,
+              "min": 0,
+              "max": 1823.974
+            },
+            {
+              "name": "income_150_200.prop",
+              "duplicates": 2,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "float",
+              "missing": 0,
+              "mean": 79.5799,
+              "sd": 55.9479,
+              "min": 0,
+              "max": 308.9827
+            },
+            {
+              "name": "income_150_200.prop_adj",
+              "duplicates": 2,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "float",
+              "missing": 0,
+              "mean": 79.5826,
+              "sd": 54.297,
+              "min": 0,
+              "max": 308.9827
+            },
+            {
+              "name": "income_150_200.pums_baseline",
+              "duplicates": 2,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "float",
+              "missing": 0,
+              "mean": 90.8925,
+              "sd": 58.2097,
+              "min": 0,
+              "max": 324.4014
+            },
+            {
+              "name": "income_150_200.pums_1step",
+              "duplicates": 2,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "float",
+              "missing": 0,
+              "mean": 146.8486,
+              "sd": 68.5955,
+              "min": 0,
+              "max": 357.5478
+            },
+            {
+              "name": "income_150_200.pums_2step",
+              "duplicates": 2,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "float",
+              "missing": 0,
+              "mean": 196.9108,
+              "sd": 121.8404,
+              "min": 0,
+              "max": 807.3961
+            },
+            {
+              "name": "income_150_200.pums_general",
+              "duplicates": 7,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "float",
+              "missing": 0,
+              "mean": 146.4038,
+              "sd": 127.5592,
+              "min": 0,
+              "max": 796.023
+            },
+            {
+              "name": "income_125_150.prop",
+              "duplicates": 2,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "float",
+              "missing": 0,
+              "mean": 51.6718,
+              "sd": 36.3732,
+              "min": 0,
+              "max": 205.726
+            },
+            {
+              "name": "income_125_150.prop_adj",
+              "duplicates": 2,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "float",
+              "missing": 0,
+              "mean": 51.6716,
+              "sd": 35.3821,
+              "min": 0,
+              "max": 201.8558
+            },
+            {
+              "name": "income_125_150.pums_baseline",
+              "duplicates": 2,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "float",
+              "missing": 0,
+              "mean": 130.9155,
+              "sd": 69.3018,
+              "min": 0,
+              "max": 433.7313
+            },
+            {
+              "name": "income_125_150.pums_1step",
+              "duplicates": 2,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "float",
+              "missing": 0,
+              "mean": 121.7113,
+              "sd": 72.4401,
+              "min": 0,
+              "max": 450.1709
+            },
+            {
+              "name": "income_125_150.pums_2step",
+              "duplicates": 2,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "float",
+              "missing": 0,
+              "mean": 132.0066,
+              "sd": 94.9638,
+              "min": 0,
+              "max": 574.0324
+            },
+            {
+              "name": "income_125_150.pums_general",
+              "duplicates": 5,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "float",
+              "missing": 0,
+              "mean": 134.6033,
+              "sd": 88.5011,
+              "min": 0,
+              "max": 462.0723
+            },
+            {
+              "name": "income_gt200.prop",
+              "duplicates": 2,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "float",
+              "missing": 0,
+              "mean": 143.7302,
+              "sd": 88.8553,
+              "min": 0,
+              "max": 461.7441
+            },
+            {
+              "name": "income_gt200.prop_adj",
+              "duplicates": 2,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "float",
+              "missing": 0,
+              "mean": 143.7324,
+              "sd": 84.718,
+              "min": 0,
+              "max": 399.9393
+            },
+            {
+              "name": "income_gt200.pums_baseline",
+              "duplicates": 2,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "float",
+              "missing": 0,
+              "mean": 288.3064,
+              "sd": 268.7999,
+              "min": 0,
+              "max": 1200.1339
+            },
+            {
+              "name": "income_gt200.pums_1step",
+              "duplicates": 2,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "float",
+              "missing": 0,
+              "mean": 360.957,
+              "sd": 252.4248,
+              "min": 0,
+              "max": 1218.9666
+            },
+            {
+              "name": "income_gt200.pums_2step",
+              "duplicates": 2,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "float",
+              "missing": 0,
+              "mean": 389.5895,
+              "sd": 269.8462,
+              "min": 0,
+              "max": 1218.9666
+            },
+            {
+              "name": "income_gt200.pums_general",
+              "duplicates": 9,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "float",
+              "missing": 0,
+              "mean": 312.2801,
+              "sd": 280.7196,
+              "min": 0,
+              "max": 1294.1007
+            },
+            {
+              "name": "income_45_50.prop",
+              "duplicates": 31,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "float",
+              "missing": 0,
+              "mean": 8.9498,
+              "sd": 12.411,
+              "min": 0,
+              "max": 84.1808
+            },
+            {
+              "name": "income_45_50.prop_adj",
+              "duplicates": 31,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "float",
+              "missing": 0,
+              "mean": 8.9498,
+              "sd": 11.9608,
+              "min": 0,
+              "max": 69.1272
+            },
+            {
+              "name": "income_45_50.pums_baseline",
+              "duplicates": 2,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "float",
+              "missing": 0,
+              "mean": 173.3521,
+              "sd": 166.9981,
+              "min": 0,
+              "max": 1000.2813
+            },
+            {
+              "name": "income_45_50.pums_1step",
+              "duplicates": 2,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "float",
+              "missing": 0,
+              "mean": 254.5553,
+              "sd": 176.8918,
+              "min": 0,
+              "max": 1026.5385
+            },
+            {
+              "name": "income_45_50.pums_2step",
+              "duplicates": 2,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "float",
+              "missing": 0,
+              "mean": 108.0444,
+              "sd": 144.1472,
+              "min": 0,
+              "max": 1012.0143
+            },
+            {
+              "name": "income_45_50.pums_general",
+              "duplicates": 34,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "float",
+              "missing": 0,
+              "mean": 29.8698,
+              "sd": 46.7606,
+              "min": 0,
+              "max": 336.4106
+            },
+            {
+              "name": "income_lt10.prop",
+              "duplicates": 7,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "float",
+              "missing": 0,
+              "mean": 18.7415,
+              "sd": 19.8909,
+              "min": 0,
+              "max": 129.8524
+            },
+            {
+              "name": "income_lt10.prop_adj",
+              "duplicates": 7,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "float",
+              "missing": 0,
+              "mean": 18.7475,
+              "sd": 19.7458,
+              "min": 0,
+              "max": 129.5964
+            },
+            {
+              "name": "income_lt10.pums_baseline",
+              "duplicates": 2,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "float",
+              "missing": 0,
+              "mean": 35.2342,
+              "sd": 47.2407,
+              "min": 0,
+              "max": 266.9954
+            },
+            {
+              "name": "income_lt10.pums_1step",
+              "duplicates": 2,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "float",
+              "missing": 0,
+              "mean": 57.2017,
+              "sd": 59.0825,
+              "min": 0,
+              "max": 384.4718
+            },
+            {
+              "name": "income_lt10.pums_2step",
+              "duplicates": 2,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "float",
+              "missing": 0,
+              "mean": 59.7594,
+              "sd": 64.8313,
+              "min": 0,
+              "max": 386.2514
+            },
+            {
+              "name": "income_lt10.pums_general",
+              "duplicates": 14,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "float",
+              "missing": 0,
+              "mean": 38.7356,
+              "sd": 63.3269,
+              "min": 0,
+              "max": 518.3599
+            },
+            {
+              "name": "income_100_125.prop",
+              "duplicates": 2,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "float",
+              "missing": 0,
+              "mean": 50.0835,
+              "sd": 36.7932,
+              "min": 0,
+              "max": 186.061
+            },
+            {
+              "name": "income_100_125.prop_adj",
+              "duplicates": 2,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "float",
+              "missing": 0,
+              "mean": 50.0836,
+              "sd": 36.1552,
+              "min": 0,
+              "max": 182.5607
+            },
+            {
+              "name": "income_100_125.pums_baseline",
+              "duplicates": 2,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "float",
+              "missing": 0,
+              "mean": 86.046,
+              "sd": 50.4824,
+              "min": 0,
+              "max": 273.8664
+            },
+            {
+              "name": "income_100_125.pums_1step",
+              "duplicates": 2,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "float",
+              "missing": 0,
+              "mean": 104.4156,
+              "sd": 58.5656,
+              "min": 0,
+              "max": 310.4906
+            },
+            {
+              "name": "income_100_125.pums_2step",
+              "duplicates": 2,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "float",
+              "missing": 0,
+              "mean": 124.8201,
+              "sd": 80.7585,
+              "min": 0,
+              "max": 407.5366
+            },
+            {
+              "name": "income_100_125.pums_general",
+              "duplicates": 6,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "float",
+              "missing": 0,
+              "mean": 109.8112,
+              "sd": 88.3642,
+              "min": 0,
+              "max": 430.6286
+            },
+            {
+              "name": "income_30_35.prop",
+              "duplicates": 36,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "float",
+              "missing": 0,
+              "mean": 8.6365,
+              "sd": 13.2537,
+              "min": 0,
+              "max": 93.9422
+            },
+            {
+              "name": "income_30_35.prop_adj",
+              "duplicates": 36,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "float",
+              "missing": 0,
+              "mean": 8.6365,
+              "sd": 13.2268,
+              "min": 0,
+              "max": 101.5675
+            },
+            {
+              "name": "income_30_35.pums_baseline",
+              "duplicates": 36,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "float",
+              "missing": 0,
+              "mean": 55.0125,
+              "sd": 61.4283,
+              "min": 0,
+              "max": 317.7724
+            },
+            {
+              "name": "income_30_35.pums_1step",
+              "duplicates": 36,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "float",
+              "missing": 0,
+              "mean": 11.0015,
+              "sd": 12.4629,
+              "min": 0,
+              "max": 68.7128
+            },
+            {
+              "name": "income_30_35.pums_2step",
+              "duplicates": 36,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "float",
+              "missing": 0,
+              "mean": 17.1526,
+              "sd": 27.1421,
+              "min": 0,
+              "max": 160.6614
+            },
+            {
+              "name": "income_30_35.pums_general",
+              "duplicates": 45,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "float",
+              "missing": 0,
+              "mean": 69.4293,
+              "sd": 101.3794,
+              "min": 0,
+              "max": 619.1503
+            },
+            {
+              "name": "income_40_45.prop",
+              "duplicates": 34,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "float",
+              "missing": 0,
+              "mean": 9.8713,
+              "sd": 12.0155,
+              "min": 0,
+              "max": 80.5033
+            },
+            {
+              "name": "income_40_45.prop_adj",
+              "duplicates": 34,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "float",
+              "missing": 0,
+              "mean": 9.871,
+              "sd": 11.811,
+              "min": 0,
+              "max": 75.0517
+            },
+            {
+              "name": "income_40_45.pums_baseline",
+              "duplicates": 36,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "float",
+              "missing": 0,
+              "mean": 19.1423,
+              "sd": 18.3278,
+              "min": 0,
+              "max": 88.5003
+            },
+            {
+              "name": "income_40_45.pums_1step",
+              "duplicates": 22,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "float",
+              "missing": 0,
+              "mean": 15.7606,
+              "sd": 18.4676,
+              "min": 0,
+              "max": 114.4021
+            },
+            {
+              "name": "income_40_45.pums_2step",
+              "duplicates": 22,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "float",
+              "missing": 0,
+              "mean": 22.1567,
+              "sd": 26.9394,
+              "min": 0,
+              "max": 120.541
+            },
+            {
+              "name": "income_40_45.pums_general",
+              "duplicates": 60,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "float",
+              "missing": 0,
+              "mean": 17.2305,
+              "sd": 28.5255,
+              "min": 0,
+              "max": 264.0206
+            },
+            {
+              "name": "income_35_40.prop",
+              "duplicates": 36,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "float",
+              "missing": 0,
+              "mean": 8.8252,
+              "sd": 10.8864,
+              "min": 0,
+              "max": 52.1953
+            },
+            {
+              "name": "income_35_40.prop_adj",
+              "duplicates": 36,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "float",
+              "missing": 0,
+              "mean": 8.8257,
+              "sd": 10.4802,
+              "min": 0,
+              "max": 46.1857
+            },
+            {
+              "name": "income_35_40.pums_baseline",
+              "duplicates": 2,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "float",
+              "missing": 0,
+              "mean": 41.26,
+              "sd": 65.6913,
+              "min": 0,
+              "max": 424.9991
+            },
+            {
+              "name": "income_35_40.pums_1step",
+              "duplicates": 2,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "float",
+              "missing": 0,
+              "mean": 21.3738,
+              "sd": 17.1164,
+              "min": 0,
+              "max": 101.3405
+            },
+            {
+              "name": "income_35_40.pums_2step",
+              "duplicates": 2,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "float",
+              "missing": 0,
+              "mean": 24.1789,
+              "sd": 29.2492,
+              "min": 0,
+              "max": 180.7861
+            },
+            {
+              "name": "income_35_40.pums_general",
+              "duplicates": 38,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "float",
+              "missing": 0,
+              "mean": 58.4975,
+              "sd": 101.4894,
+              "min": 0,
+              "max": 621.3755
+            },
+            {
+              "name": "income_20_25.prop",
+              "duplicates": 22,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "float",
+              "missing": 0,
+              "mean": 9.9871,
+              "sd": 14.9455,
+              "min": 0,
+              "max": 83.673
+            },
+            {
+              "name": "income_20_25.prop_adj",
+              "duplicates": 22,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "float",
+              "missing": 0,
+              "mean": 9.9878,
+              "sd": 14.786,
+              "min": 0,
+              "max": 83.673
+            },
+            {
+              "name": "income_20_25.pums_baseline",
+              "duplicates": 16,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "float",
+              "missing": 0,
+              "mean": 76.2427,
+              "sd": 112.8244,
+              "min": 0,
+              "max": 667.3238
+            },
+            {
+              "name": "income_20_25.pums_1step",
+              "duplicates": 18,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "float",
+              "missing": 0,
+              "mean": 9.2021,
+              "sd": 10.5603,
+              "min": 0,
+              "max": 71.8351
+            },
+            {
+              "name": "income_20_25.pums_2step",
+              "duplicates": 18,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "float",
+              "missing": 0,
+              "mean": 16.7478,
+              "sd": 21.2438,
+              "min": 0,
+              "max": 118.4481
+            },
+            {
+              "name": "income_20_25.pums_general",
+              "duplicates": 38,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "float",
+              "missing": 0,
+              "mean": 24.9089,
+              "sd": 44.4823,
+              "min": 0,
+              "max": 276.1749
+            },
+            {
+              "name": "income_15_20.prop",
+              "duplicates": 43,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "float",
+              "missing": 0,
+              "mean": 8.2523,
+              "sd": 12.5771,
+              "min": 0,
+              "max": 88.8194
+            },
+            {
+              "name": "income_15_20.prop_adj",
+              "duplicates": 43,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "float",
+              "missing": 0,
+              "mean": 8.2525,
+              "sd": 12.3029,
+              "min": 0,
+              "max": 88.6447
+            },
+            {
+              "name": "income_15_20.pums_baseline",
+              "duplicates": 36,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "float",
+              "missing": 0,
+              "mean": 62.9442,
+              "sd": 58.7723,
+              "min": 0,
+              "max": 323.2786
+            },
+            {
+              "name": "income_15_20.pums_1step",
+              "duplicates": 36,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "float",
+              "missing": 0,
+              "mean": 17.383,
+              "sd": 19.0694,
+              "min": 0,
+              "max": 96.3798
+            },
+            {
+              "name": "income_15_20.pums_2step",
+              "duplicates": 36,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "float",
+              "missing": 0,
+              "mean": 20.8306,
+              "sd": 32.4544,
+              "min": 0,
+              "max": 198.2805
+            },
+            {
+              "name": "income_15_20.pums_general",
+              "duplicates": 40,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "float",
+              "missing": 0,
+              "mean": 72.7893,
+              "sd": 91.5318,
+              "min": 0,
+              "max": 619.4388
+            },
+            {
+              "name": "income_10_15.prop",
+              "duplicates": 51,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "float",
+              "missing": 0,
+              "mean": 7.7859,
+              "sd": 11.7322,
+              "min": 0,
+              "max": 66.34
+            },
+            {
+              "name": "income_10_15.prop_adj",
+              "duplicates": 51,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "float",
+              "missing": 0,
+              "mean": 7.7897,
+              "sd": 11.7201,
+              "min": 0,
+              "max": 73.5065
+            },
+            {
+              "name": "income_10_15.pums_baseline",
+              "duplicates": 2,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "float",
+              "missing": 0,
+              "mean": 57.4379,
+              "sd": 68.8173,
+              "min": 0,
+              "max": 425.9716
+            },
+            {
+              "name": "income_10_15.pums_1step",
+              "duplicates": 2,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "float",
+              "missing": 0,
+              "mean": 16.8782,
+              "sd": 16.8238,
+              "min": 0,
+              "max": 108.2
+            },
+            {
+              "name": "income_10_15.pums_2step",
+              "duplicates": 2,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "float",
+              "missing": 0,
+              "mean": 20.7038,
+              "sd": 27.1959,
+              "min": 0,
+              "max": 122.4669
+            },
+            {
+              "name": "income_10_15.pums_general",
+              "duplicates": 15,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "float",
+              "missing": 0,
+              "mean": 75.2842,
+              "sd": 121.2187,
+              "min": 0,
+              "max": 690.5559
+            },
+            {
+              "name": "income_25_30.prop",
+              "duplicates": 50,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "float",
+              "missing": 0,
+              "mean": 7.7548,
+              "sd": 14.3491,
+              "min": 0,
+              "max": 134.1918
+            },
+            {
+              "name": "income_25_30.prop_adj",
+              "duplicates": 50,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "float",
+              "missing": 0,
+              "mean": 7.7548,
+              "sd": 14.1254,
+              "min": 0,
+              "max": 133.9287
+            },
+            {
+              "name": "income_25_30.pums_baseline",
+              "duplicates": 42,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "float",
+              "missing": 0,
+              "mean": 30.7087,
+              "sd": 41.3247,
+              "min": 0,
+              "max": 249.7873
+            },
+            {
+              "name": "income_25_30.pums_1step",
+              "duplicates": 3,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "float",
+              "missing": 0,
+              "mean": 10.2062,
+              "sd": 13.4662,
+              "min": 0,
+              "max": 69.5481
+            },
+            {
+              "name": "income_25_30.pums_2step",
+              "duplicates": 3,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "float",
+              "missing": 0,
+              "mean": 14.5937,
+              "sd": 20.2714,
+              "min": 0,
+              "max": 103.6289
+            },
+            {
+              "name": "income_25_30.pums_general",
+              "duplicates": 66,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "float",
+              "missing": 0,
+              "mean": 24.333,
+              "sd": 35.7303,
+              "min": 0,
+              "max": 193.3701
+            },
+            {
+              "name": "avg_hhsize.prop",
+              "duplicates": 2,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "float",
+              "missing": 0,
+              "mean": 2.1782,
+              "sd": 0.982,
+              "min": 0,
+              "max": 6.9342
+            },
+            {
+              "name": "avg_hhsize.prop_adj",
+              "duplicates": 2,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "float",
+              "missing": 0,
+              "mean": 2.1783,
+              "sd": 0.8784,
+              "min": 0,
+              "max": 5.1353
+            },
+            {
+              "name": "avg_hhsize.pums_baseline",
+              "duplicates": 203,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "integer",
+              "missing": 0,
+              "mean": 0,
+              "sd": 0,
+              "min": 0,
+              "max": 0
+            },
+            {
+              "name": "avg_hhsize.pums_1step",
+              "duplicates": 203,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "integer",
+              "missing": 0,
+              "mean": 0,
+              "sd": 0,
+              "min": 0,
+              "max": 0
+            },
+            {
+              "name": "avg_hhsize.pums_2step",
+              "duplicates": 203,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "integer",
+              "missing": 0,
+              "mean": 0,
+              "sd": 0,
+              "min": 0,
+              "max": 0
+            },
+            {
+              "name": "avg_hhsize.pums_general",
+              "duplicates": 203,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "integer",
+              "missing": 0,
+              "mean": 0,
+              "sd": 0,
+              "min": 0,
+              "max": 0
+            },
+            {
+              "name": "avg_hhsize_own.prop",
+              "duplicates": 5,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "float",
+              "missing": 0,
+              "mean": 1.9998,
+              "sd": 1.2037,
+              "min": 0,
+              "max": 7.1042
+            },
+            {
+              "name": "avg_hhsize_own.prop_adj",
+              "duplicates": 5,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "float",
+              "missing": 0,
+              "mean": 1.9999,
+              "sd": 1.1143,
+              "min": 0,
+              "max": 5.6533
+            },
+            {
+              "name": "avg_hhsize_own.pums_baseline",
+              "duplicates": 203,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "integer",
+              "missing": 0,
+              "mean": 0,
+              "sd": 0,
+              "min": 0,
+              "max": 0
+            },
+            {
+              "name": "avg_hhsize_own.pums_1step",
+              "duplicates": 203,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "integer",
+              "missing": 0,
+              "mean": 0,
+              "sd": 0,
+              "min": 0,
+              "max": 0
+            },
+            {
+              "name": "avg_hhsize_own.pums_2step",
+              "duplicates": 203,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "integer",
+              "missing": 0,
+              "mean": 0,
+              "sd": 0,
+              "min": 0,
+              "max": 0
+            },
+            {
+              "name": "avg_hhsize_own.pums_general",
+              "duplicates": 203,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "integer",
+              "missing": 0,
+              "mean": 0,
+              "sd": 0,
+              "min": 0,
+              "max": 0
+            },
+            {
+              "name": "avg_hhsize_rent.prop",
+              "duplicates": 2,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "float",
+              "missing": 0,
+              "mean": 2.1821,
+              "sd": 1.0486,
+              "min": 0,
+              "max": 7.0536
+            },
+            {
+              "name": "avg_hhsize_rent.prop_adj",
+              "duplicates": 2,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "float",
+              "missing": 0,
+              "mean": 2.1821,
+              "sd": 0.9511,
+              "min": 0,
+              "max": 5.5343
+            },
+            {
+              "name": "avg_hhsize_rent.pums_baseline",
+              "duplicates": 203,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "integer",
+              "missing": 0,
+              "mean": 0,
+              "sd": 0,
+              "min": 0,
+              "max": 0
+            },
+            {
+              "name": "avg_hhsize_rent.pums_1step",
+              "duplicates": 203,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "integer",
+              "missing": 0,
+              "mean": 0,
+              "sd": 0,
+              "min": 0,
+              "max": 0
+            },
+            {
+              "name": "avg_hhsize_rent.pums_2step",
+              "duplicates": 203,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "integer",
+              "missing": 0,
+              "mean": 0,
+              "sd": 0,
+              "min": 0,
+              "max": 0
+            },
+            {
+              "name": "avg_hhsize_rent.pums_general",
+              "duplicates": 203,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "integer",
+              "missing": 0,
+              "mean": 0,
+              "sd": 0,
+              "min": 0,
+              "max": 0
+            }
+          ]
+        },
+        "sha512": "e86820af962e178d0d2be042e8ceaf5411e4019a02d9ea44b3e8f18534bc1ba02cfbaa0a74dea3543ba5313abcc08a4d81474776af82b493304925283146fd08",
+        "site_file": "results.json"
+      }
+    },
+    "files": "results.csv"
+  },
+  "dataviews": {
+    "view_a": {
+      "palette": "",
+      "y": "variable_a",
+      "time_agg": "last",
+      "time_filters": []
+    },
+    "view_b": {
+      "palette": "",
+      "y": "variable_b",
+      "time_agg": "last",
+      "time_filters": []
+    }
+  },
+  "plotly": {
+    "plot_a": {
+      "layout": {
+        "showlegend": false,
+        "xaxis": {
+          "fixedrange": true
+        },
+        "yaxis": {
+          "fixedrange": true,
+          "zeroline": false
+        },
+        "hovermode": "closest",
+        "margin": {
+          "t": 25,
+          "r": 10,
+          "b": 40,
+          "l": 60
+        }
+      },
+      "config": {
+        "modeBarButtonsToRemove": ["select2d", "lasso2d", "sendDataToCloud"],
+        "showSendToCloud": false,
+        "responsive": true,
+        "showTips": false,
+        "displaylogo": false,
+        "modeBarButtonsToAdd": ["hoverclosest", "hovercompare"]
+      },
+      "data": [
+        {
+          "hoverinfo": "text",
+          "mode": "lines+markers",
+          "type": "scatter"
+        }
+      ],
+      "subto": ["map_a", "legend_a"]
+    },
+    "plot_b": {
+      "layout": {
+        "showlegend": false,
+        "xaxis": {
+          "fixedrange": true
+        },
+        "yaxis": {
+          "fixedrange": true,
+          "zeroline": false
+        },
+        "hovermode": "closest",
+        "margin": {
+          "t": 25,
+          "r": 10,
+          "b": 40,
+          "l": 60
+        }
+      },
+      "config": {
+        "modeBarButtonsToRemove": ["select2d", "lasso2d", "sendDataToCloud"],
+        "showSendToCloud": false,
+        "responsive": true,
+        "showTips": false,
+        "displaylogo": false,
+        "modeBarButtonsToAdd": ["hoverclosest", "hovercompare"]
+      },
+      "data": [
+        {
+          "hoverinfo": "text",
+          "mode": "lines+markers",
+          "type": "scatter"
+        }
+      ],
+      "subto": ["map_b", "legend_b"]
+    }
+  },
+  "map": {
+    "map_a": {
+      "shapes": [
+        {
+          "name": "results",
+          "url": "https://raw.githubusercontent.com/uva-bi-sdad/sdc.geographies/main/NCR/Census%20Geographies/Block%20Group/2020/data/distribution/ncr_geo_census_cb_2020_census_block_groups.geojson",
+          "id_property": "geoid"
+        }
+      ],
+      "overlays": {},
+      "options": {
+        "attributionControl": false,
+        "scrollWheelZoom": false,
+        "center": [38.938, -77.315],
+        "zoom": 7,
+        "height": "400px",
+        "overlays_from_measures": true,
+        "subto": ["plot_a", "legend_a"]
+      },
+      "tiles": {
+        "light": {
+          "url": "https://stamen-tiles-{s}.a.ssl.fastly.net/toner-lite/{z}/{x}/{y}{r}.png"
+        },
+        "dark": {
+          "url": "https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png"
+        }
+      }
+    },
+    "map_b": {
+      "shapes": [
+        {
+          "name": "results",
+          "url": "https://raw.githubusercontent.com/uva-bi-sdad/sdc.geographies/main/NCR/Census%20Geographies/Block%20Group/2020/data/distribution/ncr_geo_census_cb_2020_census_block_groups.geojson",
+          "id_property": "geoid"
+        }
+      ],
+      "overlays": {},
+      "options": {
+        "attributionControl": false,
+        "scrollWheelZoom": false,
+        "center": [38.938, -77.315],
+        "zoom": 7,
+        "height": "400px",
+        "overlays_from_measures": true,
+        "subto": ["plot_b", "legend_b"]
+      },
+      "tiles": {
+        "light": {
+          "url": "https://stamen-tiles-{s}.a.ssl.fastly.net/toner-lite/{z}/{x}/{y}{r}.png"
+        },
+        "dark": {
+          "url": "https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png"
+        }
+      }
+    },
+    "_raw": []
+  },
+  "legend": {
+    "legend_a": {
+      "palette": "settings.palette",
+      "subto": ["map_a", "plot_a"]
+    },
+    "legend_b": {
+      "palette": "settings.palette",
+      "subto": ["map_b", "plot_b"]
+    }
+  },
+  "credits": {
+    "bootstrap": {
+      "name": "Bootstrap",
+      "url": "https://getbootstrap.com",
+      "version": "5.3.0"
+    },
+    "colorbrewer": {
+      "name": "ColorBrewer",
+      "url": "https://colorbrewer2.org",
+      "description": "Discrete color palettes"
+    },
+    "scico": {
+      "name": "Scico",
+      "url": "https://github.com/thomasp85/scico",
+      "description": "Implementation of color palettes by Fabio Crameri"
+    },
+    "leaflet": {
+      "name": "Leaflet",
+      "url": "https://leafletjs.com",
+      "version": "1.9.3",
+      "description": "A JS library for interactive maps"
+    },
+    "plotly": {
+      "name": "Plotly",
+      "url": "https://plotly.com/javascript/getting-started",
+      "version": "2.18.0"
+    }
+  }
+}
