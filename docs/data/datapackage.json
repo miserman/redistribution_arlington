@@ -9,9 +9,9 @@
   },
   "resources": [
     {
-      "bytes": 797190,
+      "bytes": 800839,
       "encoding": "ISO-8859-1",
-      "md5": "c21d700b02cc9d984bdd47b10a944d8f",
+      "md5": "4d47e4c8e383dba9cf7cd65c6b02a22e",
       "format": "csv",
       "name": "results",
       "filename": "results.csv",
@@ -24,7 +24,7 @@
       "id_length": 12,
       "time": {},
       "profile": "data-resource",
-      "created": "2023-03-03 14:42:29",
+      "created": "2023-03-03 19:45:14",
       "last_modified": "2023-03-01 16:24:00",
       "row_count": 204,
       "entity_count": 204,
@@ -102,10 +102,10 @@
             "time_range": [0, 0],
             "type": "float",
             "missing": 0,
-            "mean": 566.972269,
-            "sd": 286.793587,
+            "mean": 573.839831,
+            "sd": 278.98774,
             "min": 0,
-            "max": 1642.98777
+            "max": 1617.801448
           },
           {
             "name": "error.sex_male.prop",
@@ -168,10 +168,10 @@
             "time_range": [0, 0],
             "type": "float",
             "missing": 0,
-            "mean": -14.228711,
-            "sd": 200.751725,
-            "min": -1444.103729,
-            "max": 477.659259
+            "mean": -7.361149,
+            "sd": 187.412967,
+            "min": -1444.296163,
+            "max": 478.600775
           },
           {
             "name": "sex_female.original",
@@ -245,10 +245,10 @@
             "time_range": [0, 0],
             "type": "float",
             "missing": 0,
-            "mean": 566.532532,
-            "sd": 281.62796,
+            "mean": 573.655285,
+            "sd": 279.312312,
             "min": 0,
-            "max": 1531.591675
+            "max": 1540.996478
           },
           {
             "name": "error.sex_female.prop",
@@ -307,14 +307,14 @@
           },
           {
             "name": "error.sex_female.pums_general",
-            "duplicates": 3,
+            "duplicates": 2,
             "time_range": [0, 0],
             "type": "float",
             "missing": 0,
-            "mean": -7.97237,
-            "sd": 164.116524,
-            "min": -848.837911,
-            "max": 535.292587
+            "mean": -0.849617,
+            "sd": 151.501533,
+            "min": -415.822445,
+            "max": 578.493908
           },
           {
             "name": "race_other.original",
@@ -355,10 +355,10 @@
             "time_range": [0, 0],
             "type": "float",
             "missing": 0,
-            "mean": 146.745388,
-            "sd": 131.294766,
+            "mean": 146.744672,
+            "sd": 127.82996,
             "min": 0,
-            "max": 942.770708
+            "max": 717.924127
           },
           {
             "name": "race_other.pums_1step",
@@ -384,14 +384,14 @@
           },
           {
             "name": "race_other.pums_general",
-            "duplicates": 7,
+            "duplicates": 3,
             "time_range": [0, 0],
             "type": "float",
             "missing": 0,
-            "mean": 142.647992,
-            "sd": 135.506553,
+            "mean": 146.748505,
+            "sd": 126.676939,
             "min": 0,
-            "max": 1086.563018
+            "max": 747.97916
           },
           {
             "name": "error.race_other.prop",
@@ -417,14 +417,14 @@
           },
           {
             "name": "error.race_other.pums_baseline",
-            "duplicates": 3,
+            "duplicates": 4,
             "time_range": [0, 0],
             "type": "float",
             "missing": 0,
-            "mean": -1.450691,
-            "sd": 131.169311,
-            "min": -674.957184,
-            "max": 677.182923
+            "mean": -1.451407,
+            "sd": 121.545425,
+            "min": -460.397009,
+            "max": 542.742469
           },
           {
             "name": "error.race_other.pums_1step",
@@ -450,14 +450,14 @@
           },
           {
             "name": "error.race_other.pums_general",
-            "duplicates": 4,
+            "duplicates": 3,
             "time_range": [0, 0],
             "type": "float",
             "missing": 0,
-            "mean": -5.548086,
-            "sd": 135.539794,
-            "min": -804.457764,
-            "max": 514.885356
+            "mean": -1.447574,
+            "sd": 120.221417,
+            "min": -448.969666,
+            "max": 497.712449
           },
           {
             "name": "race_white.original",
@@ -498,10 +498,10 @@
             "time_range": [0, 0],
             "type": "float",
             "missing": 0,
-            "mean": 770.676872,
-            "sd": 373.001449,
+            "mean": 770.675168,
+            "sd": 372.756655,
             "min": 0,
-            "max": 2152.480354
+            "max": 1989.192862
           },
           {
             "name": "race_white.pums_1step",
@@ -527,14 +527,14 @@
           },
           {
             "name": "race_white.pums_general",
-            "duplicates": 4,
+            "duplicates": 2,
             "time_range": [0, 0],
             "type": "float",
             "missing": 0,
-            "mean": 759.647869,
-            "sd": 384.460613,
+            "mean": 770.690655,
+            "sd": 371.207725,
             "min": 0,
-            "max": 2198.030981
+            "max": 2016.550161
           },
           {
             "name": "error.race_white.prop",
@@ -564,10 +564,10 @@
             "time_range": [0, 0],
             "type": "float",
             "missing": 0,
-            "mean": -5.519207,
-            "sd": 230.214227,
-            "min": -1037.090752,
-            "max": 626.480354
+            "mean": -5.52091,
+            "sd": 212.39842,
+            "min": -1043.644553,
+            "max": 552.453885
           },
           {
             "name": "error.race_white.pums_1step",
@@ -597,10 +597,10 @@
             "time_range": [0, 0],
             "type": "float",
             "missing": 0,
-            "mean": -16.548209,
-            "sd": 253.416161,
-            "min": -1149,
-            "max": 675.877742
+            "mean": -5.505424,
+            "sd": 212.357392,
+            "min": -1043.648298,
+            "max": 558.390738
           },
           {
             "name": "race_black.original",
@@ -641,10 +641,10 @@
             "time_range": [0, 0],
             "type": "float",
             "missing": 0,
-            "mean": 107.366156,
-            "sd": 149.26237,
+            "mean": 107.36478,
+            "sd": 151.265986,
             "min": 0,
-            "max": 1076.816086
+            "max": 1083.768029
           },
           {
             "name": "race_black.pums_1step",
@@ -674,10 +674,10 @@
             "time_range": [0, 0],
             "type": "float",
             "missing": 0,
-            "mean": 106.890432,
-            "sd": 151.922704,
+            "mean": 107.365586,
+            "sd": 149.712286,
             "min": 0,
-            "max": 1073.075132
+            "max": 1073.855809
           },
           {
             "name": "error.race_black.prop",
@@ -703,14 +703,14 @@
           },
           {
             "name": "error.race_black.pums_baseline",
-            "duplicates": 4,
+            "duplicates": 3,
             "time_range": [0, 0],
             "type": "float",
             "missing": 0,
-            "mean": -1.026001,
-            "sd": 104.174043,
-            "min": -476.551243,
-            "max": 476.551242
+            "mean": -1.027377,
+            "sd": 106.381035,
+            "min": -505.970233,
+            "max": 505.970231
           },
           {
             "name": "error.race_black.pums_1step",
@@ -740,10 +740,10 @@
             "time_range": [0, 0],
             "type": "float",
             "missing": 0,
-            "mean": -1.501725,
-            "sd": 107.571301,
-            "min": -505.776487,
-            "max": 505.776485
+            "mean": -1.026571,
+            "sd": 105.606057,
+            "min": -497.212399,
+            "max": 497.212397
           },
           {
             "name": "race_asian.original",
@@ -813,14 +813,14 @@
           },
           {
             "name": "race_asian.pums_general",
-            "duplicates": 3,
+            "duplicates": 2,
             "time_range": [0, 0],
             "type": "float",
             "missing": 0,
-            "mean": 117.595936,
-            "sd": 97.454209,
+            "mean": 118.15738,
+            "sd": 93.175857,
             "min": 0,
-            "max": 849.243482
+            "max": 839.139895
           },
           {
             "name": "error.race_asian.prop",
@@ -883,10 +883,10 @@
             "time_range": [0, 0],
             "type": "float",
             "missing": 0,
-            "mean": -0.61975,
-            "sd": 70.302437,
-            "min": -221.492559,
-            "max": 232.091178
+            "mean": -0.058306,
+            "sd": 66.80462,
+            "min": -221.791426,
+            "max": 194.521087
           },
           {
             "name": "race_native.original",
@@ -927,10 +927,10 @@
             "time_range": [0, 0],
             "type": "float",
             "missing": 0,
-            "mean": 4.542133,
-            "sd": 9.727569,
+            "mean": 4.541335,
+            "sd": 8.501514,
             "min": 0,
-            "max": 81.300827
+            "max": 55.52752
           },
           {
             "name": "race_native.pums_1step",
@@ -956,14 +956,14 @@
           },
           {
             "name": "race_native.pums_general",
-            "duplicates": 119,
+            "duplicates": 104,
             "time_range": [0, 0],
             "type": "float",
             "missing": 0,
-            "mean": 4.467401,
-            "sd": 9.179366,
+            "mean": 4.541298,
+            "sd": 8.763177,
             "min": 0,
-            "max": 57.176135
+            "max": 55.52752
           },
           {
             "name": "error.race_native.prop",
@@ -993,10 +993,10 @@
             "time_range": [0, 0],
             "type": "float",
             "missing": 0,
-            "mean": -0.16375,
-            "sd": 13.963765,
-            "min": -92.032209,
-            "max": 81.300827
+            "mean": -0.164547,
+            "sd": 12.172791,
+            "min": -69.47248,
+            "max": 51.397656
           },
           {
             "name": "error.race_native.pums_1step",
@@ -1022,14 +1022,14 @@
           },
           {
             "name": "error.race_native.pums_general",
-            "duplicates": 115,
+            "duplicates": 104,
             "time_range": [0, 0],
             "type": "float",
             "missing": 0,
-            "mean": -0.238481,
-            "sd": 12.528282,
-            "min": -73.831915,
-            "max": 57.176135
+            "mean": -0.164585,
+            "sd": 12.0807,
+            "min": -69.47248,
+            "max": 51.397656
           },
           {
             "name": "income_150_200.original",
@@ -1070,10 +1070,10 @@
             "time_range": [0, 0],
             "type": "float",
             "missing": 0,
-            "mean": 79.586324,
-            "sd": 56.607084,
+            "mean": 79.586124,
+            "sd": 54.677584,
             "min": 0,
-            "max": 335.517494
+            "max": 305.008452
           },
           {
             "name": "income_150_200.pums_1step",
@@ -1099,14 +1099,14 @@
           },
           {
             "name": "income_150_200.pums_general",
-            "duplicates": 5,
+            "duplicates": 2,
             "time_range": [0, 0],
             "type": "float",
             "missing": 0,
-            "mean": 78.858281,
-            "sd": 61.485743,
+            "mean": 79.585555,
+            "sd": 56.289449,
             "min": 0,
-            "max": 393.947977
+            "max": 306.749946
           },
           {
             "name": "error.income_150_200.prop",
@@ -1136,10 +1136,10 @@
             "time_range": [0, 0],
             "type": "float",
             "missing": 0,
-            "mean": -0.021519,
-            "sd": 47.317257,
-            "min": -238.960286,
-            "max": 131.703169
+            "mean": -0.02172,
+            "sd": 43.593211,
+            "min": -233.327809,
+            "max": 121.32078
           },
           {
             "name": "error.income_150_200.pums_1step",
@@ -1165,14 +1165,14 @@
           },
           {
             "name": "error.income_150_200.pums_general",
-            "duplicates": 3,
+            "duplicates": 2,
             "time_range": [0, 0],
             "type": "float",
             "missing": 0,
-            "mean": -0.749562,
-            "sd": 49.414135,
-            "min": -244.334142,
-            "max": 122.291394
+            "mean": -0.022289,
+            "sd": 45.636699,
+            "min": -242.42829,
+            "max": 126.939126
           },
           {
             "name": "income_125_150.original",
@@ -1213,10 +1213,10 @@
             "time_range": [0, 0],
             "type": "float",
             "missing": 0,
-            "mean": 51.609382,
-            "sd": 37.732916,
+            "mean": 51.609129,
+            "sd": 38.634904,
             "min": 0,
-            "max": 216.396717
+            "max": 220.163695
           },
           {
             "name": "income_125_150.pums_1step",
@@ -1246,10 +1246,10 @@
             "time_range": [0, 0],
             "type": "float",
             "missing": 0,
-            "mean": 51.213614,
-            "sd": 38.64865,
+            "mean": 51.609881,
+            "sd": 39.41367,
             "min": 0,
-            "max": 215.571467
+            "max": 222.315877
           },
           {
             "name": "error.income_125_150.prop",
@@ -1275,14 +1275,14 @@
           },
           {
             "name": "error.income_125_150.pums_baseline",
-            "duplicates": 2,
+            "duplicates": 3,
             "time_range": [0, 0],
             "type": "float",
             "missing": 0,
-            "mean": -0.081794,
-            "sd": 31.386,
-            "min": -115.130454,
-            "max": 68.915231
+            "mean": -0.082048,
+            "sd": 31.2739,
+            "min": -115.896057,
+            "max": 70.128178
           },
           {
             "name": "error.income_125_150.pums_1step",
@@ -1312,10 +1312,10 @@
             "time_range": [0, 0],
             "type": "float",
             "missing": 0,
-            "mean": -0.477563,
-            "sd": 30.541734,
-            "min": -94.501253,
-            "max": 68.59104
+            "mean": -0.081295,
+            "sd": 31.336421,
+            "min": -117.89223,
+            "max": 69.264866
           },
           {
             "name": "income_gt200.original",
@@ -1356,10 +1356,10 @@
             "time_range": [0, 0],
             "type": "float",
             "missing": 0,
-            "mean": 143.644205,
-            "sd": 88.058523,
+            "mean": 143.643092,
+            "sd": 84.490663,
             "min": 0,
-            "max": 385.084689
+            "max": 385.079935
           },
           {
             "name": "income_gt200.pums_1step",
@@ -1385,14 +1385,14 @@
           },
           {
             "name": "income_gt200.pums_general",
-            "duplicates": 6,
+            "duplicates": 2,
             "time_range": [0, 0],
             "type": "float",
             "missing": 0,
-            "mean": 142.202417,
-            "sd": 90.353915,
+            "mean": 143.643027,
+            "sd": 85.393838,
             "min": 0,
-            "max": 388.212925
+            "max": 387.783519
           },
           {
             "name": "error.income_gt200.prop",
@@ -1422,10 +1422,10 @@
             "time_range": [0, 0],
             "type": "float",
             "missing": 0,
-            "mean": -0.145011,
-            "sd": 59.371822,
-            "min": -243.535556,
-            "max": 177.928745
+            "mean": -0.146124,
+            "sd": 51.873138,
+            "min": -203.689866,
+            "max": 148.220667
           },
           {
             "name": "error.income_gt200.pums_1step",
@@ -1451,14 +1451,14 @@
           },
           {
             "name": "error.income_gt200.pums_general",
-            "duplicates": 3,
+            "duplicates": 2,
             "time_range": [0, 0],
             "type": "float",
             "missing": 0,
-            "mean": -1.586799,
-            "sd": 66.989425,
-            "min": -342,
-            "max": 265.934579
+            "mean": -0.146189,
+            "sd": 53.423949,
+            "min": -190.89422,
+            "max": 164.110238
           },
           {
             "name": "income_45_50.original",
@@ -1499,10 +1499,10 @@
             "time_range": [0, 0],
             "type": "float",
             "missing": 0,
-            "mean": 8.949514,
-            "sd": 13.626727,
+            "mean": 8.949578,
+            "sd": 13.212393,
             "min": 0,
-            "max": 101.701906
+            "max": 97.06603
           },
           {
             "name": "income_45_50.pums_1step",
@@ -1532,10 +1532,10 @@
             "time_range": [0, 0],
             "type": "float",
             "missing": 0,
-            "mean": 8.949937,
-            "sd": 13.605202,
+            "mean": 8.94977,
+            "sd": 13.530104,
             "min": 0,
-            "max": 102.829269
+            "max": 102.480474
           },
           {
             "name": "error.income_45_50.prop",
@@ -1561,14 +1561,14 @@
           },
           {
             "name": "error.income_45_50.pums_baseline",
-            "duplicates": 45,
+            "duplicates": 46,
             "time_range": [0, 0],
             "type": "float",
             "missing": 0,
-            "mean": -0.001467,
-            "sd": 12.084846,
-            "min": -58.224927,
-            "max": 46.669204
+            "mean": -0.001402,
+            "sd": 11.764646,
+            "min": -54.697175,
+            "max": 46.729701
           },
           {
             "name": "error.income_45_50.pums_1step",
@@ -1598,10 +1598,10 @@
             "time_range": [0, 0],
             "type": "float",
             "missing": 0,
-            "mean": -0.001043,
-            "sd": 12.700345,
-            "min": -59.166979,
-            "max": 48.952782
+            "mean": -0.001211,
+            "sd": 11.934083,
+            "min": -57.067469,
+            "max": 46.727264
           },
           {
             "name": "income_lt10.original",
@@ -1638,12 +1638,12 @@
           },
           {
             "name": "income_lt10.pums_baseline",
-            "duplicates": 11,
+            "duplicates": 10,
             "time_range": [0, 0],
             "type": "float",
             "missing": 0,
-            "mean": 18.71035,
-            "sd": 21.917331,
+            "mean": 18.710351,
+            "sd": 22.020889,
             "min": 0,
             "max": 139.503849
           },
@@ -1671,14 +1671,14 @@
           },
           {
             "name": "income_lt10.pums_general",
-            "duplicates": 14,
+            "duplicates": 10,
             "time_range": [0, 0],
             "type": "float",
             "missing": 0,
-            "mean": 18.592035,
-            "sd": 22.061062,
+            "mean": 18.720437,
+            "sd": 21.395708,
             "min": 0,
-            "max": 129.575656
+            "max": 123.400487
           },
           {
             "name": "error.income_lt10.prop",
@@ -1704,14 +1704,14 @@
           },
           {
             "name": "error.income_lt10.pums_baseline",
-            "duplicates": 12,
+            "duplicates": 11,
             "time_range": [0, 0],
             "type": "float",
             "missing": 0,
-            "mean": -0.044552,
-            "sd": 17.933514,
-            "min": -55.263636,
-            "max": 60.388166
+            "mean": -0.044551,
+            "sd": 18.196209,
+            "min": -55.308939,
+            "max": 59.005929
           },
           {
             "name": "error.income_lt10.pums_1step",
@@ -1737,14 +1737,14 @@
           },
           {
             "name": "error.income_lt10.pums_general",
-            "duplicates": 13,
+            "duplicates": 10,
             "time_range": [0, 0],
             "type": "float",
             "missing": 0,
-            "mean": -0.162867,
-            "sd": 18.533932,
-            "min": -58,
-            "max": 60.500613
+            "mean": -0.034465,
+            "sd": 18.390252,
+            "min": -55.298801,
+            "max": 56.783185
           },
           {
             "name": "income_100_125.original",
@@ -1785,10 +1785,10 @@
             "time_range": [0, 0],
             "type": "float",
             "missing": 0,
-            "mean": 50.030194,
-            "sd": 37.785245,
+            "mean": 50.029527,
+            "sd": 37.844305,
             "min": 0,
-            "max": 168.743642
+            "max": 192.512547
           },
           {
             "name": "income_100_125.pums_1step",
@@ -1814,14 +1814,14 @@
           },
           {
             "name": "income_100_125.pums_general",
-            "duplicates": 5,
+            "duplicates": 2,
             "time_range": [0, 0],
             "type": "float",
             "missing": 0,
-            "mean": 48.933793,
-            "sd": 38.163203,
+            "mean": 50.031411,
+            "sd": 38.275166,
             "min": 0,
-            "max": 173.75881
+            "max": 194.908486
           },
           {
             "name": "error.income_100_125.prop",
@@ -1851,10 +1851,10 @@
             "time_range": [0, 0],
             "type": "float",
             "missing": 0,
-            "mean": -0.067845,
-            "sd": 29.045827,
-            "min": -108.927489,
-            "max": 111.349873
+            "mean": -0.068513,
+            "sd": 27.716552,
+            "min": -85.210315,
+            "max": 89.759663
           },
           {
             "name": "error.income_100_125.pums_1step",
@@ -1880,14 +1880,14 @@
           },
           {
             "name": "error.income_100_125.pums_general",
-            "duplicates": 4,
+            "duplicates": 3,
             "time_range": [0, 0],
             "type": "float",
             "missing": 0,
-            "mean": -1.164246,
-            "sd": 30.589116,
-            "min": -174.812237,
-            "max": 109.75881
+            "mean": -0.066628,
+            "sd": 27.49844,
+            "min": -84.483231,
+            "max": 89.309146
           },
           {
             "name": "income_30_35.original",
@@ -1928,10 +1928,10 @@
             "time_range": [0, 0],
             "type": "float",
             "missing": 0,
-            "mean": 7.969984,
-            "sd": 14.647202,
+            "mean": 7.96999,
+            "sd": 14.354191,
             "min": 0,
-            "max": 100.601767
+            "max": 111.699635
           },
           {
             "name": "income_30_35.pums_1step",
@@ -1957,14 +1957,14 @@
           },
           {
             "name": "income_30_35.pums_general",
-            "duplicates": 79,
+            "duplicates": 78,
             "time_range": [0, 0],
             "type": "float",
             "missing": 0,
-            "mean": 7.058215,
-            "sd": 11.505822,
+            "mean": 7.96999,
+            "sd": 14.43862,
             "min": 0,
-            "max": 71.466036
+            "max": 118.216681
           },
           {
             "name": "error.income_30_35.prop",
@@ -1994,10 +1994,10 @@
             "time_range": [0, 0],
             "type": "float",
             "missing": 0,
-            "mean": -0.667271,
-            "sd": 13.823157,
+            "mean": -0.667265,
+            "sd": 14.877778,
             "min": -114,
-            "max": 31.016321
+            "max": 40.563534
           },
           {
             "name": "error.income_30_35.pums_1step",
@@ -2027,10 +2027,10 @@
             "time_range": [0, 0],
             "type": "float",
             "missing": 0,
-            "mean": -1.57904,
-            "sd": 17.259333,
+            "mean": -0.667265,
+            "sd": 14.919106,
             "min": -114,
-            "max": 40.967155
+            "max": 40.873211
           },
           {
             "name": "income_40_45.original",
@@ -2067,14 +2067,14 @@
           },
           {
             "name": "income_40_45.pums_baseline",
-            "duplicates": 73,
+            "duplicates": 61,
             "time_range": [0, 0],
             "type": "float",
             "missing": 0,
-            "mean": 9.670741,
-            "sd": 14.070233,
+            "mean": 9.847236,
+            "sd": 13.639384,
             "min": 0,
-            "max": 86.207578
+            "max": 87.100824
           },
           {
             "name": "income_40_45.pums_1step",
@@ -2100,14 +2100,14 @@
           },
           {
             "name": "income_40_45.pums_general",
-            "duplicates": 85,
+            "duplicates": 61,
             "time_range": [0, 0],
             "type": "float",
             "missing": 0,
-            "mean": 8.425631,
-            "sd": 13.356662,
+            "mean": 9.847243,
+            "sd": 13.689443,
             "min": 0,
-            "max": 85.656114
+            "max": 86.48772
           },
           {
             "name": "error.income_40_45.prop",
@@ -2133,14 +2133,14 @@
           },
           {
             "name": "error.income_40_45.pums_baseline",
-            "duplicates": 66,
+            "duplicates": 58,
             "time_range": [0, 0],
             "type": "float",
             "missing": 0,
-            "mean": -0.201808,
-            "sd": 14.456732,
-            "min": -60.593673,
-            "max": 54.675862
+            "mean": -0.025313,
+            "sd": 14.336903,
+            "min": -65.540898,
+            "max": 42.815242
           },
           {
             "name": "error.income_40_45.pums_1step",
@@ -2166,14 +2166,14 @@
           },
           {
             "name": "error.income_40_45.pums_general",
-            "duplicates": 73,
+            "duplicates": 58,
             "time_range": [0, 0],
             "type": "float",
             "missing": 0,
-            "mean": -1.446918,
-            "sd": 14.572726,
-            "min": -61.148645,
-            "max": 38.02565
+            "mean": -0.025306,
+            "sd": 14.241113,
+            "min": -63.083191,
+            "max": 45.099068
           },
           {
             "name": "income_35_40.original",
@@ -2214,10 +2214,10 @@
             "time_range": [0, 0],
             "type": "float",
             "missing": 0,
-            "mean": 8.823843,
-            "sd": 12.006813,
+            "mean": 8.823868,
+            "sd": 12.126316,
             "min": 0,
-            "max": 58.38053
+            "max": 59.386333
           },
           {
             "name": "income_35_40.pums_1step",
@@ -2243,14 +2243,14 @@
           },
           {
             "name": "income_35_40.pums_general",
-            "duplicates": 57,
+            "duplicates": 42,
             "time_range": [0, 0],
             "type": "float",
             "missing": 0,
-            "mean": 8.146867,
-            "sd": 12.039886,
+            "mean": 8.824609,
+            "sd": 12.039946,
             "min": 0,
-            "max": 56.47954
+            "max": 58.622857
           },
           {
             "name": "error.income_35_40.prop",
@@ -2280,10 +2280,10 @@
             "time_range": [0, 0],
             "type": "float",
             "missing": 0,
-            "mean": -0.004588,
-            "sd": 15.362334,
-            "min": -57.09772,
-            "max": 47.38053
+            "mean": -0.004563,
+            "sd": 14.240324,
+            "min": -57.877868,
+            "max": 39.124259
           },
           {
             "name": "error.income_35_40.pums_1step",
@@ -2309,14 +2309,14 @@
           },
           {
             "name": "error.income_35_40.pums_general",
-            "duplicates": 50,
+            "duplicates": 42,
             "time_range": [0, 0],
             "type": "float",
             "missing": 0,
-            "mean": -0.681565,
-            "sd": 15.888032,
-            "min": -72,
-            "max": 52.619977
+            "mean": -0.003822,
+            "sd": 14.240044,
+            "min": -57.46766,
+            "max": 36.837546
           },
           {
             "name": "income_20_25.original",
@@ -2353,12 +2353,12 @@
           },
           {
             "name": "income_20_25.pums_baseline",
-            "duplicates": 45,
+            "duplicates": 47,
             "time_range": [0, 0],
             "type": "float",
             "missing": 0,
             "mean": 9.987535,
-            "sd": 16.545999,
+            "sd": 16.211477,
             "min": 0,
             "max": 96.892458
           },
@@ -2386,12 +2386,12 @@
           },
           {
             "name": "income_20_25.pums_general",
-            "duplicates": 49,
+            "duplicates": 47,
             "time_range": [0, 0],
             "type": "float",
             "missing": 0,
-            "mean": 9.893514,
-            "sd": 16.430697,
+            "mean": 9.985985,
+            "sd": 16.174729,
             "min": 0,
             "max": 96.892458
           },
@@ -2419,13 +2419,13 @@
           },
           {
             "name": "error.income_20_25.pums_baseline",
-            "duplicates": 40,
+            "duplicates": 41,
             "time_range": [0, 0],
             "type": "float",
             "missing": 0,
             "mean": -0.002661,
-            "sd": 20.749009,
-            "min": -137.633668,
+            "sd": 19.946254,
+            "min": -120.141369,
             "max": 96.892458
           },
           {
@@ -2456,9 +2456,9 @@
             "time_range": [0, 0],
             "type": "float",
             "missing": 0,
-            "mean": -0.096682,
-            "sd": 20.87823,
-            "min": -131.852464,
+            "mean": -0.004211,
+            "sd": 19.698572,
+            "min": -123.321519,
             "max": 96.892458
           },
           {
@@ -2496,14 +2496,14 @@
           },
           {
             "name": "income_15_20.pums_baseline",
-            "duplicates": 76,
+            "duplicates": 78,
             "time_range": [0, 0],
             "type": "float",
             "missing": 0,
-            "mean": 8.119894,
-            "sd": 14.038335,
+            "mean": 8.117981,
+            "sd": 14.126624,
             "min": 0,
-            "max": 101.818536
+            "max": 92.74973
           },
           {
             "name": "income_15_20.pums_1step",
@@ -2529,14 +2529,14 @@
           },
           {
             "name": "income_15_20.pums_general",
-            "duplicates": 77,
+            "duplicates": 78,
             "time_range": [0, 0],
             "type": "float",
             "missing": 0,
-            "mean": 7.893898,
-            "sd": 13.796182,
+            "mean": 8.118897,
+            "sd": 14.218732,
             "min": 0,
-            "max": 92.062901
+            "max": 92.289557
           },
           {
             "name": "error.income_15_20.prop",
@@ -2562,14 +2562,14 @@
           },
           {
             "name": "error.income_15_20.pums_baseline",
-            "duplicates": 74,
+            "duplicates": 76,
             "time_range": [0, 0],
             "type": "float",
             "missing": 0,
-            "mean": -0.135008,
-            "sd": 12.031079,
-            "min": -64.81504,
-            "max": 48.254638
+            "mean": -0.136921,
+            "sd": 12.226578,
+            "min": -75.599725,
+            "max": 46.868793
           },
           {
             "name": "error.income_15_20.pums_1step",
@@ -2595,14 +2595,14 @@
           },
           {
             "name": "error.income_15_20.pums_general",
-            "duplicates": 75,
+            "duplicates": 76,
             "time_range": [0, 0],
             "type": "float",
             "missing": 0,
-            "mean": -0.361004,
-            "sd": 12.553732,
-            "min": -74.274888,
-            "max": 45.773954
+            "mean": -0.136005,
+            "sd": 12.983515,
+            "min": -75.68732,
+            "max": 46.772333
           },
           {
             "name": "income_10_15.original",
@@ -2643,8 +2643,8 @@
             "time_range": [0, 0],
             "type": "float",
             "missing": 0,
-            "mean": 7.784139,
-            "sd": 12.259315,
+            "mean": 7.778361,
+            "sd": 12.352472,
             "min": 0,
             "max": 64.607666
           },
@@ -2676,10 +2676,10 @@
             "time_range": [0, 0],
             "type": "float",
             "missing": 0,
-            "mean": 7.598437,
-            "sd": 12.420919,
+            "mean": 7.786179,
+            "sd": 12.403835,
             "min": 0,
-            "max": 75.462003
+            "max": 65.8775
           },
           {
             "name": "error.income_10_15.prop",
@@ -2709,10 +2709,10 @@
             "time_range": [0, 0],
             "type": "float",
             "missing": 0,
-            "mean": -0.009978,
-            "sd": 13.943125,
-            "min": -79.180948,
-            "max": 59.632616
+            "mean": -0.015756,
+            "sd": 13.181592,
+            "min": -79.442967,
+            "max": 59.737353
           },
           {
             "name": "error.income_10_15.pums_1step",
@@ -2738,14 +2738,14 @@
           },
           {
             "name": "error.income_10_15.pums_general",
-            "duplicates": 62,
+            "duplicates": 63,
             "time_range": [0, 0],
             "type": "float",
             "missing": 0,
-            "mean": -0.195681,
-            "sd": 14.618073,
-            "min": -79.444882,
-            "max": 71.462003
+            "mean": -0.007939,
+            "sd": 13.979917,
+            "min": -79.170609,
+            "max": 61.8775
           },
           {
             "name": "income_25_30.original",
@@ -2782,14 +2782,14 @@
           },
           {
             "name": "income_25_30.pums_baseline",
-            "duplicates": 94,
+            "duplicates": 74,
             "time_range": [0, 0],
             "type": "float",
             "missing": 0,
-            "mean": 7.647051,
-            "sd": 15.802767,
+            "mean": 7.754896,
+            "sd": 15.878707,
             "min": 0,
-            "max": 152.74885
+            "max": 158.961253
           },
           {
             "name": "income_25_30.pums_1step",
@@ -2815,14 +2815,14 @@
           },
           {
             "name": "income_25_30.pums_general",
-            "duplicates": 95,
+            "duplicates": 74,
             "time_range": [0, 0],
             "type": "float",
             "missing": 0,
-            "mean": 7.602931,
-            "sd": 15.131521,
+            "mean": 7.754894,
+            "sd": 15.263271,
             "min": 0,
-            "max": 126.831902
+            "max": 146.125232
           },
           {
             "name": "error.income_25_30.prop",
@@ -2848,14 +2848,14 @@
           },
           {
             "name": "error.income_25_30.pums_baseline",
-            "duplicates": 93,
+            "duplicates": 74,
             "time_range": [0, 0],
             "type": "float",
             "missing": 0,
-            "mean": -0.107851,
-            "sd": 18.568215,
-            "min": -144.56779,
-            "max": 119.74885
+            "mean": -6e-06,
+            "sd": 19.02379,
+            "min": -144.100841,
+            "max": 125.961253
           },
           {
             "name": "error.income_25_30.pums_1step",
@@ -2881,14 +2881,14 @@
           },
           {
             "name": "error.income_25_30.pums_general",
-            "duplicates": 93,
+            "duplicates": 73,
             "time_range": [0, 0],
             "type": "float",
             "missing": 0,
-            "mean": -0.151971,
-            "sd": 17.76826,
-            "min": -148.055875,
-            "max": 93.831902
+            "mean": -8e-06,
+            "sd": 18.559802,
+            "min": -145.906116,
+            "max": 113.125232
           },
           {
             "name": "avg_hhsize_own.original",
@@ -3178,7 +3178,7 @@
           }
         ]
       },
-      "sha512": "350d32accb796f3b5bbd37b6432528477b5f1ad9dd75319303e8a5d7868231d9b07b252effbc9c25c2ecfb0daf60bccaede3e49fd47c3a40a68d263d579cc95c"
+      "sha512": "63eceb77cf89b1d5d4a2abf555fc7ae759a44f43e6fc9893e944580b2e22288a2571c2707f713fb1015160d91de4f5088a07dc86ec022ee15fd73130d4b9098f"
     }
   ]
 }

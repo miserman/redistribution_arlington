@@ -29,9 +29,9 @@
     "variables": ["sex_male.original", "sex_male.prop", "sex_male.prop_adj", "sex_male.pums_baseline", "sex_male.pums_1step", "sex_male.pums_2step", "sex_male.pums_general", "error.sex_male.prop", "error.sex_male.prop_adj", "error.sex_male.pums_baseline", "error.sex_male.pums_1step", "error.sex_male.pums_2step", "error.sex_male.pums_general", "sex_female.original", "sex_female.prop", "sex_female.prop_adj", "sex_female.pums_baseline", "sex_female.pums_1step", "sex_female.pums_2step", "sex_female.pums_general", "error.sex_female.prop", "error.sex_female.prop_adj", "error.sex_female.pums_baseline", "error.sex_female.pums_1step", "error.sex_female.pums_2step", "error.sex_female.pums_general", "race_other.original", "race_other.prop", "race_other.prop_adj", "race_other.pums_baseline", "race_other.pums_1step", "race_other.pums_2step", "race_other.pums_general", "error.race_other.prop", "error.race_other.prop_adj", "error.race_other.pums_baseline", "error.race_other.pums_1step", "error.race_other.pums_2step", "error.race_other.pums_general", "race_white.original", "race_white.prop", "race_white.prop_adj", "race_white.pums_baseline", "race_white.pums_1step", "race_white.pums_2step", "race_white.pums_general", "error.race_white.prop", "error.race_white.prop_adj", "error.race_white.pums_baseline", "error.race_white.pums_1step", "error.race_white.pums_2step", "error.race_white.pums_general", "race_black.original", "race_black.prop", "race_black.prop_adj", "race_black.pums_baseline", "race_black.pums_1step", "race_black.pums_2step", "race_black.pums_general", "error.race_black.prop", "error.race_black.prop_adj", "error.race_black.pums_baseline", "error.race_black.pums_1step", "error.race_black.pums_2step", "error.race_black.pums_general", "race_asian.original", "race_asian.prop", "race_asian.prop_adj", "race_asian.pums_baseline", "race_asian.pums_1step", "race_asian.pums_2step", "race_asian.pums_general", "error.race_asian.prop", "error.race_asian.prop_adj", "error.race_asian.pums_baseline", "error.race_asian.pums_1step", "error.race_asian.pums_2step", "error.race_asian.pums_general", "race_native.original", "race_native.prop", "race_native.prop_adj", "race_native.pums_baseline", "race_native.pums_1step", "race_native.pums_2step", "race_native.pums_general", "error.race_native.prop", "error.race_native.prop_adj", "error.race_native.pums_baseline", "error.race_native.pums_1step", "error.race_native.pums_2step", "error.race_native.pums_general", "income_150_200.original", "income_150_200.prop", "income_150_200.prop_adj", "income_150_200.pums_baseline", "income_150_200.pums_1step", "income_150_200.pums_2step", "income_150_200.pums_general", "error.income_150_200.prop", "error.income_150_200.prop_adj", "error.income_150_200.pums_baseline", "error.income_150_200.pums_1step", "error.income_150_200.pums_2step", "error.income_150_200.pums_general", "income_125_150.original", "income_125_150.prop", "income_125_150.prop_adj", "income_125_150.pums_baseline", "income_125_150.pums_1step", "income_125_150.pums_2step", "income_125_150.pums_general", "error.income_125_150.prop", "error.income_125_150.prop_adj", "error.income_125_150.pums_baseline", "error.income_125_150.pums_1step", "error.income_125_150.pums_2step", "error.income_125_150.pums_general", "income_gt200.original", "income_gt200.prop", "income_gt200.prop_adj", "income_gt200.pums_baseline", "income_gt200.pums_1step", "income_gt200.pums_2step", "income_gt200.pums_general", "error.income_gt200.prop", "error.income_gt200.prop_adj", "error.income_gt200.pums_baseline", "error.income_gt200.pums_1step", "error.income_gt200.pums_2step", "error.income_gt200.pums_general", "income_45_50.original", "income_45_50.prop", "income_45_50.prop_adj", "income_45_50.pums_baseline", "income_45_50.pums_1step", "income_45_50.pums_2step", "income_45_50.pums_general", "error.income_45_50.prop", "error.income_45_50.prop_adj", "error.income_45_50.pums_baseline", "error.income_45_50.pums_1step", "error.income_45_50.pums_2step", "error.income_45_50.pums_general", "income_lt10.original", "income_lt10.prop", "income_lt10.prop_adj", "income_lt10.pums_baseline", "income_lt10.pums_1step", "income_lt10.pums_2step", "income_lt10.pums_general", "error.income_lt10.prop", "error.income_lt10.prop_adj", "error.income_lt10.pums_baseline", "error.income_lt10.pums_1step", "error.income_lt10.pums_2step", "error.income_lt10.pums_general", "income_100_125.original", "income_100_125.prop", "income_100_125.prop_adj", "income_100_125.pums_baseline", "income_100_125.pums_1step", "income_100_125.pums_2step", "income_100_125.pums_general", "error.income_100_125.prop", "error.income_100_125.prop_adj", "error.income_100_125.pums_baseline", "error.income_100_125.pums_1step", "error.income_100_125.pums_2step", "error.income_100_125.pums_general", "income_30_35.original", "income_30_35.prop", "income_30_35.prop_adj", "income_30_35.pums_baseline", "income_30_35.pums_1step", "income_30_35.pums_2step", "income_30_35.pums_general", "error.income_30_35.prop", "error.income_30_35.prop_adj", "error.income_30_35.pums_baseline", "error.income_30_35.pums_1step", "error.income_30_35.pums_2step", "error.income_30_35.pums_general", "income_40_45.original", "income_40_45.prop", "income_40_45.prop_adj", "income_40_45.pums_baseline", "income_40_45.pums_1step", "income_40_45.pums_2step", "income_40_45.pums_general", "error.income_40_45.prop", "error.income_40_45.prop_adj", "error.income_40_45.pums_baseline", "error.income_40_45.pums_1step", "error.income_40_45.pums_2step", "error.income_40_45.pums_general", "income_35_40.original", "income_35_40.prop", "income_35_40.prop_adj", "income_35_40.pums_baseline", "income_35_40.pums_1step", "income_35_40.pums_2step", "income_35_40.pums_general", "error.income_35_40.prop", "error.income_35_40.prop_adj", "error.income_35_40.pums_baseline", "error.income_35_40.pums_1step", "error.income_35_40.pums_2step", "error.income_35_40.pums_general", "income_20_25.original", "income_20_25.prop", "income_20_25.prop_adj", "income_20_25.pums_baseline", "income_20_25.pums_1step", "income_20_25.pums_2step", "income_20_25.pums_general", "error.income_20_25.prop", "error.income_20_25.prop_adj", "error.income_20_25.pums_baseline", "error.income_20_25.pums_1step", "error.income_20_25.pums_2step", "error.income_20_25.pums_general", "income_15_20.original", "income_15_20.prop", "income_15_20.prop_adj", "income_15_20.pums_baseline", "income_15_20.pums_1step", "income_15_20.pums_2step", "income_15_20.pums_general", "error.income_15_20.prop", "error.income_15_20.prop_adj", "error.income_15_20.pums_baseline", "error.income_15_20.pums_1step", "error.income_15_20.pums_2step", "error.income_15_20.pums_general", "income_10_15.original", "income_10_15.prop", "income_10_15.prop_adj", "income_10_15.pums_baseline", "income_10_15.pums_1step", "income_10_15.pums_2step", "income_10_15.pums_general", "error.income_10_15.prop", "error.income_10_15.prop_adj", "error.income_10_15.pums_baseline", "error.income_10_15.pums_1step", "error.income_10_15.pums_2step", "error.income_10_15.pums_general", "income_25_30.original", "income_25_30.prop", "income_25_30.prop_adj", "income_25_30.pums_baseline", "income_25_30.pums_1step", "income_25_30.pums_2step", "income_25_30.pums_general", "error.income_25_30.prop", "error.income_25_30.prop_adj", "error.income_25_30.pums_baseline", "error.income_25_30.pums_1step", "error.income_25_30.pums_2step", "error.income_25_30.pums_general", "avg_hhsize_own.original", "avg_hhsize_own.prop", "avg_hhsize_own.prop_adj", "avg_hhsize_own.pums_baseline", "avg_hhsize_own.pums_1step", "avg_hhsize_own.pums_2step", "avg_hhsize_own.pums_general", "error.avg_hhsize_own.prop", "error.avg_hhsize_own.prop_adj", "error.avg_hhsize_own.pums_baseline", "error.avg_hhsize_own.pums_1step", "error.avg_hhsize_own.pums_2step", "error.avg_hhsize_own.pums_general", "avg_hhsize_rent.original", "avg_hhsize_rent.prop", "avg_hhsize_rent.prop_adj", "avg_hhsize_rent.pums_baseline", "avg_hhsize_rent.pums_1step", "avg_hhsize_rent.pums_2step", "avg_hhsize_rent.pums_general", "error.avg_hhsize_rent.prop", "error.avg_hhsize_rent.prop_adj", "error.avg_hhsize_rent.pums_baseline", "error.avg_hhsize_rent.pums_1step", "error.avg_hhsize_rent.pums_2step", "error.avg_hhsize_rent.pums_general"],
     "info": {
       "results": {
-        "bytes": 797190,
+        "bytes": 800839,
         "encoding": "ISO-8859-1",
-        "md5": "c21d700b02cc9d984bdd47b10a944d8f",
+        "md5": "4d47e4c8e383dba9cf7cd65c6b02a22e",
         "format": "csv",
         "name": "results",
         "filename": "results.csv",
@@ -44,7 +44,7 @@
         "id_length": 12,
         "time": {},
         "profile": "data-resource",
-        "created": "2023-03-03 14:42:29",
+        "created": "2023-03-03 19:45:14",
         "last_modified": "2023-03-01 16:24:00",
         "row_count": 204,
         "entity_count": 204,
@@ -143,10 +143,10 @@
               ],
               "type": "float",
               "missing": 0,
-              "mean": 566.9723,
-              "sd": 286.7936,
+              "mean": 573.8398,
+              "sd": 278.9877,
               "min": 0,
-              "max": 1642.9878
+              "max": 1617.8014
             },
             {
               "name": "error.sex_male.prop",
@@ -227,10 +227,10 @@
               ],
               "type": "float",
               "missing": 0,
-              "mean": -14.2287,
-              "sd": 200.7517,
-              "min": -1444.1037,
-              "max": 477.6593
+              "mean": -7.3611,
+              "sd": 187.413,
+              "min": -1444.2962,
+              "max": 478.6008
             },
             {
               "name": "sex_female.original",
@@ -325,10 +325,10 @@
               ],
               "type": "float",
               "missing": 0,
-              "mean": 566.5325,
-              "sd": 281.628,
+              "mean": 573.6553,
+              "sd": 279.3123,
               "min": 0,
-              "max": 1531.5917
+              "max": 1540.9965
             },
             {
               "name": "error.sex_female.prop",
@@ -402,17 +402,17 @@
             },
             {
               "name": "error.sex_female.pums_general",
-              "duplicates": 3,
+              "duplicates": 2,
               "time_range": [
                 0,
                 0
               ],
               "type": "float",
               "missing": 0,
-              "mean": -7.9724,
-              "sd": 164.1165,
-              "min": -848.8379,
-              "max": 535.2926
+              "mean": -0.8496,
+              "sd": 151.5015,
+              "min": -415.8224,
+              "max": 578.4939
             },
             {
               "name": "race_other.original",
@@ -465,10 +465,10 @@
               ],
               "type": "float",
               "missing": 0,
-              "mean": 146.7454,
-              "sd": 131.2948,
+              "mean": 146.7447,
+              "sd": 127.83,
               "min": 0,
-              "max": 942.7707
+              "max": 717.9241
             },
             {
               "name": "race_other.pums_1step",
@@ -500,17 +500,17 @@
             },
             {
               "name": "race_other.pums_general",
-              "duplicates": 7,
+              "duplicates": 3,
               "time_range": [
                 0,
                 0
               ],
               "type": "float",
               "missing": 0,
-              "mean": 142.648,
-              "sd": 135.5066,
+              "mean": 146.7485,
+              "sd": 126.6769,
               "min": 0,
-              "max": 1086.563
+              "max": 747.9792
             },
             {
               "name": "error.race_other.prop",
@@ -542,17 +542,17 @@
             },
             {
               "name": "error.race_other.pums_baseline",
-              "duplicates": 3,
+              "duplicates": 4,
               "time_range": [
                 0,
                 0
               ],
               "type": "float",
               "missing": 0,
-              "mean": -1.4507,
-              "sd": 131.1693,
-              "min": -674.9572,
-              "max": 677.1829
+              "mean": -1.4514,
+              "sd": 121.5454,
+              "min": -460.397,
+              "max": 542.7425
             },
             {
               "name": "error.race_other.pums_1step",
@@ -584,17 +584,17 @@
             },
             {
               "name": "error.race_other.pums_general",
-              "duplicates": 4,
+              "duplicates": 3,
               "time_range": [
                 0,
                 0
               ],
               "type": "float",
               "missing": 0,
-              "mean": -5.5481,
-              "sd": 135.5398,
-              "min": -804.4578,
-              "max": 514.8854
+              "mean": -1.4476,
+              "sd": 120.2214,
+              "min": -448.9697,
+              "max": 497.7124
             },
             {
               "name": "race_white.original",
@@ -647,10 +647,10 @@
               ],
               "type": "float",
               "missing": 0,
-              "mean": 770.6769,
-              "sd": 373.0014,
+              "mean": 770.6752,
+              "sd": 372.7567,
               "min": 0,
-              "max": 2152.4804
+              "max": 1989.1929
             },
             {
               "name": "race_white.pums_1step",
@@ -682,17 +682,17 @@
             },
             {
               "name": "race_white.pums_general",
-              "duplicates": 4,
+              "duplicates": 2,
               "time_range": [
                 0,
                 0
               ],
               "type": "float",
               "missing": 0,
-              "mean": 759.6479,
-              "sd": 384.4606,
+              "mean": 770.6907,
+              "sd": 371.2077,
               "min": 0,
-              "max": 2198.031
+              "max": 2016.5502
             },
             {
               "name": "error.race_white.prop",
@@ -731,10 +731,10 @@
               ],
               "type": "float",
               "missing": 0,
-              "mean": -5.5192,
-              "sd": 230.2142,
-              "min": -1037.0908,
-              "max": 626.4804
+              "mean": -5.5209,
+              "sd": 212.3984,
+              "min": -1043.6446,
+              "max": 552.4539
             },
             {
               "name": "error.race_white.pums_1step",
@@ -773,10 +773,10 @@
               ],
               "type": "float",
               "missing": 0,
-              "mean": -16.5482,
-              "sd": 253.4162,
-              "min": -1149,
-              "max": 675.8777
+              "mean": -5.5054,
+              "sd": 212.3574,
+              "min": -1043.6483,
+              "max": 558.3907
             },
             {
               "name": "race_black.original",
@@ -829,10 +829,10 @@
               ],
               "type": "float",
               "missing": 0,
-              "mean": 107.3662,
-              "sd": 149.2624,
+              "mean": 107.3648,
+              "sd": 151.266,
               "min": 0,
-              "max": 1076.8161
+              "max": 1083.768
             },
             {
               "name": "race_black.pums_1step",
@@ -871,10 +871,10 @@
               ],
               "type": "float",
               "missing": 0,
-              "mean": 106.8904,
-              "sd": 151.9227,
+              "mean": 107.3656,
+              "sd": 149.7123,
               "min": 0,
-              "max": 1073.0751
+              "max": 1073.8558
             },
             {
               "name": "error.race_black.prop",
@@ -906,17 +906,17 @@
             },
             {
               "name": "error.race_black.pums_baseline",
-              "duplicates": 4,
+              "duplicates": 3,
               "time_range": [
                 0,
                 0
               ],
               "type": "float",
               "missing": 0,
-              "mean": -1.026,
-              "sd": 104.174,
-              "min": -476.5512,
-              "max": 476.5512
+              "mean": -1.0274,
+              "sd": 106.381,
+              "min": -505.9702,
+              "max": 505.9702
             },
             {
               "name": "error.race_black.pums_1step",
@@ -955,10 +955,10 @@
               ],
               "type": "float",
               "missing": 0,
-              "mean": -1.5017,
-              "sd": 107.5713,
-              "min": -505.7765,
-              "max": 505.7765
+              "mean": -1.0266,
+              "sd": 105.6061,
+              "min": -497.2124,
+              "max": 497.2124
             },
             {
               "name": "race_asian.original",
@@ -1046,17 +1046,17 @@
             },
             {
               "name": "race_asian.pums_general",
-              "duplicates": 3,
+              "duplicates": 2,
               "time_range": [
                 0,
                 0
               ],
               "type": "float",
               "missing": 0,
-              "mean": 117.5959,
-              "sd": 97.4542,
+              "mean": 118.1574,
+              "sd": 93.1759,
               "min": 0,
-              "max": 849.2435
+              "max": 839.1399
             },
             {
               "name": "error.race_asian.prop",
@@ -1137,10 +1137,10 @@
               ],
               "type": "float",
               "missing": 0,
-              "mean": -0.6198,
-              "sd": 70.3024,
-              "min": -221.4926,
-              "max": 232.0912
+              "mean": -0.0583,
+              "sd": 66.8046,
+              "min": -221.7914,
+              "max": 194.5211
             },
             {
               "name": "race_native.original",
@@ -1193,10 +1193,10 @@
               ],
               "type": "float",
               "missing": 0,
-              "mean": 4.5421,
-              "sd": 9.7276,
+              "mean": 4.5413,
+              "sd": 8.5015,
               "min": 0,
-              "max": 81.3008
+              "max": 55.5275
             },
             {
               "name": "race_native.pums_1step",
@@ -1228,17 +1228,17 @@
             },
             {
               "name": "race_native.pums_general",
-              "duplicates": 119,
+              "duplicates": 104,
               "time_range": [
                 0,
                 0
               ],
               "type": "float",
               "missing": 0,
-              "mean": 4.4674,
-              "sd": 9.1794,
+              "mean": 4.5413,
+              "sd": 8.7632,
               "min": 0,
-              "max": 57.1761
+              "max": 55.5275
             },
             {
               "name": "error.race_native.prop",
@@ -1277,10 +1277,10 @@
               ],
               "type": "float",
               "missing": 0,
-              "mean": -0.1638,
-              "sd": 13.9638,
-              "min": -92.0322,
-              "max": 81.3008
+              "mean": -0.1645,
+              "sd": 12.1728,
+              "min": -69.4725,
+              "max": 51.3977
             },
             {
               "name": "error.race_native.pums_1step",
@@ -1312,17 +1312,17 @@
             },
             {
               "name": "error.race_native.pums_general",
-              "duplicates": 115,
+              "duplicates": 104,
               "time_range": [
                 0,
                 0
               ],
               "type": "float",
               "missing": 0,
-              "mean": -0.2385,
-              "sd": 12.5283,
-              "min": -73.8319,
-              "max": 57.1761
+              "mean": -0.1646,
+              "sd": 12.0807,
+              "min": -69.4725,
+              "max": 51.3977
             },
             {
               "name": "income_150_200.original",
@@ -1375,10 +1375,10 @@
               ],
               "type": "float",
               "missing": 0,
-              "mean": 79.5863,
-              "sd": 56.6071,
+              "mean": 79.5861,
+              "sd": 54.6776,
               "min": 0,
-              "max": 335.5175
+              "max": 305.0085
             },
             {
               "name": "income_150_200.pums_1step",
@@ -1410,17 +1410,17 @@
             },
             {
               "name": "income_150_200.pums_general",
-              "duplicates": 5,
+              "duplicates": 2,
               "time_range": [
                 0,
                 0
               ],
               "type": "float",
               "missing": 0,
-              "mean": 78.8583,
-              "sd": 61.4857,
+              "mean": 79.5856,
+              "sd": 56.2894,
               "min": 0,
-              "max": 393.948
+              "max": 306.7499
             },
             {
               "name": "error.income_150_200.prop",
@@ -1459,10 +1459,10 @@
               ],
               "type": "float",
               "missing": 0,
-              "mean": -0.0215,
-              "sd": 47.3173,
-              "min": -238.9603,
-              "max": 131.7032
+              "mean": -0.0217,
+              "sd": 43.5932,
+              "min": -233.3278,
+              "max": 121.3208
             },
             {
               "name": "error.income_150_200.pums_1step",
@@ -1494,17 +1494,17 @@
             },
             {
               "name": "error.income_150_200.pums_general",
-              "duplicates": 3,
+              "duplicates": 2,
               "time_range": [
                 0,
                 0
               ],
               "type": "float",
               "missing": 0,
-              "mean": -0.7496,
-              "sd": 49.4141,
-              "min": -244.3341,
-              "max": 122.2914
+              "mean": -0.0223,
+              "sd": 45.6367,
+              "min": -242.4283,
+              "max": 126.9391
             },
             {
               "name": "income_125_150.original",
@@ -1557,10 +1557,10 @@
               ],
               "type": "float",
               "missing": 0,
-              "mean": 51.6094,
-              "sd": 37.7329,
+              "mean": 51.6091,
+              "sd": 38.6349,
               "min": 0,
-              "max": 216.3967
+              "max": 220.1637
             },
             {
               "name": "income_125_150.pums_1step",
@@ -1599,10 +1599,10 @@
               ],
               "type": "float",
               "missing": 0,
-              "mean": 51.2136,
-              "sd": 38.6487,
+              "mean": 51.6099,
+              "sd": 39.4137,
               "min": 0,
-              "max": 215.5715
+              "max": 222.3159
             },
             {
               "name": "error.income_125_150.prop",
@@ -1634,17 +1634,17 @@
             },
             {
               "name": "error.income_125_150.pums_baseline",
-              "duplicates": 2,
+              "duplicates": 3,
               "time_range": [
                 0,
                 0
               ],
               "type": "float",
               "missing": 0,
-              "mean": -0.0818,
-              "sd": 31.386,
-              "min": -115.1305,
-              "max": 68.9152
+              "mean": -0.082,
+              "sd": 31.2739,
+              "min": -115.8961,
+              "max": 70.1282
             },
             {
               "name": "error.income_125_150.pums_1step",
@@ -1683,10 +1683,10 @@
               ],
               "type": "float",
               "missing": 0,
-              "mean": -0.4776,
-              "sd": 30.5417,
-              "min": -94.5013,
-              "max": 68.591
+              "mean": -0.0813,
+              "sd": 31.3364,
+              "min": -117.8922,
+              "max": 69.2649
             },
             {
               "name": "income_gt200.original",
@@ -1739,10 +1739,10 @@
               ],
               "type": "float",
               "missing": 0,
-              "mean": 143.6442,
-              "sd": 88.0585,
+              "mean": 143.6431,
+              "sd": 84.4907,
               "min": 0,
-              "max": 385.0847
+              "max": 385.0799
             },
             {
               "name": "income_gt200.pums_1step",
@@ -1774,17 +1774,17 @@
             },
             {
               "name": "income_gt200.pums_general",
-              "duplicates": 6,
+              "duplicates": 2,
               "time_range": [
                 0,
                 0
               ],
               "type": "float",
               "missing": 0,
-              "mean": 142.2024,
-              "sd": 90.3539,
+              "mean": 143.643,
+              "sd": 85.3938,
               "min": 0,
-              "max": 388.2129
+              "max": 387.7835
             },
             {
               "name": "error.income_gt200.prop",
@@ -1823,10 +1823,10 @@
               ],
               "type": "float",
               "missing": 0,
-              "mean": -0.145,
-              "sd": 59.3718,
-              "min": -243.5356,
-              "max": 177.9287
+              "mean": -0.1461,
+              "sd": 51.8731,
+              "min": -203.6899,
+              "max": 148.2207
             },
             {
               "name": "error.income_gt200.pums_1step",
@@ -1858,17 +1858,17 @@
             },
             {
               "name": "error.income_gt200.pums_general",
-              "duplicates": 3,
+              "duplicates": 2,
               "time_range": [
                 0,
                 0
               ],
               "type": "float",
               "missing": 0,
-              "mean": -1.5868,
-              "sd": 66.9894,
-              "min": -342,
-              "max": 265.9346
+              "mean": -0.1462,
+              "sd": 53.4239,
+              "min": -190.8942,
+              "max": 164.1102
             },
             {
               "name": "income_45_50.original",
@@ -1921,10 +1921,10 @@
               ],
               "type": "float",
               "missing": 0,
-              "mean": 8.9495,
-              "sd": 13.6267,
+              "mean": 8.9496,
+              "sd": 13.2124,
               "min": 0,
-              "max": 101.7019
+              "max": 97.066
             },
             {
               "name": "income_45_50.pums_1step",
@@ -1963,10 +1963,10 @@
               ],
               "type": "float",
               "missing": 0,
-              "mean": 8.9499,
-              "sd": 13.6052,
+              "mean": 8.9498,
+              "sd": 13.5301,
               "min": 0,
-              "max": 102.8293
+              "max": 102.4805
             },
             {
               "name": "error.income_45_50.prop",
@@ -1998,17 +1998,17 @@
             },
             {
               "name": "error.income_45_50.pums_baseline",
-              "duplicates": 45,
+              "duplicates": 46,
               "time_range": [
                 0,
                 0
               ],
               "type": "float",
               "missing": 0,
-              "mean": -0.0015,
-              "sd": 12.0848,
-              "min": -58.2249,
-              "max": 46.6692
+              "mean": -0.0014,
+              "sd": 11.7646,
+              "min": -54.6972,
+              "max": 46.7297
             },
             {
               "name": "error.income_45_50.pums_1step",
@@ -2047,10 +2047,10 @@
               ],
               "type": "float",
               "missing": 0,
-              "mean": -0.001,
-              "sd": 12.7003,
-              "min": -59.167,
-              "max": 48.9528
+              "mean": -0.0012,
+              "sd": 11.9341,
+              "min": -57.0675,
+              "max": 46.7273
             },
             {
               "name": "income_lt10.original",
@@ -2096,15 +2096,15 @@
             },
             {
               "name": "income_lt10.pums_baseline",
-              "duplicates": 11,
+              "duplicates": 10,
               "time_range": [
                 0,
                 0
               ],
               "type": "float",
               "missing": 0,
-              "mean": 18.7103,
-              "sd": 21.9173,
+              "mean": 18.7104,
+              "sd": 22.0209,
               "min": 0,
               "max": 139.5038
             },
@@ -2138,17 +2138,17 @@
             },
             {
               "name": "income_lt10.pums_general",
-              "duplicates": 14,
+              "duplicates": 10,
               "time_range": [
                 0,
                 0
               ],
               "type": "float",
               "missing": 0,
-              "mean": 18.592,
-              "sd": 22.0611,
+              "mean": 18.7204,
+              "sd": 21.3957,
               "min": 0,
-              "max": 129.5757
+              "max": 123.4005
             },
             {
               "name": "error.income_lt10.prop",
@@ -2180,7 +2180,7 @@
             },
             {
               "name": "error.income_lt10.pums_baseline",
-              "duplicates": 12,
+              "duplicates": 11,
               "time_range": [
                 0,
                 0
@@ -2188,9 +2188,9 @@
               "type": "float",
               "missing": 0,
               "mean": -0.0446,
-              "sd": 17.9335,
-              "min": -55.2636,
-              "max": 60.3882
+              "sd": 18.1962,
+              "min": -55.3089,
+              "max": 59.0059
             },
             {
               "name": "error.income_lt10.pums_1step",
@@ -2222,17 +2222,17 @@
             },
             {
               "name": "error.income_lt10.pums_general",
-              "duplicates": 13,
+              "duplicates": 10,
               "time_range": [
                 0,
                 0
               ],
               "type": "float",
               "missing": 0,
-              "mean": -0.1629,
-              "sd": 18.5339,
-              "min": -58,
-              "max": 60.5006
+              "mean": -0.0345,
+              "sd": 18.3903,
+              "min": -55.2988,
+              "max": 56.7832
             },
             {
               "name": "income_100_125.original",
@@ -2285,10 +2285,10 @@
               ],
               "type": "float",
               "missing": 0,
-              "mean": 50.0302,
-              "sd": 37.7852,
+              "mean": 50.0295,
+              "sd": 37.8443,
               "min": 0,
-              "max": 168.7436
+              "max": 192.5125
             },
             {
               "name": "income_100_125.pums_1step",
@@ -2320,17 +2320,17 @@
             },
             {
               "name": "income_100_125.pums_general",
-              "duplicates": 5,
+              "duplicates": 2,
               "time_range": [
                 0,
                 0
               ],
               "type": "float",
               "missing": 0,
-              "mean": 48.9338,
-              "sd": 38.1632,
+              "mean": 50.0314,
+              "sd": 38.2752,
               "min": 0,
-              "max": 173.7588
+              "max": 194.9085
             },
             {
               "name": "error.income_100_125.prop",
@@ -2369,10 +2369,10 @@
               ],
               "type": "float",
               "missing": 0,
-              "mean": -0.0678,
-              "sd": 29.0458,
-              "min": -108.9275,
-              "max": 111.3499
+              "mean": -0.0685,
+              "sd": 27.7166,
+              "min": -85.2103,
+              "max": 89.7597
             },
             {
               "name": "error.income_100_125.pums_1step",
@@ -2404,17 +2404,17 @@
             },
             {
               "name": "error.income_100_125.pums_general",
-              "duplicates": 4,
+              "duplicates": 3,
               "time_range": [
                 0,
                 0
               ],
               "type": "float",
               "missing": 0,
-              "mean": -1.1642,
-              "sd": 30.5891,
-              "min": -174.8122,
-              "max": 109.7588
+              "mean": -0.0666,
+              "sd": 27.4984,
+              "min": -84.4832,
+              "max": 89.3091
             },
             {
               "name": "income_30_35.original",
@@ -2468,9 +2468,9 @@
               "type": "float",
               "missing": 0,
               "mean": 7.97,
-              "sd": 14.6472,
+              "sd": 14.3542,
               "min": 0,
-              "max": 100.6018
+              "max": 111.6996
             },
             {
               "name": "income_30_35.pums_1step",
@@ -2502,17 +2502,17 @@
             },
             {
               "name": "income_30_35.pums_general",
-              "duplicates": 79,
+              "duplicates": 78,
               "time_range": [
                 0,
                 0
               ],
               "type": "float",
               "missing": 0,
-              "mean": 7.0582,
-              "sd": 11.5058,
+              "mean": 7.97,
+              "sd": 14.4386,
               "min": 0,
-              "max": 71.466
+              "max": 118.2167
             },
             {
               "name": "error.income_30_35.prop",
@@ -2552,9 +2552,9 @@
               "type": "float",
               "missing": 0,
               "mean": -0.6673,
-              "sd": 13.8232,
+              "sd": 14.8778,
               "min": -114,
-              "max": 31.0163
+              "max": 40.5635
             },
             {
               "name": "error.income_30_35.pums_1step",
@@ -2593,10 +2593,10 @@
               ],
               "type": "float",
               "missing": 0,
-              "mean": -1.579,
-              "sd": 17.2593,
+              "mean": -0.6673,
+              "sd": 14.9191,
               "min": -114,
-              "max": 40.9672
+              "max": 40.8732
             },
             {
               "name": "income_40_45.original",
@@ -2642,17 +2642,17 @@
             },
             {
               "name": "income_40_45.pums_baseline",
-              "duplicates": 73,
+              "duplicates": 61,
               "time_range": [
                 0,
                 0
               ],
               "type": "float",
               "missing": 0,
-              "mean": 9.6707,
-              "sd": 14.0702,
+              "mean": 9.8472,
+              "sd": 13.6394,
               "min": 0,
-              "max": 86.2076
+              "max": 87.1008
             },
             {
               "name": "income_40_45.pums_1step",
@@ -2684,17 +2684,17 @@
             },
             {
               "name": "income_40_45.pums_general",
-              "duplicates": 85,
+              "duplicates": 61,
               "time_range": [
                 0,
                 0
               ],
               "type": "float",
               "missing": 0,
-              "mean": 8.4256,
-              "sd": 13.3567,
+              "mean": 9.8472,
+              "sd": 13.6894,
               "min": 0,
-              "max": 85.6561
+              "max": 86.4877
             },
             {
               "name": "error.income_40_45.prop",
@@ -2726,17 +2726,17 @@
             },
             {
               "name": "error.income_40_45.pums_baseline",
-              "duplicates": 66,
+              "duplicates": 58,
               "time_range": [
                 0,
                 0
               ],
               "type": "float",
               "missing": 0,
-              "mean": -0.2018,
-              "sd": 14.4567,
-              "min": -60.5937,
-              "max": 54.6759
+              "mean": -0.0253,
+              "sd": 14.3369,
+              "min": -65.5409,
+              "max": 42.8152
             },
             {
               "name": "error.income_40_45.pums_1step",
@@ -2768,17 +2768,17 @@
             },
             {
               "name": "error.income_40_45.pums_general",
-              "duplicates": 73,
+              "duplicates": 58,
               "time_range": [
                 0,
                 0
               ],
               "type": "float",
               "missing": 0,
-              "mean": -1.4469,
-              "sd": 14.5727,
-              "min": -61.1486,
-              "max": 38.0256
+              "mean": -0.0253,
+              "sd": 14.2411,
+              "min": -63.0832,
+              "max": 45.0991
             },
             {
               "name": "income_35_40.original",
@@ -2831,10 +2831,10 @@
               ],
               "type": "float",
               "missing": 0,
-              "mean": 8.8238,
-              "sd": 12.0068,
+              "mean": 8.8239,
+              "sd": 12.1263,
               "min": 0,
-              "max": 58.3805
+              "max": 59.3863
             },
             {
               "name": "income_35_40.pums_1step",
@@ -2866,17 +2866,17 @@
             },
             {
               "name": "income_35_40.pums_general",
-              "duplicates": 57,
+              "duplicates": 42,
               "time_range": [
                 0,
                 0
               ],
               "type": "float",
               "missing": 0,
-              "mean": 8.1469,
+              "mean": 8.8246,
               "sd": 12.0399,
               "min": 0,
-              "max": 56.4795
+              "max": 58.6229
             },
             {
               "name": "error.income_35_40.prop",
@@ -2916,9 +2916,9 @@
               "type": "float",
               "missing": 0,
               "mean": -0.0046,
-              "sd": 15.3623,
-              "min": -57.0977,
-              "max": 47.3805
+              "sd": 14.2403,
+              "min": -57.8779,
+              "max": 39.1243
             },
             {
               "name": "error.income_35_40.pums_1step",
@@ -2950,17 +2950,17 @@
             },
             {
               "name": "error.income_35_40.pums_general",
-              "duplicates": 50,
+              "duplicates": 42,
               "time_range": [
                 0,
                 0
               ],
               "type": "float",
               "missing": 0,
-              "mean": -0.6816,
-              "sd": 15.888,
-              "min": -72,
-              "max": 52.62
+              "mean": -0.0038,
+              "sd": 14.24,
+              "min": -57.4677,
+              "max": 36.8375
             },
             {
               "name": "income_20_25.original",
@@ -3006,7 +3006,7 @@
             },
             {
               "name": "income_20_25.pums_baseline",
-              "duplicates": 45,
+              "duplicates": 47,
               "time_range": [
                 0,
                 0
@@ -3014,7 +3014,7 @@
               "type": "float",
               "missing": 0,
               "mean": 9.9875,
-              "sd": 16.546,
+              "sd": 16.2115,
               "min": 0,
               "max": 96.8925
             },
@@ -3048,15 +3048,15 @@
             },
             {
               "name": "income_20_25.pums_general",
-              "duplicates": 49,
+              "duplicates": 47,
               "time_range": [
                 0,
                 0
               ],
               "type": "float",
               "missing": 0,
-              "mean": 9.8935,
-              "sd": 16.4307,
+              "mean": 9.986,
+              "sd": 16.1747,
               "min": 0,
               "max": 96.8925
             },
@@ -3090,7 +3090,7 @@
             },
             {
               "name": "error.income_20_25.pums_baseline",
-              "duplicates": 40,
+              "duplicates": 41,
               "time_range": [
                 0,
                 0
@@ -3098,8 +3098,8 @@
               "type": "float",
               "missing": 0,
               "mean": -0.0027,
-              "sd": 20.749,
-              "min": -137.6337,
+              "sd": 19.9463,
+              "min": -120.1414,
               "max": 96.8925
             },
             {
@@ -3139,9 +3139,9 @@
               ],
               "type": "float",
               "missing": 0,
-              "mean": -0.0967,
-              "sd": 20.8782,
-              "min": -131.8525,
+              "mean": -0.0042,
+              "sd": 19.6986,
+              "min": -123.3215,
               "max": 96.8925
             },
             {
@@ -3188,17 +3188,17 @@
             },
             {
               "name": "income_15_20.pums_baseline",
-              "duplicates": 76,
+              "duplicates": 78,
               "time_range": [
                 0,
                 0
               ],
               "type": "float",
               "missing": 0,
-              "mean": 8.1199,
-              "sd": 14.0383,
+              "mean": 8.118,
+              "sd": 14.1266,
               "min": 0,
-              "max": 101.8185
+              "max": 92.7497
             },
             {
               "name": "income_15_20.pums_1step",
@@ -3230,17 +3230,17 @@
             },
             {
               "name": "income_15_20.pums_general",
-              "duplicates": 77,
+              "duplicates": 78,
               "time_range": [
                 0,
                 0
               ],
               "type": "float",
               "missing": 0,
-              "mean": 7.8939,
-              "sd": 13.7962,
+              "mean": 8.1189,
+              "sd": 14.2187,
               "min": 0,
-              "max": 92.0629
+              "max": 92.2896
             },
             {
               "name": "error.income_15_20.prop",
@@ -3272,17 +3272,17 @@
             },
             {
               "name": "error.income_15_20.pums_baseline",
-              "duplicates": 74,
+              "duplicates": 76,
               "time_range": [
                 0,
                 0
               ],
               "type": "float",
               "missing": 0,
-              "mean": -0.135,
-              "sd": 12.0311,
-              "min": -64.815,
-              "max": 48.2546
+              "mean": -0.1369,
+              "sd": 12.2266,
+              "min": -75.5997,
+              "max": 46.8688
             },
             {
               "name": "error.income_15_20.pums_1step",
@@ -3314,17 +3314,17 @@
             },
             {
               "name": "error.income_15_20.pums_general",
-              "duplicates": 75,
+              "duplicates": 76,
               "time_range": [
                 0,
                 0
               ],
               "type": "float",
               "missing": 0,
-              "mean": -0.361,
-              "sd": 12.5537,
-              "min": -74.2749,
-              "max": 45.774
+              "mean": -0.136,
+              "sd": 12.9835,
+              "min": -75.6873,
+              "max": 46.7723
             },
             {
               "name": "income_10_15.original",
@@ -3377,8 +3377,8 @@
               ],
               "type": "float",
               "missing": 0,
-              "mean": 7.7841,
-              "sd": 12.2593,
+              "mean": 7.7784,
+              "sd": 12.3525,
               "min": 0,
               "max": 64.6077
             },
@@ -3419,10 +3419,10 @@
               ],
               "type": "float",
               "missing": 0,
-              "mean": 7.5984,
-              "sd": 12.4209,
+              "mean": 7.7862,
+              "sd": 12.4038,
               "min": 0,
-              "max": 75.462
+              "max": 65.8775
             },
             {
               "name": "error.income_10_15.prop",
@@ -3461,10 +3461,10 @@
               ],
               "type": "float",
               "missing": 0,
-              "mean": -0.01,
-              "sd": 13.9431,
-              "min": -79.1809,
-              "max": 59.6326
+              "mean": -0.0158,
+              "sd": 13.1816,
+              "min": -79.443,
+              "max": 59.7374
             },
             {
               "name": "error.income_10_15.pums_1step",
@@ -3496,17 +3496,17 @@
             },
             {
               "name": "error.income_10_15.pums_general",
-              "duplicates": 62,
+              "duplicates": 63,
               "time_range": [
                 0,
                 0
               ],
               "type": "float",
               "missing": 0,
-              "mean": -0.1957,
-              "sd": 14.6181,
-              "min": -79.4449,
-              "max": 71.462
+              "mean": -0.0079,
+              "sd": 13.9799,
+              "min": -79.1706,
+              "max": 61.8775
             },
             {
               "name": "income_25_30.original",
@@ -3552,17 +3552,17 @@
             },
             {
               "name": "income_25_30.pums_baseline",
-              "duplicates": 94,
+              "duplicates": 74,
               "time_range": [
                 0,
                 0
               ],
               "type": "float",
               "missing": 0,
-              "mean": 7.6471,
-              "sd": 15.8028,
+              "mean": 7.7549,
+              "sd": 15.8787,
               "min": 0,
-              "max": 152.7489
+              "max": 158.9613
             },
             {
               "name": "income_25_30.pums_1step",
@@ -3594,17 +3594,17 @@
             },
             {
               "name": "income_25_30.pums_general",
-              "duplicates": 95,
+              "duplicates": 74,
               "time_range": [
                 0,
                 0
               ],
               "type": "float",
               "missing": 0,
-              "mean": 7.6029,
-              "sd": 15.1315,
+              "mean": 7.7549,
+              "sd": 15.2633,
               "min": 0,
-              "max": 126.8319
+              "max": 146.1252
             },
             {
               "name": "error.income_25_30.prop",
@@ -3636,17 +3636,17 @@
             },
             {
               "name": "error.income_25_30.pums_baseline",
-              "duplicates": 93,
+              "duplicates": 74,
               "time_range": [
                 0,
                 0
               ],
               "type": "float",
               "missing": 0,
-              "mean": -0.1079,
-              "sd": 18.5682,
-              "min": -144.5678,
-              "max": 119.7489
+              "mean": -6e-06,
+              "sd": 19.0238,
+              "min": -144.1008,
+              "max": 125.9613
             },
             {
               "name": "error.income_25_30.pums_1step",
@@ -3678,17 +3678,17 @@
             },
             {
               "name": "error.income_25_30.pums_general",
-              "duplicates": 93,
+              "duplicates": 73,
               "time_range": [
                 0,
                 0
               ],
               "type": "float",
               "missing": 0,
-              "mean": -0.152,
-              "sd": 17.7683,
-              "min": -148.0559,
-              "max": 93.8319
+              "mean": -8e-06,
+              "sd": 18.5598,
+              "min": -145.9061,
+              "max": 113.1252
             },
             {
               "name": "avg_hhsize_own.original",
@@ -4056,7 +4056,7 @@
             }
           ]
         },
-        "sha512": "350d32accb796f3b5bbd37b6432528477b5f1ad9dd75319303e8a5d7868231d9b07b252effbc9c25c2ecfb0daf60bccaede3e49fd47c3a40a68d263d579cc95c",
+        "sha512": "63eceb77cf89b1d5d4a2abf555fc7ae759a44f43e6fc9893e944580b2e22288a2571c2707f713fb1015160d91de4f5088a07dc86ec022ee15fd73130d4b9098f",
         "site_file": "results.json"
       }
     },
