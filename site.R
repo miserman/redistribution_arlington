@@ -22,8 +22,6 @@ page_navbar(
           "This may help differentiate regions with similar values."
         )
       ),
-      input_switch("Hide URL Settings", id = "settings.hide_url_parameters"),
-      input_switch("Hide Tooltips", id = "settings.hide_tooltips"),
       input_number("Digits", "settings.digits", default = 3, min = 0, max = 6, floating_label = FALSE),
       input_select(
         "Color Scale Center", options = c("none", "median", "mean"), default = 0,
@@ -45,49 +43,90 @@ page_navbar(
     foot = list(
       input_button("Clear Settings", "reset_storage", "clear_storage", class = "btn-danger")
     )
+  ),
+  list(
+    name = "About",
+    items = list(
+      page_text(c(
+        paste(
+          "This is a data site to further explore the tract-based results from the",
+          "[Estimate Comparisons](https://uva-bi-sdad.github.io/redistribute/articles/estimate_comparisons.html) article."
+        ),
+        "View the [site's source](https://github.com/uva-bi-sdad/redistribution_arlington).",
+        input_button(
+          "Download All Data", "export",
+          query = list(features = list(geoid = "id")), class = "btn-full"
+        ),
+        "Credits",
+        paste(
+          "Built in [R](https://www.r-project.org) with the",
+          "[community](https://uva-bi-sdad.github.io/community) package, using these resources:"
+        )
+      ), class = c("", "", "h5")),
+      output_credits()
+    )
   )
 )
 
 
-input_dataview("view_a", y = "variable_a")
-input_dataview("view_b", y = "variable_b")
+input_dataview("view_a", y = "color_a")
+input_dataview("view_b", y = "color_b")
 
 page_section(
   page_section(
     type = "col",
-    output_map(
-      list(
-        name = "results",
-        url = paste0(
-          "https://raw.githubusercontent.com/uva-bi-sdad/sdc.geographies/main/NCR/Census%20Geographies/",
-          "Block%20Group/2020/data/distribution/ncr_geo_census_cb_2020_census_block_groups.geojson"
+    page_section(
+      wraps = c("col", "col-5"),
+      output_map(
+        list(
+          name = "results",
+          url = paste0(
+            "https://raw.githubusercontent.com/uva-bi-sdad/sdc.geographies/main/NCR/Census%20Geographies/",
+            "Block%20Group/2020/data/distribution/ncr_geo_census_cb_2020_census_block_groups.geojson"
+          )
+        ),
+        dataview = "view_a",
+        id = "map_a",
+        subto = c("plot_a", "legend_a"),
+        options = list(
+          attributionControl = FALSE,
+          scrollWheelZoom = FALSE,
+          center = c(38.88087765252438, -77.10222244262697),
+          zoom = 12,
+          height = "400px"
+        ),
+        tiles = list(
+          light = list(url = "https://stamen-tiles-{s}.a.ssl.fastly.net/toner-lite/{z}/{x}/{y}{r}.png"),
+          dark = list(url = "https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png")
         )
       ),
-      dataview = "view_a",
-      id = "map_a",
-      subto = c("plot_a", "legend_a"),
-      options = list(
-        attributionControl = FALSE,
-        scrollWheelZoom = FALSE,
-        center = c(38.938, -77.315),
-        zoom = 7,
-        height = "400px"
-      ),
-      tiles = list(
-        light = list(url = "https://stamen-tiles-{s}.a.ssl.fastly.net/toner-lite/{z}/{x}/{y}{r}.png"),
-        dark = list(url = "https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png")
+      page_section(
+        type = "col",
+        input_combobox(
+          "Color", options = "variables",
+          default = "abs.error.sex_female.prop_adj", id = "color_a"
+        ),
+        input_combobox(
+          "Y-Axis", options = "variables",
+          default = "sex_female.prop_adj", id = "y_a"
+        ),
+        input_combobox(
+          "X-Axis", options = "variables",
+          default = "sex_female.original", id = "x_a"
+        ),
+        output_info(
+          title = "features.name", body = c("variables.long_name" = "color_a"),
+          row_style = "stack", id = "info_a", subto = c("map_a", "legend_a", "plot_a")
+        )
       )
     ),
     output_legend(
-      palette = "settings.palette", dataview = "view_a", subto = c("map_a", "plot_a"),
+      palette = "settings.palette", "color_a", subto = c("map_a", "plot_a"),
       id = "legend_a", show_na = FALSE
     ),
-    input_combobox(
-      "Variable A", options = "variables",
-      default = "sex_female.pums_1step", id = "variable_a"
-    ),
     output_plot(
-      x = "selected_x", y = "variable_a", dataview = "view_a",
+      "x_a", "y_a", "color_a",
+      dataview = "view_a",
       subto = c("map_a", "legend_a"), id = "plot_a",
       options = list(
         layout = list(
@@ -101,39 +140,58 @@ page_section(
   ),
   page_section(
     type = "col",
-    output_map(
-      list(
-        name = "results",
-        url = paste0(
-          "https://raw.githubusercontent.com/uva-bi-sdad/sdc.geographies/main/NCR/Census%20Geographies/",
-          "Block%20Group/2020/data/distribution/ncr_geo_census_cb_2020_census_block_groups.geojson"
+    page_section(
+      wraps = c("col", "col-5"),
+      output_map(
+        list(
+          name = "results",
+          url = paste0(
+            "https://raw.githubusercontent.com/uva-bi-sdad/sdc.geographies/main/NCR/Census%20Geographies/",
+            "Block%20Group/2020/data/distribution/ncr_geo_census_cb_2020_census_block_groups.geojson"
+          )
+        ),
+        dataview = "view_b",
+        id = "map_b",
+        subto = c("plot_b", "legend_b"),
+        options = list(
+          attributionControl = FALSE,
+          scrollWheelZoom = FALSE,
+          center = c(38.88087765252438, -77.10222244262697),
+          zoom = 12,
+          height = "400px"
+        ),
+        tiles = list(
+          light = list(url = "https://stamen-tiles-{s}.a.ssl.fastly.net/toner-lite/{z}/{x}/{y}{r}.png"),
+          dark = list(url = "https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png")
         )
       ),
-      dataview = "view_b",
-      id = "map_b",
-      subto = c("plot_b", "legend_b"),
-      options = list(
-        attributionControl = FALSE,
-        scrollWheelZoom = FALSE,
-        center = c(38.938, -77.315),
-        zoom = 7,
-        height = "400px"
-      ),
-      tiles = list(
-        light = list(url = "https://stamen-tiles-{s}.a.ssl.fastly.net/toner-lite/{z}/{x}/{y}{r}.png"),
-        dark = list(url = "https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png")
+      page_section(
+        type = "col",
+        input_combobox(
+          "Color", options = "variables",
+          default = "sex_female.original", id = "color_b"
+        ),
+        input_combobox(
+          "Y-Axis", options = "variables",
+          default = "sex_female.prop_adj", id = "y_b"
+        ),
+        input_combobox(
+          "X-Axis", options = "variables",
+          default = "sex_male.pums_2step", id = "x_b"
+        ),
+        output_info(
+          title = "features.name", body = c("variables.long_name" = "color_b"),
+          row_style = "stack", id = "info_b", subto = c("map_b", "legend_b", "plot_b")
+        )
       )
     ),
     output_legend(
-      palette = "settings.palette", dataview = "view_b", subto = c("map_b", "plot_b"),
+      palette = "settings.palette", "color_b", subto = c("map_b", "plot_b"),
       id = "legend_b", show_na = FALSE
     ),
-    input_combobox(
-      "Variable B", options = "variables",
-      default = "sex_female.pums_2step", id = "variable_b"
-    ),
     output_plot(
-      x = "selected_x", y = "variable_b", dataview = "view_b",
+      "x_b", "y_b", "color_b",
+      dataview = "view_b",
       subto = c("map_b", "legend_b"), id = "plot_b",
       options = list(
         layout = list(
@@ -145,10 +203,4 @@ page_section(
       )
     )
   )
-)
-
-# bottom
-input_combobox(
-  "X Variable", options = "variables",
-  default = "sex_female.original", id = "selected_x"
 )

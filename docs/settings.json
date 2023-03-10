@@ -1,13 +1,13 @@
 {
   "settings": {
     "theme_dark": true,
-    "color_scale_center": "none",
+    "color_scale_center": "median",
     "digits": 2,
     "summary_selection": "all",
     "color_by_order": false,
     "boxplots": true,
     "partial_init": true,
-    "palette": "purple",
+    "palette": "prgn",
     "hide_url_parameters": false,
     "background_shapes": true,
     "iqr_box": true,
@@ -26,7 +26,7 @@
     "datasets": [
       "results"
     ],
-    "variables": ["geoid", "sex_male.original", "sex_male.prop", "sex_male.prop_adj", "sex_male.pums_baseline", "sex_male.pums_1step", "sex_male.pums_2step", "sex_male.pums_general", "error.sex_male.prop", "error.sex_male.prop_adj", "error.sex_male.pums_baseline", "error.sex_male.pums_1step", "error.sex_male.pums_2step", "error.sex_male.pums_general", "abs.error.sex_male.prop", "abs.error.sex_male.prop_adj", "abs.error.sex_male.pums_baseline", "abs.error.sex_male.pums_1step", "abs.error.sex_male.pums_2step", "abs.error.sex_male.pums_general", "sex_female.original", "sex_female.prop", "sex_female.prop_adj", "sex_female.pums_baseline", "sex_female.pums_1step", "sex_female.pums_2step", "sex_female.pums_general", "error.sex_female.prop", "error.sex_female.prop_adj", "error.sex_female.pums_baseline", "error.sex_female.pums_1step", "error.sex_female.pums_2step", "error.sex_female.pums_general", "abs.error.sex_female.prop", "abs.error.sex_female.prop_adj", "abs.error.sex_female.pums_baseline", "abs.error.sex_female.pums_1step", "abs.error.sex_female.pums_2step", "abs.error.sex_female.pums_general", "race_other.original", "race_other.prop", "race_other.prop_adj", "race_other.pums_baseline", "race_other.pums_1step", "race_other.pums_2step", "race_other.pums_general", "error.race_other.prop", "error.race_other.prop_adj", "error.race_other.pums_baseline", "error.race_other.pums_1step", "error.race_other.pums_2step", "error.race_other.pums_general", "abs.error.race_other.prop", "abs.error.race_other.prop_adj", "abs.error.race_other.pums_baseline", "abs.error.race_other.pums_1step", "abs.error.race_other.pums_2step", "abs.error.race_other.pums_general", "race_white.original", "race_white.prop", "race_white.prop_adj", "race_white.pums_baseline", "race_white.pums_1step", "race_white.pums_2step", "race_white.pums_general", "error.race_white.prop", "error.race_white.prop_adj", "error.race_white.pums_baseline", "error.race_white.pums_1step", "error.race_white.pums_2step", "error.race_white.pums_general", "abs.error.race_white.prop", "abs.error.race_white.prop_adj", "abs.error.race_white.pums_baseline", "abs.error.race_white.pums_1step", "abs.error.race_white.pums_2step", "abs.error.race_white.pums_general", "race_black.original", "race_black.prop", "race_black.prop_adj", "race_black.pums_baseline", "race_black.pums_1step", "race_black.pums_2step", "race_black.pums_general", "error.race_black.prop", "error.race_black.prop_adj", "error.race_black.pums_baseline", "error.race_black.pums_1step", "error.race_black.pums_2step", "error.race_black.pums_general", "abs.error.race_black.prop", "abs.error.race_black.prop_adj", "abs.error.race_black.pums_baseline", "abs.error.race_black.pums_1step", "abs.error.race_black.pums_2step", "abs.error.race_black.pums_general", "race_asian.original", "race_asian.prop", "race_asian.prop_adj", "race_asian.pums_baseline", "race_asian.pums_1step", "race_asian.pums_2step", "race_asian.pums_general", "error.race_asian.prop", "error.race_asian.prop_adj", "error.race_asian.pums_baseline", "error.race_asian.pums_1step", "error.race_asian.pums_2step", "error.race_asian.pums_general", "abs.error.race_asian.prop", "abs.error.race_asian.prop_adj", "abs.error.race_asian.pums_baseline", "abs.error.race_asian.pums_1step", "abs.error.race_asian.pums_2step", "abs.error.race_asian.pums_general", "race_native.original", "race_native.prop", "race_native.prop_adj", "race_native.pums_baseline", "race_native.pums_1step", "race_native.pums_2step", "race_native.pums_general", "error.race_native.prop", "error.race_native.prop_adj", "error.race_native.pums_baseline", "error.race_native.pums_1step", "error.race_native.pums_2step", "error.race_native.pums_general", "abs.error.race_native.prop", "abs.error.race_native.prop_adj", "abs.error.race_native.pums_baseline", "abs.error.race_native.pums_1step", "abs.error.race_native.pums_2step", "abs.error.race_native.pums_general", "income_100_200.original", "income_100_200.prop", "income_100_200.prop_adj", "income_100_200.pums_baseline", "income_100_200.pums_1step", "income_100_200.pums_2step", "income_100_200.pums_general", "error.income_100_200.prop", "error.income_100_200.prop_adj", "error.income_100_200.pums_baseline", "error.income_100_200.pums_1step", "error.income_100_200.pums_2step", "error.income_100_200.pums_general", "abs.error.income_100_200.prop", "abs.error.income_100_200.prop_adj", "abs.error.income_100_200.pums_baseline", "abs.error.income_100_200.pums_1step", "abs.error.income_100_200.pums_2step", "abs.error.income_100_200.pums_general", "income_gt200.original", "income_gt200.prop", "income_gt200.prop_adj", "income_gt200.pums_baseline", "income_gt200.pums_1step", "income_gt200.pums_2step", "income_gt200.pums_general", "error.income_gt200.prop", "error.income_gt200.prop_adj", "error.income_gt200.pums_baseline", "error.income_gt200.pums_1step", "error.income_gt200.pums_2step", "error.income_gt200.pums_general", "abs.error.income_gt200.prop", "abs.error.income_gt200.prop_adj", "abs.error.income_gt200.pums_baseline", "abs.error.income_gt200.pums_1step", "abs.error.income_gt200.pums_2step", "abs.error.income_gt200.pums_general", "income_lt50.original", "income_lt50.prop", "income_lt50.prop_adj", "income_lt50.pums_baseline", "income_lt50.pums_1step", "income_lt50.pums_2step", "income_lt50.pums_general", "error.income_lt50.prop", "error.income_lt50.prop_adj", "error.income_lt50.pums_baseline", "error.income_lt50.pums_1step", "error.income_lt50.pums_2step", "error.income_lt50.pums_general", "abs.error.income_lt50.prop", "abs.error.income_lt50.prop_adj", "abs.error.income_lt50.pums_baseline", "abs.error.income_lt50.pums_1step", "abs.error.income_lt50.pums_2step", "abs.error.income_lt50.pums_general", "avg_hhsize_own.original", "avg_hhsize_own.prop", "avg_hhsize_own.prop_adj", "avg_hhsize_own.pums_baseline", "avg_hhsize_own.pums_1step", "avg_hhsize_own.pums_2step", "avg_hhsize_own.pums_general", "error.avg_hhsize_own.prop", "error.avg_hhsize_own.prop_adj", "error.avg_hhsize_own.pums_baseline", "error.avg_hhsize_own.pums_1step", "error.avg_hhsize_own.pums_2step", "error.avg_hhsize_own.pums_general", "abs.error.avg_hhsize_own.prop", "abs.error.avg_hhsize_own.prop_adj", "abs.error.avg_hhsize_own.pums_baseline", "abs.error.avg_hhsize_own.pums_1step", "abs.error.avg_hhsize_own.pums_2step", "abs.error.avg_hhsize_own.pums_general", "avg_hhsize_rent.original", "avg_hhsize_rent.prop", "avg_hhsize_rent.prop_adj", "avg_hhsize_rent.pums_baseline", "avg_hhsize_rent.pums_1step", "avg_hhsize_rent.pums_2step", "avg_hhsize_rent.pums_general", "error.avg_hhsize_rent.prop", "error.avg_hhsize_rent.prop_adj", "error.avg_hhsize_rent.pums_baseline", "error.avg_hhsize_rent.pums_1step", "error.avg_hhsize_rent.pums_2step", "error.avg_hhsize_rent.pums_general", "abs.error.avg_hhsize_rent.prop", "abs.error.avg_hhsize_rent.prop_adj", "abs.error.avg_hhsize_rent.pums_baseline", "abs.error.avg_hhsize_rent.pums_1step", "abs.error.avg_hhsize_rent.pums_2step", "abs.error.avg_hhsize_rent.pums_general"],
+    "variables": {},
     "info": {
       "results": {
         "bytes": 672808,
@@ -3253,13 +3253,13 @@
   "dataviews": {
     "view_a": {
       "palette": "",
-      "y": "variable_a",
+      "y": "color_a",
       "time_agg": "last",
       "time_filters": []
     },
     "view_b": {
       "palette": "",
-      "y": "variable_b",
+      "y": "color_b",
       "time_agg": "last",
       "time_filters": []
     }
@@ -3349,8 +3349,8 @@
       "options": {
         "attributionControl": false,
         "scrollWheelZoom": false,
-        "center": [38.938, -77.315],
-        "zoom": 7,
+        "center": [38.8809, -77.1022],
+        "zoom": 12,
         "height": "400px",
         "overlays_from_measures": true,
         "subto": ["plot_a", "legend_a"]
@@ -3376,8 +3376,8 @@
       "options": {
         "attributionControl": false,
         "scrollWheelZoom": false,
-        "center": [38.938, -77.315],
-        "zoom": 7,
+        "center": [38.8809, -77.1022],
+        "zoom": 12,
         "height": "400px",
         "overlays_from_measures": true,
         "subto": ["plot_b", "legend_b"]
@@ -3432,23 +3432,83 @@
     }
   },
   "combobox": {
-    "variable_a": {
+    "color_a": {
       "strict": true,
       "search": true,
       "multi": false,
       "accordion": false
     },
-    "variable_b": {
+    "y_a": {
       "strict": true,
       "search": true,
       "multi": false,
       "accordion": false
     },
-    "selected_x": {
+    "x_a": {
       "strict": true,
       "search": true,
       "multi": false,
       "accordion": false
+    },
+    "color_b": {
+      "strict": true,
+      "search": true,
+      "multi": false,
+      "accordion": false
+    },
+    "y_b": {
+      "strict": true,
+      "search": true,
+      "multi": false,
+      "accordion": false
+    },
+    "x_b": {
+      "strict": true,
+      "search": true,
+      "multi": false,
+      "accordion": false
+    }
+  },
+  "button": {
+    "DownloadAllData": {
+      "effects": "export",
+      "dataview": {},
+      "query": {
+        "features": {
+          "geoid": "id"
+        }
+      },
+      "api": false
+    }
+  },
+  "info": {
+    "info_a": {
+      "title": "features.name",
+      "body": [
+        {
+          "name": "variables.long_name",
+          "value": "color_a",
+          "style": "stack"
+        }
+      ],
+      "default": [],
+      "floating": false,
+      "subto": ["map_a", "legend_a", "plot_a"],
+      "variable_info": false
+    },
+    "info_b": {
+      "title": "features.name",
+      "body": [
+        {
+          "name": "variables.long_name",
+          "value": "color_b",
+          "style": "stack"
+        }
+      ],
+      "default": [],
+      "floating": false,
+      "subto": ["map_b", "legend_b", "plot_b"],
+      "variable_info": false
     }
   }
 }
