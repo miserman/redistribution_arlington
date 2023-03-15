@@ -26,12 +26,12 @@
     "datasets": [
       "results"
     ],
-    "variables": {},
+    "variables": ["geoid", "sex_male.original", "sex_male.prop", "sex_male.prop_adj", "sex_male.pums_baseline", "sex_male.pums_1step", "sex_male.pums_2step", "sex_male.pums_general", "error.sex_male.prop", "error.sex_male.prop_adj", "error.sex_male.pums_baseline", "error.sex_male.pums_1step", "error.sex_male.pums_2step", "error.sex_male.pums_general", "abs.error.sex_male.prop", "abs.error.sex_male.prop_adj", "abs.error.sex_male.pums_baseline", "abs.error.sex_male.pums_1step", "abs.error.sex_male.pums_2step", "abs.error.sex_male.pums_general", "sex_female.original", "sex_female.prop", "sex_female.prop_adj", "sex_female.pums_baseline", "sex_female.pums_1step", "sex_female.pums_2step", "sex_female.pums_general", "error.sex_female.prop", "error.sex_female.prop_adj", "error.sex_female.pums_baseline", "error.sex_female.pums_1step", "error.sex_female.pums_2step", "error.sex_female.pums_general", "abs.error.sex_female.prop", "abs.error.sex_female.prop_adj", "abs.error.sex_female.pums_baseline", "abs.error.sex_female.pums_1step", "abs.error.sex_female.pums_2step", "abs.error.sex_female.pums_general", "race_other.original", "race_other.prop", "race_other.prop_adj", "race_other.pums_baseline", "race_other.pums_1step", "race_other.pums_2step", "race_other.pums_general", "error.race_other.prop", "error.race_other.prop_adj", "error.race_other.pums_baseline", "error.race_other.pums_1step", "error.race_other.pums_2step", "error.race_other.pums_general", "abs.error.race_other.prop", "abs.error.race_other.prop_adj", "abs.error.race_other.pums_baseline", "abs.error.race_other.pums_1step", "abs.error.race_other.pums_2step", "abs.error.race_other.pums_general", "race_white.original", "race_white.prop", "race_white.prop_adj", "race_white.pums_baseline", "race_white.pums_1step", "race_white.pums_2step", "race_white.pums_general", "error.race_white.prop", "error.race_white.prop_adj", "error.race_white.pums_baseline", "error.race_white.pums_1step", "error.race_white.pums_2step", "error.race_white.pums_general", "abs.error.race_white.prop", "abs.error.race_white.prop_adj", "abs.error.race_white.pums_baseline", "abs.error.race_white.pums_1step", "abs.error.race_white.pums_2step", "abs.error.race_white.pums_general", "race_black.original", "race_black.prop", "race_black.prop_adj", "race_black.pums_baseline", "race_black.pums_1step", "race_black.pums_2step", "race_black.pums_general", "error.race_black.prop", "error.race_black.prop_adj", "error.race_black.pums_baseline", "error.race_black.pums_1step", "error.race_black.pums_2step", "error.race_black.pums_general", "abs.error.race_black.prop", "abs.error.race_black.prop_adj", "abs.error.race_black.pums_baseline", "abs.error.race_black.pums_1step", "abs.error.race_black.pums_2step", "abs.error.race_black.pums_general", "race_asian.original", "race_asian.prop", "race_asian.prop_adj", "race_asian.pums_baseline", "race_asian.pums_1step", "race_asian.pums_2step", "race_asian.pums_general", "error.race_asian.prop", "error.race_asian.prop_adj", "error.race_asian.pums_baseline", "error.race_asian.pums_1step", "error.race_asian.pums_2step", "error.race_asian.pums_general", "abs.error.race_asian.prop", "abs.error.race_asian.prop_adj", "abs.error.race_asian.pums_baseline", "abs.error.race_asian.pums_1step", "abs.error.race_asian.pums_2step", "abs.error.race_asian.pums_general", "race_native.original", "race_native.prop", "race_native.prop_adj", "race_native.pums_baseline", "race_native.pums_1step", "race_native.pums_2step", "race_native.pums_general", "error.race_native.prop", "error.race_native.prop_adj", "error.race_native.pums_baseline", "error.race_native.pums_1step", "error.race_native.pums_2step", "error.race_native.pums_general", "abs.error.race_native.prop", "abs.error.race_native.prop_adj", "abs.error.race_native.pums_baseline", "abs.error.race_native.pums_1step", "abs.error.race_native.pums_2step", "abs.error.race_native.pums_general", "income_100_200.original", "income_100_200.prop", "income_100_200.prop_adj", "income_100_200.pums_baseline", "income_100_200.pums_1step", "income_100_200.pums_2step", "income_100_200.pums_general", "error.income_100_200.prop", "error.income_100_200.prop_adj", "error.income_100_200.pums_baseline", "error.income_100_200.pums_1step", "error.income_100_200.pums_2step", "error.income_100_200.pums_general", "abs.error.income_100_200.prop", "abs.error.income_100_200.prop_adj", "abs.error.income_100_200.pums_baseline", "abs.error.income_100_200.pums_1step", "abs.error.income_100_200.pums_2step", "abs.error.income_100_200.pums_general", "income_gt200.original", "income_gt200.prop", "income_gt200.prop_adj", "income_gt200.pums_baseline", "income_gt200.pums_1step", "income_gt200.pums_2step", "income_gt200.pums_general", "error.income_gt200.prop", "error.income_gt200.prop_adj", "error.income_gt200.pums_baseline", "error.income_gt200.pums_1step", "error.income_gt200.pums_2step", "error.income_gt200.pums_general", "abs.error.income_gt200.prop", "abs.error.income_gt200.prop_adj", "abs.error.income_gt200.pums_baseline", "abs.error.income_gt200.pums_1step", "abs.error.income_gt200.pums_2step", "abs.error.income_gt200.pums_general", "income_50_100.original", "income_50_100.prop", "income_50_100.prop_adj", "income_50_100.pums_baseline", "income_50_100.pums_1step", "income_50_100.pums_2step", "income_50_100.pums_general", "error.income_50_100.prop", "error.income_50_100.prop_adj", "error.income_50_100.pums_baseline", "error.income_50_100.pums_1step", "error.income_50_100.pums_2step", "error.income_50_100.pums_general", "abs.error.income_50_100.prop", "abs.error.income_50_100.prop_adj", "abs.error.income_50_100.pums_baseline", "abs.error.income_50_100.pums_1step", "abs.error.income_50_100.pums_2step", "abs.error.income_50_100.pums_general", "income_lt50.original", "income_lt50.prop", "income_lt50.prop_adj", "income_lt50.pums_baseline", "income_lt50.pums_1step", "income_lt50.pums_2step", "income_lt50.pums_general", "error.income_lt50.prop", "error.income_lt50.prop_adj", "error.income_lt50.pums_baseline", "error.income_lt50.pums_1step", "error.income_lt50.pums_2step", "error.income_lt50.pums_general", "abs.error.income_lt50.prop", "abs.error.income_lt50.prop_adj", "abs.error.income_lt50.pums_baseline", "abs.error.income_lt50.pums_1step", "abs.error.income_lt50.pums_2step", "abs.error.income_lt50.pums_general", "avg_hhsize_own.original", "avg_hhsize_own.prop", "avg_hhsize_own.prop_adj", "avg_hhsize_own.pums_baseline", "avg_hhsize_own.pums_1step", "avg_hhsize_own.pums_2step", "avg_hhsize_own.pums_general", "error.avg_hhsize_own.prop", "error.avg_hhsize_own.prop_adj", "error.avg_hhsize_own.pums_baseline", "error.avg_hhsize_own.pums_1step", "error.avg_hhsize_own.pums_2step", "error.avg_hhsize_own.pums_general", "abs.error.avg_hhsize_own.prop", "abs.error.avg_hhsize_own.prop_adj", "abs.error.avg_hhsize_own.pums_baseline", "abs.error.avg_hhsize_own.pums_1step", "abs.error.avg_hhsize_own.pums_2step", "abs.error.avg_hhsize_own.pums_general", "avg_hhsize_rent.original", "avg_hhsize_rent.prop", "avg_hhsize_rent.prop_adj", "avg_hhsize_rent.pums_baseline", "avg_hhsize_rent.pums_1step", "avg_hhsize_rent.pums_2step", "avg_hhsize_rent.pums_general", "error.avg_hhsize_rent.prop", "error.avg_hhsize_rent.prop_adj", "error.avg_hhsize_rent.pums_baseline", "error.avg_hhsize_rent.pums_1step", "error.avg_hhsize_rent.pums_2step", "error.avg_hhsize_rent.pums_general", "abs.error.avg_hhsize_rent.prop", "abs.error.avg_hhsize_rent.prop_adj", "abs.error.avg_hhsize_rent.pums_baseline", "abs.error.avg_hhsize_rent.pums_1step", "abs.error.avg_hhsize_rent.pums_2step", "abs.error.avg_hhsize_rent.pums_general"],
     "info": {
       "results": {
-        "bytes": 672808,
+        "bytes": 736052,
         "encoding": "ISO-8859-1",
-        "md5": "410653acaf2ad53beb6f63362bf26303",
+        "md5": "3980a270cd292bded5ac932f96b08878",
         "format": "csv",
         "name": "results",
         "filename": "results.csv",
@@ -44,7 +44,7 @@
         "id_length": 12,
         "time": {},
         "profile": "data-resource",
-        "created": "2023-03-09 12:06:47",
+        "created": "2023-03-15 19:07:08",
         "last_modified": "2023-03-01 16:24:00",
         "row_count": 204,
         "entity_count": 204,
@@ -129,10 +129,10 @@
               ],
               "type": "float",
               "missing": 0,
-              "mean": 573.8318,
-              "sd": 275.8427,
+              "mean": 573.831,
+              "sd": 275.7274,
               "min": 0,
-              "max": 1595.3089
+              "max": 1583.928
             },
             {
               "name": "sex_male.pums_general",
@@ -143,10 +143,10 @@
               ],
               "type": "float",
               "missing": 0,
-              "mean": 573.8278,
-              "sd": 278.6798,
+              "mean": 573.8275,
+              "sd": 279.116,
               "min": 0,
-              "max": 1598.2242
+              "max": 1598.1681
             },
             {
               "name": "error.sex_male.prop",
@@ -213,10 +213,10 @@
               ],
               "type": "float",
               "missing": 0,
-              "mean": -7.3692,
-              "sd": 186.184,
-              "min": -1444.642,
-              "max": 477.0729
+              "mean": -7.37,
+              "sd": 186.371,
+              "min": -1443.9309,
+              "max": 473.5491
             },
             {
               "name": "error.sex_male.pums_general",
@@ -227,10 +227,10 @@
               ],
               "type": "float",
               "missing": 0,
-              "mean": -7.3732,
-              "sd": 188.5144,
-              "min": -1444.6594,
-              "max": 466.1418
+              "mean": -7.3735,
+              "sd": 188.961,
+              "min": -1444.433,
+              "max": 460.1069
             },
             {
               "name": "abs.error.sex_male.prop",
@@ -297,24 +297,24 @@
               ],
               "type": "float",
               "missing": 0,
-              "mean": 122.3685,
-              "sd": 140.2542,
+              "mean": 122.4415,
+              "sd": 140.4385,
               "min": 0,
-              "max": 1444.642
+              "max": 1443.9309
             },
             {
               "name": "abs.error.sex_male.pums_general",
-              "duplicates": 3,
+              "duplicates": 2,
               "time_range": [
                 0,
                 0
               ],
               "type": "float",
               "missing": 0,
-              "mean": 124.7019,
-              "sd": 141.2981,
+              "mean": 125.195,
+              "sd": 141.4564,
               "min": 0,
-              "max": 1444.6594
+              "max": 1444.433
             },
             {
               "name": "sex_female.original",
@@ -395,10 +395,10 @@
               ],
               "type": "float",
               "missing": 0,
-              "mean": 573.6634,
-              "sd": 285.8701,
+              "mean": 573.6642,
+              "sd": 285.9465,
               "min": 0,
-              "max": 1527.4623
+              "max": 1538.5835
             },
             {
               "name": "sex_female.pums_general",
@@ -409,10 +409,10 @@
               ],
               "type": "float",
               "missing": 0,
-              "mean": 573.6674,
-              "sd": 282.1082,
+              "mean": 573.6677,
+              "sd": 281.7422,
               "min": 0,
-              "max": 1541.9843
+              "max": 1541.5052
             },
             {
               "name": "error.sex_female.prop",
@@ -472,17 +472,17 @@
             },
             {
               "name": "error.sex_female.pums_2step",
-              "duplicates": 3,
+              "duplicates": 2,
               "time_range": [
                 0,
                 0
               ],
               "type": "float",
               "missing": 0,
-              "mean": -0.8415,
-              "sd": 159.6402,
-              "min": -445.7843,
-              "max": 689.9022
+              "mean": -0.8407,
+              "sd": 158.9487,
+              "min": -440.052,
+              "max": 670.0688
             },
             {
               "name": "error.sex_female.pums_general",
@@ -493,10 +493,10 @@
               ],
               "type": "float",
               "missing": 0,
-              "mean": -0.8375,
-              "sd": 154.3251,
-              "min": -421.4852,
-              "max": 593.2665
+              "mean": -0.8372,
+              "sd": 153.7101,
+              "min": -415.5848,
+              "max": 572.4364
             },
             {
               "name": "abs.error.sex_female.prop",
@@ -556,17 +556,17 @@
             },
             {
               "name": "abs.error.sex_female.pums_2step",
-              "duplicates": 3,
+              "duplicates": 2,
               "time_range": [
                 0,
                 0
               ],
               "type": "float",
               "missing": 0,
-              "mean": 119.6622,
-              "sd": 105.3381,
+              "mean": 119.395,
+              "sd": 104.5945,
               "min": 0,
-              "max": 689.9022
+              "max": 670.0688
             },
             {
               "name": "abs.error.sex_female.pums_general",
@@ -577,10 +577,10 @@
               ],
               "type": "float",
               "missing": 0,
-              "mean": 115.8688,
-              "sd": 101.6131,
+              "mean": 115.746,
+              "sd": 100.8184,
               "min": 0,
-              "max": 593.2665
+              "max": 572.4364
             },
             {
               "name": "race_other.original",
@@ -661,10 +661,10 @@
               ],
               "type": "float",
               "missing": 0,
-              "mean": 146.7402,
-              "sd": 133.0748,
+              "mean": 146.7421,
+              "sd": 134.1518,
               "min": 0,
-              "max": 756.2052
+              "max": 786.4036
             },
             {
               "name": "race_other.pums_general",
@@ -675,10 +675,10 @@
               ],
               "type": "float",
               "missing": 0,
-              "mean": 146.7504,
-              "sd": 140.2094,
+              "mean": 146.7492,
+              "sd": 139.9157,
               "min": 0,
-              "max": 828.7267
+              "max": 832.9413
             },
             {
               "name": "error.race_other.prop",
@@ -745,10 +745,10 @@
               ],
               "type": "float",
               "missing": 0,
-              "mean": -1.4558,
-              "sd": 125.0399,
-              "min": -450.9099,
-              "max": 559.2052
+              "mean": -1.454,
+              "sd": 126.2711,
+              "min": -452.0029,
+              "max": 589.4036
             },
             {
               "name": "error.race_other.pums_general",
@@ -759,10 +759,10 @@
               ],
               "type": "float",
               "missing": 0,
-              "mean": -1.4457,
-              "sd": 131.4759,
-              "min": -454.9315,
-              "max": 631.7267
+              "mean": -1.4468,
+              "sd": 130.9486,
+              "min": -449.8175,
+              "max": 635.9413
             },
             {
               "name": "abs.error.race_other.prop",
@@ -829,10 +829,10 @@
               ],
               "type": "float",
               "missing": 0,
-              "mean": 78.2955,
-              "sd": 97.3485,
+              "mean": 78.5556,
+              "sd": 98.7175,
               "min": 0,
-              "max": 559.2052
+              "max": 589.4036
             },
             {
               "name": "abs.error.race_other.pums_general",
@@ -843,10 +843,10 @@
               ],
               "type": "float",
               "missing": 0,
-              "mean": 82.4615,
-              "sd": 102.2478,
+              "mean": 82.0638,
+              "sd": 101.8921,
               "min": 0,
-              "max": 631.7267
+              "max": 635.9413
             },
             {
               "name": "race_white.original",
@@ -927,10 +927,10 @@
               ],
               "type": "float",
               "missing": 0,
-              "mean": 770.6894,
-              "sd": 365.7464,
+              "mean": 770.683,
+              "sd": 365.9352,
               "min": 0,
-              "max": 1951.9294
+              "max": 1957.0243
             },
             {
               "name": "race_white.pums_general",
@@ -941,10 +941,10 @@
               ],
               "type": "float",
               "missing": 0,
-              "mean": 770.6925,
-              "sd": 363.4449,
+              "mean": 770.6829,
+              "sd": 363.8847,
               "min": 0,
-              "max": 1974.2182
+              "max": 1973.5795
             },
             {
               "name": "error.race_white.prop",
@@ -1004,17 +1004,17 @@
             },
             {
               "name": "error.race_white.pums_2step",
-              "duplicates": 2,
+              "duplicates": 3,
               "time_range": [
                 0,
                 0
               ],
               "type": "float",
               "missing": 0,
-              "mean": -5.5067,
-              "sd": 203.4652,
-              "min": -1043.9815,
-              "max": 556.3188
+              "mean": -5.5131,
+              "sd": 203.6069,
+              "min": -1043.6998,
+              "max": 542.9646
             },
             {
               "name": "error.race_white.pums_general",
@@ -1025,10 +1025,10 @@
               ],
               "type": "float",
               "missing": 0,
-              "mean": -5.5036,
-              "sd": 203.0122,
-              "min": -1043.5537,
-              "max": 505.9136
+              "mean": -5.5132,
+              "sd": 203.3055,
+              "min": -1043.2498,
+              "max": 487.761
             },
             {
               "name": "abs.error.race_white.prop",
@@ -1088,17 +1088,17 @@
             },
             {
               "name": "abs.error.race_white.pums_2step",
-              "duplicates": 2,
+              "duplicates": 3,
               "time_range": [
                 0,
                 0
               ],
               "type": "float",
               "missing": 0,
-              "mean": 143.1686,
-              "sd": 144.3273,
+              "mean": 143.8269,
+              "sd": 143.8688,
               "min": 0,
-              "max": 1043.9815
+              "max": 1043.6998
             },
             {
               "name": "abs.error.race_white.pums_general",
@@ -1109,10 +1109,10 @@
               ],
               "type": "float",
               "missing": 0,
-              "mean": 144.2869,
-              "sd": 142.5592,
+              "mean": 144.9127,
+              "sd": 142.3394,
               "min": 0,
-              "max": 1043.5537
+              "max": 1043.2498
             },
             {
               "name": "race_black.original",
@@ -1193,10 +1193,10 @@
               ],
               "type": "float",
               "missing": 0,
-              "mean": 107.3608,
-              "sd": 150.607,
+              "mean": 107.3604,
+              "sd": 151.4932,
               "min": 0,
-              "max": 1041.5994
+              "max": 1042.0162
             },
             {
               "name": "race_black.pums_general",
@@ -1207,10 +1207,10 @@
               ],
               "type": "float",
               "missing": 0,
-              "mean": 107.3651,
-              "sd": 153.0252,
+              "mean": 107.3627,
+              "sd": 154.0266,
               "min": 0,
-              "max": 1075.3043
+              "max": 1076.7386
             },
             {
               "name": "error.race_black.prop",
@@ -1277,10 +1277,10 @@
               ],
               "type": "float",
               "missing": 0,
-              "mean": -1.0314,
-              "sd": 106.2488,
-              "min": -496.0824,
-              "max": 496.0824
+              "mean": -1.0318,
+              "sd": 107.5578,
+              "min": -501.5597,
+              "max": 501.5597
             },
             {
               "name": "error.race_black.pums_general",
@@ -1291,10 +1291,10 @@
               ],
               "type": "float",
               "missing": 0,
-              "mean": -1.0271,
-              "sd": 106.6681,
-              "min": -511.81,
-              "max": 511.81
+              "mean": -1.0295,
+              "sd": 107.5989,
+              "min": -516.2267,
+              "max": 516.2267
             },
             {
               "name": "abs.error.race_black.prop",
@@ -1361,10 +1361,10 @@
               ],
               "type": "float",
               "missing": 0,
-              "mean": 62.6784,
-              "sd": 85.6851,
+              "mean": 63.3709,
+              "sd": 86.7991,
               "min": 0,
-              "max": 496.0824
+              "max": 501.5597
             },
             {
               "name": "abs.error.race_black.pums_general",
@@ -1375,10 +1375,10 @@
               ],
               "type": "float",
               "missing": 0,
-              "mean": 62.0809,
-              "sd": 86.6379,
+              "mean": 62.6607,
+              "sd": 87.3664,
               "min": 0,
-              "max": 511.81
+              "max": 516.2267
             },
             {
               "name": "race_asian.original",
@@ -1459,10 +1459,10 @@
               ],
               "type": "float",
               "missing": 0,
-              "mean": 118.1523,
-              "sd": 95.9781,
+              "mean": 118.1596,
+              "sd": 93.751,
               "min": 0,
-              "max": 826.8379
+              "max": 814.9199
             },
             {
               "name": "race_asian.pums_general",
@@ -1473,10 +1473,10 @@
               ],
               "type": "float",
               "missing": 0,
-              "mean": 118.1498,
-              "sd": 96.4897,
+              "mean": 118.1604,
+              "sd": 96.0327,
               "min": 0,
-              "max": 833.3319
+              "max": 829.2351
             },
             {
               "name": "error.race_asian.prop",
@@ -1543,24 +1543,24 @@
               ],
               "type": "float",
               "missing": 0,
-              "mean": -0.0634,
-              "sd": 70.2346,
-              "min": -225.5272,
-              "max": 253.637
+              "mean": -0.0561,
+              "sd": 69.2842,
+              "min": -224.719,
+              "max": 197.5476
             },
             {
               "name": "error.race_asian.pums_general",
-              "duplicates": 2,
+              "duplicates": 3,
               "time_range": [
                 0,
                 0
               ],
               "type": "float",
               "missing": 0,
-              "mean": -0.0659,
-              "sd": 69.1547,
-              "min": -217.4701,
-              "max": 243.3163
+              "mean": -0.0553,
+              "sd": 69.2564,
+              "min": -220.544,
+              "max": 217.6562
             },
             {
               "name": "abs.error.race_asian.prop",
@@ -1620,20 +1620,6 @@
             },
             {
               "name": "abs.error.race_asian.pums_2step",
-              "duplicates": 3,
-              "time_range": [
-                0,
-                0
-              ],
-              "type": "float",
-              "missing": 0,
-              "mean": 53.3662,
-              "sd": 45.5074,
-              "min": 0,
-              "max": 253.637
-            },
-            {
-              "name": "abs.error.race_asian.pums_general",
               "duplicates": 2,
               "time_range": [
                 0,
@@ -1641,10 +1627,24 @@
               ],
               "type": "float",
               "missing": 0,
-              "mean": 51.4566,
-              "sd": 46.0603,
+              "mean": 52.3963,
+              "sd": 45.182,
               "min": 0,
-              "max": 243.3163
+              "max": 224.719
+            },
+            {
+              "name": "abs.error.race_asian.pums_general",
+              "duplicates": 3,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "float",
+              "missing": 0,
+              "mean": 51.8511,
+              "sd": 45.7675,
+              "min": 0,
+              "max": 220.544
             },
             {
               "name": "race_native.original",
@@ -1725,8 +1725,8 @@
               ],
               "type": "float",
               "missing": 0,
-              "mean": 4.541,
-              "sd": 8.8498,
+              "mean": 4.5409,
+              "sd": 8.8772,
               "min": 0,
               "max": 55.5601
             },
@@ -1739,8 +1739,8 @@
               ],
               "type": "float",
               "missing": 0,
-              "mean": 4.5411,
-              "sd": 8.9522,
+              "mean": 4.541,
+              "sd": 8.9938,
               "min": 0,
               "max": 55.5601
             },
@@ -1802,15 +1802,15 @@
             },
             {
               "name": "error.race_native.pums_2step",
-              "duplicates": 104,
+              "duplicates": 103,
               "time_range": [
                 0,
                 0
               ],
               "type": "float",
               "missing": 0,
-              "mean": -0.1649,
-              "sd": 12.1522,
+              "mean": -0.165,
+              "sd": 12.172,
               "min": -69.4399,
               "max": 51.3544
             },
@@ -1823,8 +1823,8 @@
               ],
               "type": "float",
               "missing": 0,
-              "mean": -0.1648,
-              "sd": 12.136,
+              "mean": -0.1649,
+              "sd": 12.1523,
               "min": -69.4399,
               "max": 51.3544
             },
@@ -1886,15 +1886,15 @@
             },
             {
               "name": "abs.error.race_native.pums_2step",
-              "duplicates": 105,
+              "duplicates": 104,
               "time_range": [
                 0,
                 0
               ],
               "type": "float",
               "missing": 0,
-              "mean": 5.3417,
-              "sd": 10.91,
+              "mean": 5.3425,
+              "sd": 10.9317,
               "min": 0,
               "max": 69.4399
             },
@@ -1907,24 +1907,24 @@
               ],
               "type": "float",
               "missing": 0,
-              "mean": 5.297,
-              "sd": 10.9139,
+              "mean": 5.2931,
+              "sd": 10.934,
               "min": 0,
               "max": 69.4399
             },
             {
               "name": "income_100_200.original",
-              "duplicates": 42,
+              "duplicates": 131,
               "time_range": [
                 0,
                 0
               ],
               "type": "integer",
               "missing": 0,
-              "mean": 256.3235,
-              "sd": 142.1603,
-              "min": 39,
-              "max": 808
+              "mean": 59.8333,
+              "sd": 41.9663,
+              "min": 21,
+              "max": 327
             },
             {
               "name": "income_100_200.prop",
@@ -1935,10 +1935,10 @@
               ],
               "type": "float",
               "missing": 0,
-              "mean": 255.8669,
-              "sd": 145.693,
+              "mean": 59.4328,
+              "sd": 33.8809,
               "min": 0,
-              "max": 773.9524
+              "max": 187.9261
             },
             {
               "name": "income_100_200.prop_adj",
@@ -1949,10 +1949,10 @@
               ],
               "type": "float",
               "missing": 0,
-              "mean": 255.8788,
-              "sd": 143.5878,
+              "mean": 59.4358,
+              "sd": 33.5161,
               "min": 0,
-              "max": 768.4475
+              "max": 216.7542
             },
             {
               "name": "income_100_200.pums_baseline",
@@ -1963,10 +1963,10 @@
               ],
               "type": "float",
               "missing": 0,
-              "mean": 255.4757,
-              "sd": 154.3051,
+              "mean": 59.0534,
+              "sd": 35.4638,
               "min": 0,
-              "max": 749.3855
+              "max": 200.562
             },
             {
               "name": "income_100_200.pums_1step",
@@ -1977,10 +1977,10 @@
               ],
               "type": "float",
               "missing": 0,
-              "mean": 255.4758,
-              "sd": 154.4429,
+              "mean": 59.0532,
+              "sd": 35.3282,
               "min": 0,
-              "max": 759.6225
+              "max": 197.486
             },
             {
               "name": "income_100_200.pums_2step",
@@ -1991,10 +1991,10 @@
               ],
               "type": "float",
               "missing": 0,
-              "mean": 255.5134,
-              "sd": 151.1303,
+              "mean": 59.0602,
+              "sd": 35.1716,
               "min": 0,
-              "max": 737.6524
+              "max": 196.948
             },
             {
               "name": "income_100_200.pums_general",
@@ -2005,10 +2005,10 @@
               ],
               "type": "float",
               "missing": 0,
-              "mean": 255.5028,
-              "sd": 143.6572,
+              "mean": 59.0588,
+              "sd": 33.0949,
               "min": 0,
-              "max": 712.2115
+              "max": 178.6583
             },
             {
               "name": "error.income_100_200.prop",
@@ -2019,10 +2019,10 @@
               ],
               "type": "float",
               "missing": 0,
-              "mean": -0.4567,
-              "sd": 76.4991,
-              "min": -320.1677,
-              "max": 332.1189
+              "mean": -0.4005,
+              "sd": 29.9907,
+              "min": -142.4236,
+              "max": 103.3375
             },
             {
               "name": "error.income_100_200.prop_adj",
@@ -2033,10 +2033,10 @@
               ],
               "type": "float",
               "missing": 0,
-              "mean": -0.4447,
-              "sd": 77.5367,
-              "min": -330.0058,
-              "max": 299.9737
+              "mean": -0.3975,
+              "sd": 32.2067,
+              "min": -174.0571,
+              "max": 116.1651
             },
             {
               "name": "error.income_100_200.pums_baseline",
@@ -2047,10 +2047,10 @@
               ],
               "type": "float",
               "missing": 0,
-              "mean": -0.8479,
-              "sd": 80.2423,
-              "min": -284.517,
-              "max": 322.8203
+              "mean": -0.78,
+              "sd": 29.484,
+              "min": -127.7004,
+              "max": 107.2001
             },
             {
               "name": "error.income_100_200.pums_1step",
@@ -2061,10 +2061,10 @@
               ],
               "type": "float",
               "missing": 0,
-              "mean": -0.8477,
-              "sd": 80.5662,
-              "min": -284.4049,
-              "max": 322.8066
+              "mean": -0.7801,
+              "sd": 29.5905,
+              "min": -130.7842,
+              "max": 107.2232
             },
             {
               "name": "error.income_100_200.pums_2step",
@@ -2075,10 +2075,10 @@
               ],
               "type": "float",
               "missing": 0,
-              "mean": -0.8101,
-              "sd": 99.9879,
-              "min": -467.9901,
-              "max": 320.982
+              "mean": -0.7731,
+              "sd": 34.6774,
+              "min": -175.9916,
+              "max": 107.3274
             },
             {
               "name": "error.income_100_200.pums_general",
@@ -2089,10 +2089,10 @@
               ],
               "type": "float",
               "missing": 0,
-              "mean": -0.8208,
-              "sd": 80.4659,
-              "min": -288.2445,
-              "max": 322.1725
+              "mean": -0.7745,
+              "sd": 32.5713,
+              "min": -163.23,
+              "max": 116.6894
             },
             {
               "name": "abs.error.income_100_200.prop",
@@ -2103,10 +2103,10 @@
               ],
               "type": "float",
               "missing": 0,
-              "mean": 55.1752,
-              "sd": 52.849,
+              "mean": 20.3435,
+              "sd": 21.9933,
               "min": 0,
-              "max": 332.1189
+              "max": 142.4236
             },
             {
               "name": "abs.error.income_100_200.prop_adj",
@@ -2117,10 +2117,10 @@
               ],
               "type": "float",
               "missing": 0,
-              "mean": 54.8847,
-              "sd": 54.6349,
+              "mean": 21.4672,
+              "sd": 23.9649,
               "min": 0,
-              "max": 330.0058
+              "max": 174.0571
             },
             {
               "name": "abs.error.income_100_200.pums_baseline",
@@ -2131,10 +2131,10 @@
               ],
               "type": "float",
               "missing": 0,
-              "mean": 60.3304,
-              "sd": 52.7433,
+              "mean": 20.3902,
+              "sd": 21.263,
               "min": 0,
-              "max": 322.8203
+              "max": 127.7004
             },
             {
               "name": "abs.error.income_100_200.pums_1step",
@@ -2145,24 +2145,24 @@
               ],
               "type": "float",
               "missing": 0,
-              "mean": 60.528,
-              "sd": 53.009,
+              "mean": 20.4402,
+              "sd": 21.3623,
               "min": 0,
-              "max": 322.8066
+              "max": 130.7842
             },
             {
               "name": "abs.error.income_100_200.pums_2step",
-              "duplicates": 3,
+              "duplicates": 2,
               "time_range": [
                 0,
                 0
               ],
               "type": "float",
               "missing": 0,
-              "mean": 71.8829,
-              "sd": 69.3227,
+              "mean": 24.829,
+              "sd": 24.158,
               "min": 0,
-              "max": 467.9901
+              "max": 175.9916
             },
             {
               "name": "abs.error.income_100_200.pums_general",
@@ -2173,10 +2173,10 @@
               ],
               "type": "float",
               "missing": 0,
-              "mean": 59.222,
-              "sd": 54.3223,
+              "mean": 22.1694,
+              "sd": 23.8242,
               "min": 0,
-              "max": 322.1725
+              "max": 163.23
             },
             {
               "name": "income_gt200.original",
@@ -2258,9 +2258,9 @@
               "type": "float",
               "missing": 0,
               "mean": 143.6473,
-              "sd": 87.7865,
+              "sd": 88.8879,
               "min": 0,
-              "max": 388.0211
+              "max": 388.777
             },
             {
               "name": "income_gt200.pums_general",
@@ -2271,10 +2271,10 @@
               ],
               "type": "float",
               "missing": 0,
-              "mean": 143.6459,
-              "sd": 85.8354,
+              "mean": 143.646,
+              "sd": 86.1938,
               "min": 0,
-              "max": 390.8737
+              "max": 391.0024
             },
             {
               "name": "error.income_gt200.prop",
@@ -2341,10 +2341,10 @@
               ],
               "type": "float",
               "missing": 0,
-              "mean": -0.142,
-              "sd": 51.4917,
-              "min": -184.6712,
-              "max": 122.5103
+              "mean": -0.1419,
+              "sd": 51.5973,
+              "min": -185.8277,
+              "max": 124.7643
             },
             {
               "name": "error.income_gt200.pums_general",
@@ -2355,10 +2355,10 @@
               ],
               "type": "float",
               "missing": 0,
-              "mean": -0.1433,
-              "sd": 50.6862,
-              "min": -205.4566,
-              "max": 128.985
+              "mean": -0.1432,
+              "sd": 51.4012,
+              "min": -215.7869,
+              "max": 129.9346
             },
             {
               "name": "abs.error.income_gt200.prop",
@@ -2418,17 +2418,17 @@
             },
             {
               "name": "abs.error.income_gt200.pums_2step",
-              "duplicates": 4,
+              "duplicates": 3,
               "time_range": [
                 0,
                 0
               ],
               "type": "float",
               "missing": 0,
-              "mean": 38.3631,
-              "sd": 34.2408,
+              "mean": 38.2992,
+              "sd": 34.471,
               "min": 0,
-              "max": 184.6712
+              "max": 185.8277
             },
             {
               "name": "abs.error.income_gt200.pums_general",
@@ -2439,10 +2439,276 @@
               ],
               "type": "float",
               "missing": 0,
-              "mean": 37.0892,
-              "sd": 34.4489,
+              "mean": 37.4484,
+              "sd": 35.1114,
               "min": 0,
-              "max": 205.4566
+              "max": 215.7869
+            },
+            {
+              "name": "income_50_100.original",
+              "duplicates": 42,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "integer",
+              "missing": 0,
+              "mean": 256.3235,
+              "sd": 142.1603,
+              "min": 39,
+              "max": 808
+            },
+            {
+              "name": "income_50_100.prop",
+              "duplicates": 2,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "float",
+              "missing": 0,
+              "mean": 255.8669,
+              "sd": 145.693,
+              "min": 0,
+              "max": 773.9524
+            },
+            {
+              "name": "income_50_100.prop_adj",
+              "duplicates": 3,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "float",
+              "missing": 0,
+              "mean": 255.8788,
+              "sd": 143.5878,
+              "min": 0,
+              "max": 768.4475
+            },
+            {
+              "name": "income_50_100.pums_baseline",
+              "duplicates": 2,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "float",
+              "missing": 0,
+              "mean": 255.4492,
+              "sd": 167.9512,
+              "min": 0,
+              "max": 810.0096
+            },
+            {
+              "name": "income_50_100.pums_1step",
+              "duplicates": 2,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "float",
+              "missing": 0,
+              "mean": 255.4522,
+              "sd": 168.8515,
+              "min": 0,
+              "max": 824.748
+            },
+            {
+              "name": "income_50_100.pums_2step",
+              "duplicates": 2,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "float",
+              "missing": 0,
+              "mean": 255.5134,
+              "sd": 153.0684,
+              "min": 0,
+              "max": 766.4013
+            },
+            {
+              "name": "income_50_100.pums_general",
+              "duplicates": 2,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "float",
+              "missing": 0,
+              "mean": 255.4905,
+              "sd": 150.9784,
+              "min": 0,
+              "max": 733.2007
+            },
+            {
+              "name": "error.income_50_100.prop",
+              "duplicates": 2,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "float",
+              "missing": 0,
+              "mean": -0.4567,
+              "sd": 76.4991,
+              "min": -320.1677,
+              "max": 332.1189
+            },
+            {
+              "name": "error.income_50_100.prop_adj",
+              "duplicates": 3,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "float",
+              "missing": 0,
+              "mean": -0.4447,
+              "sd": 77.5367,
+              "min": -330.0058,
+              "max": 299.9737
+            },
+            {
+              "name": "error.income_50_100.pums_baseline",
+              "duplicates": 2,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "float",
+              "missing": 0,
+              "mean": -0.8743,
+              "sd": 93.903,
+              "min": -283.6588,
+              "max": 416.8907
+            },
+            {
+              "name": "error.income_50_100.pums_1step",
+              "duplicates": 2,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "float",
+              "missing": 0,
+              "mean": -0.8713,
+              "sd": 95.1121,
+              "min": -283.239,
+              "max": 428.3874
+            },
+            {
+              "name": "error.income_50_100.pums_2step",
+              "duplicates": 2,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "float",
+              "missing": 0,
+              "mean": -0.8101,
+              "sd": 96.2607,
+              "min": -469.4256,
+              "max": 320.8357
+            },
+            {
+              "name": "error.income_50_100.pums_general",
+              "duplicates": 2,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "float",
+              "missing": 0,
+              "mean": -0.833,
+              "sd": 80.1234,
+              "min": -309.9898,
+              "max": 325.9373
+            },
+            {
+              "name": "abs.error.income_50_100.prop",
+              "duplicates": 2,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "float",
+              "missing": 0,
+              "mean": 55.1752,
+              "sd": 52.849,
+              "min": 0,
+              "max": 332.1189
+            },
+            {
+              "name": "abs.error.income_50_100.prop_adj",
+              "duplicates": 3,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "float",
+              "missing": 0,
+              "mean": 54.8847,
+              "sd": 54.6349,
+              "min": 0,
+              "max": 330.0058
+            },
+            {
+              "name": "abs.error.income_50_100.pums_baseline",
+              "duplicates": 3,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "float",
+              "missing": 0,
+              "mean": 69.8367,
+              "sd": 62.5887,
+              "min": 0,
+              "max": 416.8907
+            },
+            {
+              "name": "abs.error.income_50_100.pums_1step",
+              "duplicates": 2,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "float",
+              "missing": 0,
+              "mean": 70.6058,
+              "sd": 63.5401,
+              "min": 0,
+              "max": 428.3874
+            },
+            {
+              "name": "abs.error.income_50_100.pums_2step",
+              "duplicates": 2,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "float",
+              "missing": 0,
+              "mean": 68.1802,
+              "sd": 67.7889,
+              "min": 0,
+              "max": 469.4256
+            },
+            {
+              "name": "abs.error.income_50_100.pums_general",
+              "duplicates": 3,
+              "time_range": [
+                0,
+                0
+              ],
+              "type": "float",
+              "missing": 0,
+              "mean": 59.5574,
+              "sd": 53.4406,
+              "min": 0,
+              "max": 325.9373
             },
             {
               "name": "income_lt50.original",
@@ -2523,10 +2789,10 @@
               ],
               "type": "float",
               "missing": 0,
-              "mean": 742.2402,
-              "sd": 508.5077,
+              "mean": 742.2316,
+              "sd": 511.0053,
               "min": 0,
-              "max": 3651.9914
+              "max": 3688.729
             },
             {
               "name": "income_lt50.pums_general",
@@ -2537,10 +2803,10 @@
               ],
               "type": "float",
               "missing": 0,
-              "mean": 742.3446,
-              "sd": 436.0536,
+              "mean": 742.3551,
+              "sd": 429.1,
               "min": 0,
-              "max": 2399.7928
+              "max": 2360.7512
             },
             {
               "name": "error.income_lt50.prop",
@@ -2607,10 +2873,10 @@
               ],
               "type": "float",
               "missing": 0,
-              "mean": -4.6912,
-              "sd": 424.9541,
-              "min": -1299.542,
-              "max": 2775.9914
+              "mean": -4.6998,
+              "sd": 428.8806,
+              "min": -1269.2401,
+              "max": 2812.729
             },
             {
               "name": "error.income_lt50.pums_general",
@@ -2621,10 +2887,10 @@
               ],
               "type": "float",
               "missing": 0,
-              "mean": -4.5868,
-              "sd": 331.617,
-              "min": -1237.6927,
-              "max": 1523.7928
+              "mean": -4.5762,
+              "sd": 324.0881,
+              "min": -1182.2111,
+              "max": 1484.7512
             },
             {
               "name": "abs.error.income_lt50.prop",
@@ -2684,17 +2950,17 @@
             },
             {
               "name": "abs.error.income_lt50.pums_2step",
-              "duplicates": 2,
+              "duplicates": 3,
               "time_range": [
                 0,
                 0
               ],
               "type": "float",
               "missing": 0,
-              "mean": 282.755,
-              "sd": 316.6448,
+              "mean": 285.8314,
+              "sd": 319.1531,
               "min": 0,
-              "max": 2775.9914
+              "max": 2812.729
             },
             {
               "name": "abs.error.income_lt50.pums_general",
@@ -2705,10 +2971,10 @@
               ],
               "type": "float",
               "missing": 0,
-              "mean": 237.0454,
-              "sd": 231.3518,
+              "mean": 233.5045,
+              "sd": 224.1901,
               "min": 0,
-              "max": 1523.7928
+              "max": 1484.7512
             },
             {
               "name": "avg_hhsize_own.original",
@@ -3244,7 +3510,7 @@
             }
           ]
         },
-        "sha512": "1c42023eebbd41ebb5fa65282521ad17944e6702f6363676111a35a2a42f0757f2aa6f02f671fdf0d0927605177a3cf1d1cc7f053e06f291c78555927c22fbff",
+        "sha512": "1daa59032b1ce87fa051b8a46a5368b333998cb9a7aa15b56b429ad78cf758a21d5fd0af1ddc2e8ea80d258716e9797be38850cdfc3b6efa8b7497d901576f27",
         "site_file": "results.json"
       }
     },
