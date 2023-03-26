@@ -8,5 +8,5 @@ data_add(
 )
 
 site_build('../redistribution_arlington', serve = TRUE, options = list(
-  theme_dark = TRUE, color_scale_center = "median", palette = "prgn"
+  theme_dark = TRUE, color_scale_center = "median", palette = "purple"
 ))

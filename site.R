@@ -104,15 +104,15 @@ page_section(
         type = "col",
         input_combobox(
           "Color", options = "variables",
-          default = "abs.error.sex_female.prop_adj", id = "color_a"
+          default = "abs.error.race_white.pums_general", id = "color_a"
         ),
         input_combobox(
           "Y-Axis", options = "variables",
-          default = "sex_female.prop_adj", id = "y_a"
+          default = "race_white.pums_general", id = "y_a"
         ),
         input_combobox(
           "X-Axis", options = "variables",
-          default = "sex_female.original", id = "x_a"
+          default = "race_white.pums_2step", id = "x_a"
         ),
         output_info(
           title = "features.name", body = c("variables.long_name" = "color_a"),
@@ -169,15 +169,15 @@ page_section(
         type = "col",
         input_combobox(
           "Color", options = "variables",
-          default = "sex_female.original", id = "color_b"
+          default = "abs.error.race_white.pums_general", id = "color_b"
         ),
         input_combobox(
           "Y-Axis", options = "variables",
-          default = "sex_female.prop_adj", id = "y_b"
+          default = "race_white.pums_general", id = "y_b"
         ),
         input_combobox(
           "X-Axis", options = "variables",
-          default = "sex_male.pums_2step", id = "x_b"
+          default = "race_white.original", id = "x_b"
         ),
         output_info(
           title = "features.name", body = c("variables.long_name" = "color_b"),
