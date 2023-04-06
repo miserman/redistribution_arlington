@@ -9,9 +9,9 @@
   },
   "resources": [
     {
-      "bytes": 711772,
+      "bytes": 647238,
       "encoding": "ISO-8859-1",
-      "md5": "7d3843bd0b87060432d48dfab3a9dfaa",
+      "md5": "fa292f0903c1663de5bd96d6a09f09b8",
       "format": "csv",
       "name": "results",
       "filename": "results.csv",
@@ -24,8 +24,8 @@
       "id_length": 12,
       "time": {},
       "profile": "data-resource",
-      "created": "2023-03-30 15:35:00",
-      "last_modified": "2023-03-30 15:35:00",
+      "created": "2023-04-05 20:10:16",
+      "last_modified": "2023-04-05 20:10:14",
       "row_count": 200,
       "entity_count": 200,
       "schema": {
@@ -59,9 +59,9 @@
             "type": "float",
             "missing": 0,
             "mean": 585.995,
-            "sd": 243.816119,
-            "min": 1.694149,
-            "max": 1421.607209
+            "sd": 242.556649,
+            "min": 1.729087,
+            "max": 1424.581655
           },
           {
             "name": "sex_female.pums_baseline",
@@ -125,8 +125,8 @@
             "type": "float",
             "missing": 0,
             "mean": 2.79,
-            "sd": 138.334126,
-            "min": -364.852093,
+            "sd": 138.043864,
+            "min": -364.709235,
             "max": 558
           },
           {
@@ -142,7 +142,7 @@
           },
           {
             "name": "error.sex_female.pums_1step",
-            "duplicates": 3,
+            "duplicates": 2,
             "time_range": [0, 0],
             "type": "float",
             "missing": 0,
@@ -164,7 +164,7 @@
           },
           {
             "name": "error.sex_female.pums_general",
-            "duplicates": 3,
+            "duplicates": 2,
             "time_range": [0, 0],
             "type": "float",
             "missing": 0,
@@ -186,12 +186,12 @@
           },
           {
             "name": "abs.error.sex_female.prop_adj",
-            "duplicates": 10,
+            "duplicates": 6,
             "time_range": [0, 0],
             "type": "float",
             "missing": 0,
-            "mean": 101.751273,
-            "sd": 93.481578,
+            "mean": 101.496714,
+            "sd": 93.330499,
             "min": 0,
             "max": 558
           },
@@ -230,7 +230,7 @@
           },
           {
             "name": "abs.error.sex_female.pums_general",
-            "duplicates": 11,
+            "duplicates": 10,
             "time_range": [0, 0],
             "type": "float",
             "missing": 0,
@@ -268,9 +268,9 @@
             "type": "float",
             "missing": 0,
             "mean": 592.825,
-            "sd": 244.420304,
-            "min": 2.005319,
-            "max": 1449.495256
+            "sd": 243.035278,
+            "min": 2.046675,
+            "max": 1445.519152
           },
           {
             "name": "sex_male.pums_baseline",
@@ -334,8 +334,8 @@
             "type": "float",
             "missing": 0,
             "mean": 3.36,
-            "sd": 155.31475,
-            "min": -449.220339,
+            "sd": 155.422046,
+            "min": -449.837129,
             "max": 672
           },
           {
@@ -399,8 +399,8 @@
             "time_range": [0, 0],
             "type": "float",
             "missing": 0,
-            "mean": 113.765594,
-            "sd": 105.481606,
+            "mean": 113.439183,
+            "sd": 105.991721,
             "min": 0,
             "max": 672
           },
@@ -477,9 +477,9 @@
             "type": "float",
             "missing": 0,
             "mean": 110.56,
-            "sd": 133.5069,
+            "sd": 133.344887,
             "min": 0,
-            "max": 991.127135
+            "max": 988.408378
           },
           {
             "name": "race_black.pums_baseline",
@@ -543,9 +543,9 @@
             "type": "float",
             "missing": 0,
             "mean": -0,
-            "sd": 101.141101,
-            "min": -540.16367,
-            "max": 279.393837
+            "sd": 101.222745,
+            "min": -540.753693,
+            "max": 278.380255
           },
           {
             "name": "error.race_black.pums_baseline",
@@ -582,7 +582,7 @@
           },
           {
             "name": "error.race_black.pums_general",
-            "duplicates": 4,
+            "duplicates": 5,
             "time_range": [0, 0],
             "type": "float",
             "missing": 0,
@@ -593,7 +593,7 @@
           },
           {
             "name": "abs.error.race_black.prop",
-            "duplicates": 17,
+            "duplicates": 16,
             "time_range": [0, 0],
             "type": "float",
             "missing": 0,
@@ -604,14 +604,14 @@
           },
           {
             "name": "abs.error.race_black.prop_adj",
-            "duplicates": 13,
+            "duplicates": 10,
             "time_range": [0, 0],
             "type": "float",
             "missing": 0,
-            "mean": 62.192237,
-            "sd": 79.638002,
+            "mean": 62.26566,
+            "sd": 79.684058,
             "min": 0,
-            "max": 540.16367
+            "max": 540.753693
           },
           {
             "name": "abs.error.race_black.pums_baseline",
@@ -626,7 +626,7 @@
           },
           {
             "name": "abs.error.race_black.pums_1step",
-            "duplicates": 16,
+            "duplicates": 15,
             "time_range": [0, 0],
             "type": "float",
             "missing": 0,
@@ -648,7 +648,7 @@
           },
           {
             "name": "abs.error.race_black.pums_general",
-            "duplicates": 15,
+            "duplicates": 16,
             "time_range": [0, 0],
             "type": "float",
             "missing": 0,
@@ -686,9 +686,9 @@
             "type": "float",
             "missing": 0,
             "mean": 791.72,
-            "sd": 334.067078,
-            "min": 1.976064,
-            "max": 1968.729857
+            "sd": 332.103895,
+            "min": 2.016816,
+            "max": 1960.058691
           },
           {
             "name": "race_white.pums_baseline",
@@ -747,18 +747,18 @@
           },
           {
             "name": "error.race_white.prop_adj",
-            "duplicates": 2,
+            "duplicates": 3,
             "time_range": [0, 0],
             "type": "float",
             "missing": 0,
             "mean": 4.12,
-            "sd": 189.079293,
-            "min": -624.340174,
+            "sd": 188.161975,
+            "min": -624.093042,
             "max": 824
           },
           {
             "name": "error.race_white.pums_baseline",
-            "duplicates": 3,
+            "duplicates": 2,
             "time_range": [0, 0],
             "type": "float",
             "missing": 0,
@@ -813,12 +813,12 @@
           },
           {
             "name": "abs.error.race_white.prop_adj",
-            "duplicates": 12,
+            "duplicates": 10,
             "time_range": [0, 0],
             "type": "float",
             "missing": 0,
-            "mean": 138.422673,
-            "sd": 128.494812,
+            "mean": 138.168423,
+            "sd": 127.418771,
             "min": 0,
             "max": 824
           },
@@ -846,7 +846,7 @@
           },
           {
             "name": "abs.error.race_white.pums_2step",
-            "duplicates": 14,
+            "duplicates": 11,
             "time_range": [0, 0],
             "type": "float",
             "missing": 0,
@@ -857,7 +857,7 @@
           },
           {
             "name": "abs.error.race_white.pums_general",
-            "duplicates": 11,
+            "duplicates": 12,
             "time_range": [0, 0],
             "type": "float",
             "missing": 0,
@@ -895,9 +895,9 @@
             "type": "float",
             "missing": 0,
             "mean": 151.16,
-            "sd": 117.441802,
+            "sd": 117.243739,
             "min": 0,
-            "max": 751.68218
+            "max": 742.321684
           },
           {
             "name": "race_other.pums_baseline",
@@ -956,18 +956,18 @@
           },
           {
             "name": "error.race_other.prop_adj",
-            "duplicates": 4,
+            "duplicates": 3,
             "time_range": [0, 0],
             "type": "float",
             "missing": 0,
             "mean": 0.72,
-            "sd": 110.951882,
-            "min": -438.491564,
-            "max": 438.491564
+            "sd": 110.856676,
+            "min": -444.536721,
+            "max": 444.536721
           },
           {
             "name": "error.race_other.pums_baseline",
-            "duplicates": 5,
+            "duplicates": 6,
             "time_range": [0, 0],
             "type": "float",
             "missing": 0,
@@ -1011,7 +1011,7 @@
           },
           {
             "name": "abs.error.race_other.prop",
-            "duplicates": 15,
+            "duplicates": 16,
             "time_range": [0, 0],
             "type": "float",
             "missing": 0,
@@ -1022,18 +1022,18 @@
           },
           {
             "name": "abs.error.race_other.prop_adj",
-            "duplicates": 14,
+            "duplicates": 12,
             "time_range": [0, 0],
             "type": "float",
             "missing": 0,
-            "mean": 74.80438,
-            "sd": 81.774243,
+            "mean": 74.748328,
+            "sd": 81.696598,
             "min": 0,
-            "max": 438.491564
+            "max": 444.536721
           },
           {
             "name": "abs.error.race_other.pums_baseline",
-            "duplicates": 17,
+            "duplicates": 18,
             "time_range": [0, 0],
             "type": "float",
             "missing": 0,
@@ -1055,7 +1055,7 @@
           },
           {
             "name": "abs.error.race_other.pums_2step",
-            "duplicates": 14,
+            "duplicates": 15,
             "time_range": [0, 0],
             "type": "float",
             "missing": 0,
@@ -1104,9 +1104,9 @@
             "type": "float",
             "missing": 0,
             "mean": 120.58,
-            "sd": 90.600895,
+            "sd": 90.40431,
             "min": 0,
-            "max": 753.677419
+            "max": 751.61001
           },
           {
             "name": "race_asian.pums_baseline",
@@ -1165,14 +1165,14 @@
           },
           {
             "name": "error.race_asian.prop_adj",
-            "duplicates": 4,
+            "duplicates": 3,
             "time_range": [0, 0],
             "type": "float",
             "missing": 0,
             "mean": 1.31,
-            "sd": 78.740949,
-            "min": -283.962766,
-            "max": 283.962766
+            "sd": 78.938192,
+            "min": -283.941375,
+            "max": 283.941375
           },
           {
             "name": "error.race_asian.pums_baseline",
@@ -1231,14 +1231,14 @@
           },
           {
             "name": "abs.error.race_asian.prop_adj",
-            "duplicates": 15,
+            "duplicates": 11,
             "time_range": [0, 0],
             "type": "float",
             "missing": 0,
-            "mean": 56.772287,
-            "sd": 54.429521,
+            "mean": 56.854695,
+            "sd": 54.628409,
             "min": 0,
-            "max": 283.962766
+            "max": 283.941375
           },
           {
             "name": "abs.error.race_asian.pums_baseline",
@@ -1253,7 +1253,7 @@
           },
           {
             "name": "abs.error.race_asian.pums_1step",
-            "duplicates": 12,
+            "duplicates": 11,
             "time_range": [0, 0],
             "type": "float",
             "missing": 0,
@@ -1275,7 +1275,7 @@
           },
           {
             "name": "abs.error.race_asian.pums_general",
-            "duplicates": 13,
+            "duplicates": 12,
             "time_range": [0, 0],
             "type": "float",
             "missing": 0,
@@ -1313,9 +1313,9 @@
             "type": "float",
             "missing": 0,
             "mean": 4.8,
-            "sd": 8.600452,
+            "sd": 8.596712,
             "min": 0,
-            "max": 58.687364
+            "max": 58.762199
           },
           {
             "name": "race_native.pums_baseline",
@@ -1379,9 +1379,9 @@
             "type": "float",
             "missing": 0,
             "mean": -0,
-            "sd": 12.661047,
-            "min": -75.299564,
-            "max": 58.687364
+            "sd": 12.676482,
+            "min": -75.370598,
+            "max": 58.762199
           },
           {
             "name": "error.race_native.pums_baseline",
@@ -1440,14 +1440,14 @@
           },
           {
             "name": "abs.error.race_native.prop_adj",
-            "duplicates": 116,
+            "duplicates": 118,
             "time_range": [0, 0],
             "type": "float",
             "missing": 0,
-            "mean": 5.719705,
-            "sd": 11.288166,
+            "mean": 5.729249,
+            "sd": 11.300618,
             "min": 0,
-            "max": 75.299564
+            "max": 75.370598
           },
           {
             "name": "abs.error.race_native.pums_baseline",
@@ -1522,9 +1522,9 @@
             "type": "float",
             "missing": 0,
             "mean": 90.615,
-            "sd": 82.724156,
+            "sd": 82.626749,
             "min": 0,
-            "max": 593.000068
+            "max": 592.471561
           },
           {
             "name": "income_lt50.pums_baseline",
@@ -1588,8 +1588,8 @@
             "type": "float",
             "missing": 0,
             "mean": 1.185,
-            "sd": 65.219803,
-            "min": -330.756983,
+            "sd": 65.555405,
+            "min": -331.218521,
             "max": 237
           },
           {
@@ -1616,7 +1616,7 @@
           },
           {
             "name": "error.income_lt50.pums_2step",
-            "duplicates": 7,
+            "duplicates": 6,
             "time_range": [0, 0],
             "type": "float",
             "missing": 0,
@@ -1638,7 +1638,7 @@
           },
           {
             "name": "abs.error.income_lt50.prop",
-            "duplicates": 16,
+            "duplicates": 15,
             "time_range": [0, 0],
             "type": "float",
             "missing": 0,
@@ -1653,10 +1653,10 @@
             "time_range": [0, 0],
             "type": "float",
             "missing": 0,
-            "mean": 42.357873,
-            "sd": 49.515943,
+            "mean": 42.597677,
+            "sd": 49.751803,
             "min": 0,
-            "max": 330.756983
+            "max": 331.218521
           },
           {
             "name": "abs.error.income_lt50.pums_baseline",
@@ -1671,7 +1671,7 @@
           },
           {
             "name": "abs.error.income_lt50.pums_1step",
-            "duplicates": 17,
+            "duplicates": 15,
             "time_range": [0, 0],
             "type": "float",
             "missing": 0,
@@ -1682,7 +1682,7 @@
           },
           {
             "name": "abs.error.income_lt50.pums_2step",
-            "duplicates": 20,
+            "duplicates": 19,
             "time_range": [0, 0],
             "type": "float",
             "missing": 0,
@@ -1731,9 +1731,9 @@
             "type": "float",
             "missing": 0,
             "mean": 146.665,
-            "sd": 81.981912,
-            "min": 0.204787,
-            "max": 378.448507
+            "sd": 81.691236,
+            "min": 0.209011,
+            "max": 378.302913
           },
           {
             "name": "income_gt200.pums_baseline",
@@ -1792,14 +1792,14 @@
           },
           {
             "name": "error.income_gt200.prop_adj",
-            "duplicates": 2,
+            "duplicates": 1,
             "time_range": [0, 0],
             "type": "float",
             "missing": 0,
             "mean": 0.31,
-            "sd": 56.973998,
-            "min": -199.358039,
-            "max": 160.392537
+            "sd": 56.498236,
+            "min": -200.907684,
+            "max": 155.20992
           },
           {
             "name": "error.income_gt200.pums_baseline",
@@ -1836,7 +1836,7 @@
           },
           {
             "name": "error.income_gt200.pums_general",
-            "duplicates": 2,
+            "duplicates": 3,
             "time_range": [0, 0],
             "type": "float",
             "missing": 0,
@@ -1858,14 +1858,14 @@
           },
           {
             "name": "abs.error.income_gt200.prop_adj",
-            "duplicates": 12,
+            "duplicates": 9,
             "time_range": [0, 0],
             "type": "float",
             "missing": 0,
-            "mean": 42.220794,
-            "sd": 38.138955,
+            "mean": 41.84485,
+            "sd": 37.84649,
             "min": 0,
-            "max": 199.358039
+            "max": 200.907684
           },
           {
             "name": "abs.error.income_gt200.pums_baseline",
@@ -1902,7 +1902,7 @@
           },
           {
             "name": "abs.error.income_gt200.pums_general",
-            "duplicates": 7,
+            "duplicates": 9,
             "time_range": [0, 0],
             "type": "float",
             "missing": 0,
@@ -1940,9 +1940,9 @@
             "type": "float",
             "missing": 0,
             "mean": 185.025,
-            "sd": 112.975068,
-            "min": 0.720745,
-            "max": 654.52443
+            "sd": 112.694751,
+            "min": 0.735608,
+            "max": 649.889717
           },
           {
             "name": "income_100_200.pums_baseline",
@@ -2006,13 +2006,13 @@
             "type": "float",
             "missing": 0,
             "mean": 1.145,
-            "sd": 63.191792,
-            "min": -190.573629,
+            "sd": 63.423928,
+            "min": -190.832986,
             "max": 229
           },
           {
             "name": "error.income_100_200.pums_baseline",
-            "duplicates": 3,
+            "duplicates": 2,
             "time_range": [0, 0],
             "type": "float",
             "missing": 0,
@@ -2034,7 +2034,7 @@
           },
           {
             "name": "error.income_100_200.pums_2step",
-            "duplicates": 3,
+            "duplicates": 2,
             "time_range": [0, 0],
             "type": "float",
             "missing": 0,
@@ -2067,18 +2067,18 @@
           },
           {
             "name": "abs.error.income_100_200.prop_adj",
-            "duplicates": 10,
+            "duplicates": 9,
             "time_range": [0, 0],
             "type": "float",
             "missing": 0,
-            "mean": 46.801038,
-            "sd": 42.345912,
+            "mean": 47.126029,
+            "sd": 42.330715,
             "min": 0,
             "max": 229
           },
           {
             "name": "abs.error.income_100_200.pums_baseline",
-            "duplicates": 9,
+            "duplicates": 10,
             "time_range": [0, 0],
             "type": "float",
             "missing": 0,
@@ -2100,7 +2100,7 @@
           },
           {
             "name": "abs.error.income_100_200.pums_2step",
-            "duplicates": 12,
+            "duplicates": 10,
             "time_range": [0, 0],
             "type": "float",
             "missing": 0,
@@ -2111,7 +2111,7 @@
           },
           {
             "name": "abs.error.income_100_200.pums_general",
-            "duplicates": 11,
+            "duplicates": 13,
             "time_range": [0, 0],
             "type": "float",
             "missing": 0,
@@ -2149,7 +2149,7 @@
             "type": "float",
             "missing": 0,
             "mean": 125.335,
-            "sd": 93.023111,
+            "sd": 92.825908,
             "min": 0,
             "max": 703
           },
@@ -2210,18 +2210,18 @@
           },
           {
             "name": "error.income_50_100.prop_adj",
-            "duplicates": 4,
+            "duplicates": 3,
             "time_range": [0, 0],
             "type": "float",
             "missing": 0,
             "mean": 1.835,
-            "sd": 63.734059,
-            "min": -188.706498,
+            "sd": 64.074948,
+            "min": -189.945731,
             "max": 367
           },
           {
             "name": "error.income_50_100.pums_baseline",
-            "duplicates": 5,
+            "duplicates": 6,
             "time_range": [0, 0],
             "type": "float",
             "missing": 0,
@@ -2232,7 +2232,7 @@
           },
           {
             "name": "error.income_50_100.pums_1step",
-            "duplicates": 4,
+            "duplicates": 3,
             "time_range": [0, 0],
             "type": "float",
             "missing": 0,
@@ -2265,7 +2265,7 @@
           },
           {
             "name": "abs.error.income_50_100.prop",
-            "duplicates": 12,
+            "duplicates": 13,
             "time_range": [0, 0],
             "type": "float",
             "missing": 0,
@@ -2276,12 +2276,12 @@
           },
           {
             "name": "abs.error.income_50_100.prop_adj",
-            "duplicates": 11,
+            "duplicates": 12,
             "time_range": [0, 0],
             "type": "float",
             "missing": 0,
-            "mean": 44.201796,
-            "sd": 45.845367,
+            "mean": 44.49915,
+            "sd": 46.031056,
             "min": 0,
             "max": 367
           },
@@ -2298,7 +2298,7 @@
           },
           {
             "name": "abs.error.income_50_100.pums_1step",
-            "duplicates": 15,
+            "duplicates": 13,
             "time_range": [0, 0],
             "type": "float",
             "missing": 0,
@@ -2309,7 +2309,7 @@
           },
           {
             "name": "abs.error.income_50_100.pums_2step",
-            "duplicates": 16,
+            "duplicates": 15,
             "time_range": [0, 0],
             "type": "float",
             "missing": 0,
@@ -2320,7 +2320,7 @@
           },
           {
             "name": "abs.error.income_50_100.pums_general",
-            "duplicates": 15,
+            "duplicates": 14,
             "time_range": [0, 0],
             "type": "float",
             "missing": 0,
@@ -2328,428 +2328,10 @@
             "sd": 41.419479,
             "min": 0,
             "max": 367
-          },
-          {
-            "name": "avg_hhsize_own.original",
-            "duplicates": 71,
-            "time_range": [0, 0],
-            "type": "float",
-            "missing": 0,
-            "mean": 2.286875,
-            "sd": 0.719901,
-            "min": 1.08,
-            "max": 5.15
-          },
-          {
-            "name": "avg_hhsize_own.prop",
-            "duplicates": 0,
-            "time_range": [0, 0],
-            "type": "float",
-            "missing": 0,
-            "mean": 2.30375,
-            "sd": 1.054112,
-            "min": 0.004395,
-            "max": 7.091661
-          },
-          {
-            "name": "avg_hhsize_own.prop_adj",
-            "duplicates": 0,
-            "time_range": [0, 0],
-            "type": "float",
-            "missing": 0,
-            "mean": 2.30375,
-            "sd": 0.935713,
-            "min": 0.009654,
-            "max": 5.696716
-          },
-          {
-            "name": "avg_hhsize_own.pums_baseline",
-            "duplicates": 199,
-            "time_range": [0, 0],
-            "type": "integer",
-            "missing": 0,
-            "mean": 0,
-            "sd": 0,
-            "min": 0,
-            "max": 0
-          },
-          {
-            "name": "avg_hhsize_own.pums_1step",
-            "duplicates": 199,
-            "time_range": [0, 0],
-            "type": "integer",
-            "missing": 0,
-            "mean": 0,
-            "sd": 0,
-            "min": 0,
-            "max": 0
-          },
-          {
-            "name": "avg_hhsize_own.pums_2step",
-            "duplicates": 199,
-            "time_range": [0, 0],
-            "type": "integer",
-            "missing": 0,
-            "mean": 0,
-            "sd": 0,
-            "min": 0,
-            "max": 0
-          },
-          {
-            "name": "avg_hhsize_own.pums_general",
-            "duplicates": 199,
-            "time_range": [0, 0],
-            "type": "integer",
-            "missing": 0,
-            "mean": 0,
-            "sd": 0,
-            "min": 0,
-            "max": 0
-          },
-          {
-            "name": "error.avg_hhsize_own.prop",
-            "duplicates": 3,
-            "time_range": [0, 0],
-            "type": "float",
-            "missing": 0,
-            "mean": 0.016875,
-            "sd": 1.068459,
-            "min": -3.318298,
-            "max": 4.261661
-          },
-          {
-            "name": "error.avg_hhsize_own.prop_adj",
-            "duplicates": 3,
-            "time_range": [0, 0],
-            "type": "float",
-            "missing": 0,
-            "mean": 0.016875,
-            "sd": 0.890906,
-            "min": -2.695649,
-            "max": 2.666716
-          },
-          {
-            "name": "error.avg_hhsize_own.pums_baseline",
-            "duplicates": 71,
-            "time_range": [0, 0],
-            "type": "float",
-            "missing": 0,
-            "mean": -2.286875,
-            "sd": 0.719901,
-            "min": -5.15,
-            "max": -1.08
-          },
-          {
-            "name": "error.avg_hhsize_own.pums_1step",
-            "duplicates": 71,
-            "time_range": [0, 0],
-            "type": "float",
-            "missing": 0,
-            "mean": -2.286875,
-            "sd": 0.719901,
-            "min": -5.15,
-            "max": -1.08
-          },
-          {
-            "name": "error.avg_hhsize_own.pums_2step",
-            "duplicates": 71,
-            "time_range": [0, 0],
-            "type": "float",
-            "missing": 0,
-            "mean": -2.286875,
-            "sd": 0.719901,
-            "min": -5.15,
-            "max": -1.08
-          },
-          {
-            "name": "error.avg_hhsize_own.pums_general",
-            "duplicates": 71,
-            "time_range": [0, 0],
-            "type": "float",
-            "missing": 0,
-            "mean": -2.286875,
-            "sd": 0.719901,
-            "min": -5.15,
-            "max": -1.08
-          },
-          {
-            "name": "abs.error.avg_hhsize_own.prop",
-            "duplicates": 13,
-            "time_range": [0, 0],
-            "type": "float",
-            "missing": 0,
-            "mean": 0.794263,
-            "sd": 0.712649,
-            "min": 0,
-            "max": 4.261661
-          },
-          {
-            "name": "abs.error.avg_hhsize_own.prop_adj",
-            "duplicates": 12,
-            "time_range": [0, 0],
-            "type": "float",
-            "missing": 0,
-            "mean": 0.680282,
-            "sd": 0.573491,
-            "min": 0,
-            "max": 2.695649
-          },
-          {
-            "name": "abs.error.avg_hhsize_own.pums_baseline",
-            "duplicates": 71,
-            "time_range": [0, 0],
-            "type": "float",
-            "missing": 0,
-            "mean": 2.286875,
-            "sd": 0.719901,
-            "min": 1.08,
-            "max": 5.15
-          },
-          {
-            "name": "abs.error.avg_hhsize_own.pums_1step",
-            "duplicates": 71,
-            "time_range": [0, 0],
-            "type": "float",
-            "missing": 0,
-            "mean": 2.286875,
-            "sd": 0.719901,
-            "min": 1.08,
-            "max": 5.15
-          },
-          {
-            "name": "abs.error.avg_hhsize_own.pums_2step",
-            "duplicates": 71,
-            "time_range": [0, 0],
-            "type": "float",
-            "missing": 0,
-            "mean": 2.286875,
-            "sd": 0.719901,
-            "min": 1.08,
-            "max": 5.15
-          },
-          {
-            "name": "abs.error.avg_hhsize_own.pums_general",
-            "duplicates": 71,
-            "time_range": [0, 0],
-            "type": "float",
-            "missing": 0,
-            "mean": 2.286875,
-            "sd": 0.719901,
-            "min": 1.08,
-            "max": 5.15
-          },
-          {
-            "name": "avg_hhsize_rent.original",
-            "duplicates": 69,
-            "time_range": [0, 0],
-            "type": "float",
-            "missing": 0,
-            "mean": 2.2192,
-            "sd": 0.989696,
-            "min": 0,
-            "max": 6.37
-          },
-          {
-            "name": "avg_hhsize_rent.prop",
-            "duplicates": 0,
-            "time_range": [0, 0],
-            "type": "float",
-            "missing": 0,
-            "mean": 2.2265,
-            "sd": 1.035008,
-            "min": 0.004395,
-            "max": 7.040157
-          },
-          {
-            "name": "avg_hhsize_rent.prop_adj",
-            "duplicates": 0,
-            "time_range": [0, 0],
-            "type": "float",
-            "missing": 0,
-            "mean": 2.2265,
-            "sd": 0.92358,
-            "min": 0.009654,
-            "max": 5.323946
-          },
-          {
-            "name": "avg_hhsize_rent.pums_baseline",
-            "duplicates": 199,
-            "time_range": [0, 0],
-            "type": "integer",
-            "missing": 0,
-            "mean": 0,
-            "sd": 0,
-            "min": 0,
-            "max": 0
-          },
-          {
-            "name": "avg_hhsize_rent.pums_1step",
-            "duplicates": 199,
-            "time_range": [0, 0],
-            "type": "integer",
-            "missing": 0,
-            "mean": 0,
-            "sd": 0,
-            "min": 0,
-            "max": 0
-          },
-          {
-            "name": "avg_hhsize_rent.pums_2step",
-            "duplicates": 199,
-            "time_range": [0, 0],
-            "type": "integer",
-            "missing": 0,
-            "mean": 0,
-            "sd": 0,
-            "min": 0,
-            "max": 0
-          },
-          {
-            "name": "avg_hhsize_rent.pums_general",
-            "duplicates": 199,
-            "time_range": [0, 0],
-            "type": "integer",
-            "missing": 0,
-            "mean": 0,
-            "sd": 0,
-            "min": 0,
-            "max": 0
-          },
-          {
-            "name": "error.avg_hhsize_rent.prop",
-            "duplicates": 2,
-            "time_range": [0, 0],
-            "type": "float",
-            "missing": 0,
-            "mean": 0.0073,
-            "sd": 1.157016,
-            "min": -4.063966,
-            "max": 4.640157
-          },
-          {
-            "name": "error.avg_hhsize_rent.prop_adj",
-            "duplicates": 3,
-            "time_range": [0, 0],
-            "type": "float",
-            "missing": 0,
-            "mean": 0.0073,
-            "sd": 0.977306,
-            "min": -4.059171,
-            "max": 2.923946
-          },
-          {
-            "name": "error.avg_hhsize_rent.pums_baseline",
-            "duplicates": 69,
-            "time_range": [0, 0],
-            "type": "float",
-            "missing": 0,
-            "mean": -2.2192,
-            "sd": 0.989696,
-            "min": -6.37,
-            "max": 0
-          },
-          {
-            "name": "error.avg_hhsize_rent.pums_1step",
-            "duplicates": 69,
-            "time_range": [0, 0],
-            "type": "float",
-            "missing": 0,
-            "mean": -2.2192,
-            "sd": 0.989696,
-            "min": -6.37,
-            "max": 0
-          },
-          {
-            "name": "error.avg_hhsize_rent.pums_2step",
-            "duplicates": 69,
-            "time_range": [0, 0],
-            "type": "float",
-            "missing": 0,
-            "mean": -2.2192,
-            "sd": 0.989696,
-            "min": -6.37,
-            "max": 0
-          },
-          {
-            "name": "error.avg_hhsize_rent.pums_general",
-            "duplicates": 69,
-            "time_range": [0, 0],
-            "type": "float",
-            "missing": 0,
-            "mean": -2.2192,
-            "sd": 0.989696,
-            "min": -6.37,
-            "max": 0
-          },
-          {
-            "name": "abs.error.avg_hhsize_rent.prop",
-            "duplicates": 16,
-            "time_range": [0, 0],
-            "type": "float",
-            "missing": 0,
-            "mean": 0.837433,
-            "sd": 0.796192,
-            "min": 0,
-            "max": 4.640157
-          },
-          {
-            "name": "abs.error.avg_hhsize_rent.prop_adj",
-            "duplicates": 11,
-            "time_range": [0, 0],
-            "type": "float",
-            "missing": 0,
-            "mean": 0.716996,
-            "sd": 0.662204,
-            "min": 0,
-            "max": 4.059171
-          },
-          {
-            "name": "abs.error.avg_hhsize_rent.pums_baseline",
-            "duplicates": 69,
-            "time_range": [0, 0],
-            "type": "float",
-            "missing": 0,
-            "mean": 2.2192,
-            "sd": 0.989696,
-            "min": 0,
-            "max": 6.37
-          },
-          {
-            "name": "abs.error.avg_hhsize_rent.pums_1step",
-            "duplicates": 69,
-            "time_range": [0, 0],
-            "type": "float",
-            "missing": 0,
-            "mean": 2.2192,
-            "sd": 0.989696,
-            "min": 0,
-            "max": 6.37
-          },
-          {
-            "name": "abs.error.avg_hhsize_rent.pums_2step",
-            "duplicates": 69,
-            "time_range": [0, 0],
-            "type": "float",
-            "missing": 0,
-            "mean": 2.2192,
-            "sd": 0.989696,
-            "min": 0,
-            "max": 6.37
-          },
-          {
-            "name": "abs.error.avg_hhsize_rent.pums_general",
-            "duplicates": 69,
-            "time_range": [0, 0],
-            "type": "float",
-            "missing": 0,
-            "mean": 2.2192,
-            "sd": 0.989696,
-            "min": 0,
-            "max": 6.37
           }
         ]
       },
-      "sha512": "849abd8a43b1e1f1c7b93690ef59991a749c7fa8d8e9f0b0da04961d1b7dde5bbfbe0f11353fc541620b51ca5d24d557d85fe2a179642b325772e043e76d75de"
+      "sha512": "ab3daa2ea601b00f6e29166cf35274c0e757e89559728d926eeec184bfaef3c378b4d98323a33bf8d470081b2813eee0be7e8f9c391103eefe229e9dcbb5ec32"
     }
   ]
 }
