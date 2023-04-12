@@ -29,9 +29,9 @@
     "variables": ["geoid", "sex_female.original", "sex_female.prop", "sex_female.prop_adj", "sex_female.pums_baseline", "sex_female.pums_1step", "sex_female.pums_2step", "sex_female.pums_general", "error.sex_female.prop", "error.sex_female.prop_adj", "error.sex_female.pums_baseline", "error.sex_female.pums_1step", "error.sex_female.pums_2step", "error.sex_female.pums_general", "abs.error.sex_female.prop", "abs.error.sex_female.prop_adj", "abs.error.sex_female.pums_baseline", "abs.error.sex_female.pums_1step", "abs.error.sex_female.pums_2step", "abs.error.sex_female.pums_general", "sex_male.original", "sex_male.prop", "sex_male.prop_adj", "sex_male.pums_baseline", "sex_male.pums_1step", "sex_male.pums_2step", "sex_male.pums_general", "error.sex_male.prop", "error.sex_male.prop_adj", "error.sex_male.pums_baseline", "error.sex_male.pums_1step", "error.sex_male.pums_2step", "error.sex_male.pums_general", "abs.error.sex_male.prop", "abs.error.sex_male.prop_adj", "abs.error.sex_male.pums_baseline", "abs.error.sex_male.pums_1step", "abs.error.sex_male.pums_2step", "abs.error.sex_male.pums_general", "race_black.original", "race_black.prop", "race_black.prop_adj", "race_black.pums_baseline", "race_black.pums_1step", "race_black.pums_2step", "race_black.pums_general", "error.race_black.prop", "error.race_black.prop_adj", "error.race_black.pums_baseline", "error.race_black.pums_1step", "error.race_black.pums_2step", "error.race_black.pums_general", "abs.error.race_black.prop", "abs.error.race_black.prop_adj", "abs.error.race_black.pums_baseline", "abs.error.race_black.pums_1step", "abs.error.race_black.pums_2step", "abs.error.race_black.pums_general", "race_white.original", "race_white.prop", "race_white.prop_adj", "race_white.pums_baseline", "race_white.pums_1step", "race_white.pums_2step", "race_white.pums_general", "error.race_white.prop", "error.race_white.prop_adj", "error.race_white.pums_baseline", "error.race_white.pums_1step", "error.race_white.pums_2step", "error.race_white.pums_general", "abs.error.race_white.prop", "abs.error.race_white.prop_adj", "abs.error.race_white.pums_baseline", "abs.error.race_white.pums_1step", "abs.error.race_white.pums_2step", "abs.error.race_white.pums_general", "race_other.original", "race_other.prop", "race_other.prop_adj", "race_other.pums_baseline", "race_other.pums_1step", "race_other.pums_2step", "race_other.pums_general", "error.race_other.prop", "error.race_other.prop_adj", "error.race_other.pums_baseline", "error.race_other.pums_1step", "error.race_other.pums_2step", "error.race_other.pums_general", "abs.error.race_other.prop", "abs.error.race_other.prop_adj", "abs.error.race_other.pums_baseline", "abs.error.race_other.pums_1step", "abs.error.race_other.pums_2step", "abs.error.race_other.pums_general", "race_asian.original", "race_asian.prop", "race_asian.prop_adj", "race_asian.pums_baseline", "race_asian.pums_1step", "race_asian.pums_2step", "race_asian.pums_general", "error.race_asian.prop", "error.race_asian.prop_adj", "error.race_asian.pums_baseline", "error.race_asian.pums_1step", "error.race_asian.pums_2step", "error.race_asian.pums_general", "abs.error.race_asian.prop", "abs.error.race_asian.prop_adj", "abs.error.race_asian.pums_baseline", "abs.error.race_asian.pums_1step", "abs.error.race_asian.pums_2step", "abs.error.race_asian.pums_general", "race_native.original", "race_native.prop", "race_native.prop_adj", "race_native.pums_baseline", "race_native.pums_1step", "race_native.pums_2step", "race_native.pums_general", "error.race_native.prop", "error.race_native.prop_adj", "error.race_native.pums_baseline", "error.race_native.pums_1step", "error.race_native.pums_2step", "error.race_native.pums_general", "abs.error.race_native.prop", "abs.error.race_native.prop_adj", "abs.error.race_native.pums_baseline", "abs.error.race_native.pums_1step", "abs.error.race_native.pums_2step", "abs.error.race_native.pums_general", "income_lt50.original", "income_lt50.prop", "income_lt50.prop_adj", "income_lt50.pums_baseline", "income_lt50.pums_1step", "income_lt50.pums_2step", "income_lt50.pums_general", "error.income_lt50.prop", "error.income_lt50.prop_adj", "error.income_lt50.pums_baseline", "error.income_lt50.pums_1step", "error.income_lt50.pums_2step", "error.income_lt50.pums_general", "abs.error.income_lt50.prop", "abs.error.income_lt50.prop_adj", "abs.error.income_lt50.pums_baseline", "abs.error.income_lt50.pums_1step", "abs.error.income_lt50.pums_2step", "abs.error.income_lt50.pums_general", "income_gt200.original", "income_gt200.prop", "income_gt200.prop_adj", "income_gt200.pums_baseline", "income_gt200.pums_1step", "income_gt200.pums_2step", "income_gt200.pums_general", "error.income_gt200.prop", "error.income_gt200.prop_adj", "error.income_gt200.pums_baseline", "error.income_gt200.pums_1step", "error.income_gt200.pums_2step", "error.income_gt200.pums_general", "abs.error.income_gt200.prop", "abs.error.income_gt200.prop_adj", "abs.error.income_gt200.pums_baseline", "abs.error.income_gt200.pums_1step", "abs.error.income_gt200.pums_2step", "abs.error.income_gt200.pums_general", "income_100_200.original", "income_100_200.prop", "income_100_200.prop_adj", "income_100_200.pums_baseline", "income_100_200.pums_1step", "income_100_200.pums_2step", "income_100_200.pums_general", "error.income_100_200.prop", "error.income_100_200.prop_adj", "error.income_100_200.pums_baseline", "error.income_100_200.pums_1step", "error.income_100_200.pums_2step", "error.income_100_200.pums_general", "abs.error.income_100_200.prop", "abs.error.income_100_200.prop_adj", "abs.error.income_100_200.pums_baseline", "abs.error.income_100_200.pums_1step", "abs.error.income_100_200.pums_2step", "abs.error.income_100_200.pums_general", "income_50_100.original", "income_50_100.prop", "income_50_100.prop_adj", "income_50_100.pums_baseline", "income_50_100.pums_1step", "income_50_100.pums_2step", "income_50_100.pums_general", "error.income_50_100.prop", "error.income_50_100.prop_adj", "error.income_50_100.pums_baseline", "error.income_50_100.pums_1step", "error.income_50_100.pums_2step", "error.income_50_100.pums_general", "abs.error.income_50_100.prop", "abs.error.income_50_100.prop_adj", "abs.error.income_50_100.pums_baseline", "abs.error.income_50_100.pums_1step", "abs.error.income_50_100.pums_2step", "abs.error.income_50_100.pums_general"],
     "info": {
       "results": {
-        "bytes": 647238,
+        "bytes": 647361,
         "encoding": "ISO-8859-1",
-        "md5": "fa292f0903c1663de5bd96d6a09f09b8",
+        "md5": "37e1a642d655e191a7b996086665fccd",
         "format": "csv",
         "name": "results",
         "filename": "results.csv",
@@ -44,7 +44,7 @@
         "id_length": 12,
         "time": {},
         "profile": "data-resource",
-        "created": "2023-04-05 20:10:16",
+        "created": "2023-04-12 19:51:24",
         "last_modified": "2023-04-05 20:10:14",
         "row_count": 200,
         "entity_count": 200,
@@ -88,9 +88,9 @@
               "type": "float",
               "missing": 0,
               "mean": 585.995,
-              "sd": 242.5566,
-              "min": 1.7291,
-              "max": 1424.5817
+              "sd": 251.4018,
+              "min": 1.2189,
+              "max": 1472.5326
             },
             {
               "name": "sex_female.pums_baseline",
@@ -164,7 +164,7 @@
             },
             {
               "name": "error.sex_female.prop_adj",
-              "duplicates": 1,
+              "duplicates": 2,
               "time_range": [
                 0,
                 0
@@ -172,8 +172,8 @@
               "type": "float",
               "missing": 0,
               "mean": 2.79,
-              "sd": 138.0439,
-              "min": -364.7092,
+              "sd": 144.3914,
+              "min": -364.5417,
               "max": 558
             },
             {
@@ -248,15 +248,15 @@
             },
             {
               "name": "abs.error.sex_female.prop_adj",
-              "duplicates": 6,
+              "duplicates": 10,
               "time_range": [
                 0,
                 0
               ],
               "type": "float",
               "missing": 0,
-              "mean": 101.4967,
-              "sd": 93.3305,
+              "mean": 105.9433,
+              "sd": 97.8588,
               "min": 0,
               "max": 558
             },
@@ -354,9 +354,9 @@
               "type": "float",
               "missing": 0,
               "mean": 592.825,
-              "sd": 243.0353,
-              "min": 2.0467,
-              "max": 1445.5192
+              "sd": 253.6312,
+              "min": 1.4428,
+              "max": 1493.9926
             },
             {
               "name": "sex_male.pums_baseline",
@@ -438,8 +438,8 @@
               "type": "float",
               "missing": 0,
               "mean": 3.36,
-              "sd": 155.422,
-              "min": -449.8371,
+              "sd": 159.5247,
+              "min": -449.2203,
               "max": 672
             },
             {
@@ -514,15 +514,15 @@
             },
             {
               "name": "abs.error.sex_male.prop_adj",
-              "duplicates": 11,
+              "duplicates": 10,
               "time_range": [
                 0,
                 0
               ],
               "type": "float",
               "missing": 0,
-              "mean": 113.4392,
-              "sd": 105.9917,
+              "mean": 117.0317,
+              "sd": 108.1398,
               "min": 0,
               "max": 672
             },
@@ -620,9 +620,9 @@
               "type": "float",
               "missing": 0,
               "mean": 110.56,
-              "sd": 133.3449,
+              "sd": 135.4661,
               "min": 0,
-              "max": 988.4084
+              "max": 1014.9434
             },
             {
               "name": "race_black.pums_baseline",
@@ -704,9 +704,9 @@
               "type": "float",
               "missing": 0,
               "mean": 0,
-              "sd": 101.2227,
-              "min": -540.7537,
-              "max": 278.3803
+              "sd": 100.6748,
+              "min": -531.3545,
+              "max": 284.8449
             },
             {
               "name": "error.race_black.pums_baseline",
@@ -780,17 +780,17 @@
             },
             {
               "name": "abs.error.race_black.prop_adj",
-              "duplicates": 10,
+              "duplicates": 15,
               "time_range": [
                 0,
                 0
               ],
               "type": "float",
               "missing": 0,
-              "mean": 62.2657,
-              "sd": 79.6841,
+              "mean": 61.5838,
+              "sd": 79.5223,
               "min": 0,
-              "max": 540.7537
+              "max": 531.3545
             },
             {
               "name": "abs.error.race_black.pums_baseline",
@@ -886,9 +886,9 @@
               "type": "float",
               "missing": 0,
               "mean": 791.72,
-              "sd": 332.1039,
-              "min": 2.0168,
-              "max": 1960.0587
+              "sd": 344.2498,
+              "min": 1.4217,
+              "max": 2074.5147
             },
             {
               "name": "race_white.pums_baseline",
@@ -962,7 +962,7 @@
             },
             {
               "name": "error.race_white.prop_adj",
-              "duplicates": 3,
+              "duplicates": 1,
               "time_range": [
                 0,
                 0
@@ -970,8 +970,8 @@
               "type": "float",
               "missing": 0,
               "mean": 4.12,
-              "sd": 188.162,
-              "min": -624.093,
+              "sd": 200.5829,
+              "min": -623.8033,
               "max": 824
             },
             {
@@ -1046,15 +1046,15 @@
             },
             {
               "name": "abs.error.race_white.prop_adj",
-              "duplicates": 10,
+              "duplicates": 8,
               "time_range": [
                 0,
                 0
               ],
               "type": "float",
               "missing": 0,
-              "mean": 138.1684,
-              "sd": 127.4188,
+              "mean": 145.1775,
+              "sd": 138.0874,
               "min": 0,
               "max": 824
             },
@@ -1152,9 +1152,9 @@
               "type": "float",
               "missing": 0,
               "mean": 151.16,
-              "sd": 117.2437,
+              "sd": 119.2795,
               "min": 0,
-              "max": 742.3217
+              "max": 776.0475
             },
             {
               "name": "race_other.pums_baseline",
@@ -1236,9 +1236,9 @@
               "type": "float",
               "missing": 0,
               "mean": 0.72,
-              "sd": 110.8567,
-              "min": -444.5367,
-              "max": 444.5367
+              "sd": 112.8771,
+              "min": -422.5099,
+              "max": 422.5099
             },
             {
               "name": "error.race_other.pums_baseline",
@@ -1312,17 +1312,17 @@
             },
             {
               "name": "abs.error.race_other.prop_adj",
-              "duplicates": 12,
+              "duplicates": 13,
               "time_range": [
                 0,
                 0
               ],
               "type": "float",
               "missing": 0,
-              "mean": 74.7483,
-              "sd": 81.6966,
+              "mean": 75.0165,
+              "sd": 84.1785,
               "min": 0,
-              "max": 444.5367
+              "max": 422.5099
             },
             {
               "name": "abs.error.race_other.pums_baseline",
@@ -1418,9 +1418,9 @@
               "type": "float",
               "missing": 0,
               "mean": 120.58,
-              "sd": 90.4043,
+              "sd": 91.7538,
               "min": 0,
-              "max": 751.61
+              "max": 771.7879
             },
             {
               "name": "race_asian.pums_baseline",
@@ -1502,9 +1502,9 @@
               "type": "float",
               "missing": 0,
               "mean": 1.31,
-              "sd": 78.9382,
-              "min": -283.9414,
-              "max": 283.9414
+              "sd": 77.5038,
+              "min": -284.2537,
+              "max": 284.2537
             },
             {
               "name": "error.race_asian.pums_baseline",
@@ -1585,10 +1585,10 @@
               ],
               "type": "float",
               "missing": 0,
-              "mean": 56.8547,
-              "sd": 54.6284,
+              "mean": 56.3506,
+              "sd": 53.0775,
               "min": 0,
-              "max": 283.9414
+              "max": 284.2537
             },
             {
               "name": "abs.error.race_asian.pums_baseline",
@@ -1684,9 +1684,9 @@
               "type": "float",
               "missing": 0,
               "mean": 4.8,
-              "sd": 8.5967,
+              "sd": 8.6398,
               "min": 0,
-              "max": 58.7622
+              "max": 58.6874
             },
             {
               "name": "race_native.pums_baseline",
@@ -1768,9 +1768,9 @@
               "type": "float",
               "missing": 0,
               "mean": 0,
-              "sd": 12.6765,
-              "min": -75.3706,
-              "max": 58.7622
+              "sd": 12.5902,
+              "min": -75.2996,
+              "max": 58.6874
             },
             {
               "name": "error.race_native.pums_baseline",
@@ -1844,17 +1844,17 @@
             },
             {
               "name": "abs.error.race_native.prop_adj",
-              "duplicates": 118,
+              "duplicates": 116,
               "time_range": [
                 0,
                 0
               ],
               "type": "float",
               "missing": 0,
-              "mean": 5.7292,
-              "sd": 11.3006,
+              "mean": 5.6628,
+              "sd": 11.2376,
               "min": 0,
-              "max": 75.3706
+              "max": 75.2996
             },
             {
               "name": "abs.error.race_native.pums_baseline",
@@ -1950,9 +1950,9 @@
               "type": "float",
               "missing": 0,
               "mean": 90.615,
-              "sd": 82.6267,
+              "sd": 83.5348,
               "min": 0,
-              "max": 592.4716
+              "max": 593.9465
             },
             {
               "name": "income_lt50.pums_baseline",
@@ -2026,7 +2026,7 @@
             },
             {
               "name": "error.income_lt50.prop_adj",
-              "duplicates": 6,
+              "duplicates": 7,
               "time_range": [
                 0,
                 0
@@ -2034,8 +2034,8 @@
               "type": "float",
               "missing": 0,
               "mean": 1.185,
-              "sd": 65.5554,
-              "min": -331.2185,
+              "sd": 63.1083,
+              "min": -323.8661,
               "max": 237
             },
             {
@@ -2110,17 +2110,17 @@
             },
             {
               "name": "abs.error.income_lt50.prop_adj",
-              "duplicates": 15,
+              "duplicates": 16,
               "time_range": [
                 0,
                 0
               ],
               "type": "float",
               "missing": 0,
-              "mean": 42.5977,
-              "sd": 49.7518,
+              "mean": 40.6079,
+              "sd": 48.2367,
               "min": 0,
-              "max": 331.2185
+              "max": 323.8661
             },
             {
               "name": "abs.error.income_lt50.pums_baseline",
@@ -2216,9 +2216,9 @@
               "type": "float",
               "missing": 0,
               "mean": 146.665,
-              "sd": 81.6912,
-              "min": 0.209,
-              "max": 378.3029
+              "sd": 83.4693,
+              "min": 0.1473,
+              "max": 392.5324
             },
             {
               "name": "income_gt200.pums_baseline",
@@ -2300,9 +2300,9 @@
               "type": "float",
               "missing": 0,
               "mean": 0.31,
-              "sd": 56.4982,
-              "min": -200.9077,
-              "max": 155.2099
+              "sd": 60.5272,
+              "min": -196.1865,
+              "max": 183.4937
             },
             {
               "name": "error.income_gt200.pums_baseline",
@@ -2376,17 +2376,17 @@
             },
             {
               "name": "abs.error.income_gt200.prop_adj",
-              "duplicates": 9,
+              "duplicates": 8,
               "time_range": [
                 0,
                 0
               ],
               "type": "float",
               "missing": 0,
-              "mean": 41.8449,
-              "sd": 37.8465,
+              "mean": 45.409,
+              "sd": 39.8912,
               "min": 0,
-              "max": 200.9077
+              "max": 196.1865
             },
             {
               "name": "abs.error.income_gt200.pums_baseline",
@@ -2482,9 +2482,9 @@
               "type": "float",
               "missing": 0,
               "mean": 185.025,
-              "sd": 112.6948,
-              "min": 0.7356,
-              "max": 649.8897
+              "sd": 113.9797,
+              "min": 0.5186,
+              "max": 659.5494
             },
             {
               "name": "income_100_200.pums_baseline",
@@ -2566,8 +2566,8 @@
               "type": "float",
               "missing": 0,
               "mean": 1.145,
-              "sd": 63.4239,
-              "min": -190.833,
+              "sd": 63.3065,
+              "min": -209.288,
               "max": 229
             },
             {
@@ -2642,15 +2642,15 @@
             },
             {
               "name": "abs.error.income_100_200.prop_adj",
-              "duplicates": 9,
+              "duplicates": 7,
               "time_range": [
                 0,
                 0
               ],
               "type": "float",
               "missing": 0,
-              "mean": 47.126,
-              "sd": 42.3307,
+              "mean": 46.8702,
+              "sd": 42.4401,
               "min": 0,
               "max": 229
             },
@@ -2748,7 +2748,7 @@
               "type": "float",
               "missing": 0,
               "mean": 125.335,
-              "sd": 92.8259,
+              "sd": 94.2578,
               "min": 0,
               "max": 703
             },
@@ -2824,7 +2824,7 @@
             },
             {
               "name": "error.income_50_100.prop_adj",
-              "duplicates": 3,
+              "duplicates": 4,
               "time_range": [
                 0,
                 0
@@ -2832,8 +2832,8 @@
               "type": "float",
               "missing": 0,
               "mean": 1.835,
-              "sd": 64.0749,
-              "min": -189.9457,
+              "sd": 60.5725,
+              "min": -185.9808,
               "max": 367
             },
             {
@@ -2915,8 +2915,8 @@
               ],
               "type": "float",
               "missing": 0,
-              "mean": 44.4992,
-              "sd": 46.0311,
+              "mean": 41.8833,
+              "sd": 43.6965,
               "min": 0,
               "max": 367
             },
@@ -2978,7 +2978,7 @@
             }
           ]
         },
-        "sha512": "ab3daa2ea601b00f6e29166cf35274c0e757e89559728d926eeec184bfaef3c378b4d98323a33bf8d470081b2813eee0be7e8f9c391103eefe229e9dcbb5ec32",
+        "sha512": "c53a5055387467a1c5859f9e7b1872e3d54d94b203c6c17e97997deaeb9a1a4700777d20d0da97e74ab0ee902f912d63de1e25038d80d6d443e10047401cb6ba",
         "site_file": "results.json"
       }
     },

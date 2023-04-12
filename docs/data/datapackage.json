@@ -9,9 +9,9 @@
   },
   "resources": [
     {
-      "bytes": 647238,
+      "bytes": 647361,
       "encoding": "ISO-8859-1",
-      "md5": "fa292f0903c1663de5bd96d6a09f09b8",
+      "md5": "37e1a642d655e191a7b996086665fccd",
       "format": "csv",
       "name": "results",
       "filename": "results.csv",
@@ -24,7 +24,7 @@
       "id_length": 12,
       "time": {},
       "profile": "data-resource",
-      "created": "2023-04-05 20:10:16",
+      "created": "2023-04-12 19:51:24",
       "last_modified": "2023-04-05 20:10:14",
       "row_count": 200,
       "entity_count": 200,
@@ -59,9 +59,9 @@
             "type": "float",
             "missing": 0,
             "mean": 585.995,
-            "sd": 242.556649,
-            "min": 1.729087,
-            "max": 1424.581655
+            "sd": 251.401832,
+            "min": 1.218912,
+            "max": 1472.532576
           },
           {
             "name": "sex_female.pums_baseline",
@@ -120,13 +120,13 @@
           },
           {
             "name": "error.sex_female.prop_adj",
-            "duplicates": 1,
+            "duplicates": 2,
             "time_range": [0, 0],
             "type": "float",
             "missing": 0,
             "mean": 2.79,
-            "sd": 138.043864,
-            "min": -364.709235,
+            "sd": 144.391447,
+            "min": -364.541725,
             "max": 558
           },
           {
@@ -186,12 +186,12 @@
           },
           {
             "name": "abs.error.sex_female.prop_adj",
-            "duplicates": 6,
+            "duplicates": 10,
             "time_range": [0, 0],
             "type": "float",
             "missing": 0,
-            "mean": 101.496714,
-            "sd": 93.330499,
+            "mean": 105.943268,
+            "sd": 97.858752,
             "min": 0,
             "max": 558
           },
@@ -268,9 +268,9 @@
             "type": "float",
             "missing": 0,
             "mean": 592.825,
-            "sd": 243.035278,
-            "min": 2.046675,
-            "max": 1445.519152
+            "sd": 253.631228,
+            "min": 1.442794,
+            "max": 1493.992551
           },
           {
             "name": "sex_male.pums_baseline",
@@ -334,8 +334,8 @@
             "type": "float",
             "missing": 0,
             "mean": 3.36,
-            "sd": 155.422046,
-            "min": -449.837129,
+            "sd": 159.524688,
+            "min": -449.220339,
             "max": 672
           },
           {
@@ -395,12 +395,12 @@
           },
           {
             "name": "abs.error.sex_male.prop_adj",
-            "duplicates": 11,
+            "duplicates": 10,
             "time_range": [0, 0],
             "type": "float",
             "missing": 0,
-            "mean": 113.439183,
-            "sd": 105.991721,
+            "mean": 117.031731,
+            "sd": 108.139817,
             "min": 0,
             "max": 672
           },
@@ -477,9 +477,9 @@
             "type": "float",
             "missing": 0,
             "mean": 110.56,
-            "sd": 133.344887,
+            "sd": 135.466131,
             "min": 0,
-            "max": 988.408378
+            "max": 1014.943433
           },
           {
             "name": "race_black.pums_baseline",
@@ -543,9 +543,9 @@
             "type": "float",
             "missing": 0,
             "mean": -0,
-            "sd": 101.222745,
-            "min": -540.753693,
-            "max": 278.380255
+            "sd": 100.674814,
+            "min": -531.354527,
+            "max": 284.844948
           },
           {
             "name": "error.race_black.pums_baseline",
@@ -604,14 +604,14 @@
           },
           {
             "name": "abs.error.race_black.prop_adj",
-            "duplicates": 10,
+            "duplicates": 15,
             "time_range": [0, 0],
             "type": "float",
             "missing": 0,
-            "mean": 62.26566,
-            "sd": 79.684058,
+            "mean": 61.583815,
+            "sd": 79.522285,
             "min": 0,
-            "max": 540.753693
+            "max": 531.354527
           },
           {
             "name": "abs.error.race_black.pums_baseline",
@@ -686,9 +686,9 @@
             "type": "float",
             "missing": 0,
             "mean": 791.72,
-            "sd": 332.103895,
-            "min": 2.016816,
-            "max": 1960.058691
+            "sd": 344.249824,
+            "min": 1.421745,
+            "max": 2074.5147
           },
           {
             "name": "race_white.pums_baseline",
@@ -747,13 +747,13 @@
           },
           {
             "name": "error.race_white.prop_adj",
-            "duplicates": 3,
+            "duplicates": 1,
             "time_range": [0, 0],
             "type": "float",
             "missing": 0,
             "mean": 4.12,
-            "sd": 188.161975,
-            "min": -624.093042,
+            "sd": 200.582888,
+            "min": -623.803263,
             "max": 824
           },
           {
@@ -813,12 +813,12 @@
           },
           {
             "name": "abs.error.race_white.prop_adj",
-            "duplicates": 10,
+            "duplicates": 8,
             "time_range": [0, 0],
             "type": "float",
             "missing": 0,
-            "mean": 138.168423,
-            "sd": 127.418771,
+            "mean": 145.17754,
+            "sd": 138.087379,
             "min": 0,
             "max": 824
           },
@@ -895,9 +895,9 @@
             "type": "float",
             "missing": 0,
             "mean": 151.16,
-            "sd": 117.243739,
+            "sd": 119.279492,
             "min": 0,
-            "max": 742.321684
+            "max": 776.047482
           },
           {
             "name": "race_other.pums_baseline",
@@ -961,9 +961,9 @@
             "type": "float",
             "missing": 0,
             "mean": 0.72,
-            "sd": 110.856676,
-            "min": -444.536721,
-            "max": 444.536721
+            "sd": 112.877142,
+            "min": -422.509869,
+            "max": 422.509869
           },
           {
             "name": "error.race_other.pums_baseline",
@@ -1022,14 +1022,14 @@
           },
           {
             "name": "abs.error.race_other.prop_adj",
-            "duplicates": 12,
+            "duplicates": 13,
             "time_range": [0, 0],
             "type": "float",
             "missing": 0,
-            "mean": 74.748328,
-            "sd": 81.696598,
+            "mean": 75.016503,
+            "sd": 84.178475,
             "min": 0,
-            "max": 444.536721
+            "max": 422.509869
           },
           {
             "name": "abs.error.race_other.pums_baseline",
@@ -1104,9 +1104,9 @@
             "type": "float",
             "missing": 0,
             "mean": 120.58,
-            "sd": 90.40431,
+            "sd": 91.753806,
             "min": 0,
-            "max": 751.61001
+            "max": 771.787918
           },
           {
             "name": "race_asian.pums_baseline",
@@ -1170,9 +1170,9 @@
             "type": "float",
             "missing": 0,
             "mean": 1.31,
-            "sd": 78.938192,
-            "min": -283.941375,
-            "max": 283.941375
+            "sd": 77.503778,
+            "min": -284.253727,
+            "max": 284.253727
           },
           {
             "name": "error.race_asian.pums_baseline",
@@ -1235,10 +1235,10 @@
             "time_range": [0, 0],
             "type": "float",
             "missing": 0,
-            "mean": 56.854695,
-            "sd": 54.628409,
+            "mean": 56.350567,
+            "sd": 53.077465,
             "min": 0,
-            "max": 283.941375
+            "max": 284.253727
           },
           {
             "name": "abs.error.race_asian.pums_baseline",
@@ -1313,9 +1313,9 @@
             "type": "float",
             "missing": 0,
             "mean": 4.8,
-            "sd": 8.596712,
+            "sd": 8.639833,
             "min": 0,
-            "max": 58.762199
+            "max": 58.687364
           },
           {
             "name": "race_native.pums_baseline",
@@ -1378,10 +1378,10 @@
             "time_range": [0, 0],
             "type": "float",
             "missing": 0,
-            "mean": -0,
-            "sd": 12.676482,
-            "min": -75.370598,
-            "max": 58.762199
+            "mean": 0,
+            "sd": 12.590193,
+            "min": -75.299564,
+            "max": 58.687364
           },
           {
             "name": "error.race_native.pums_baseline",
@@ -1440,14 +1440,14 @@
           },
           {
             "name": "abs.error.race_native.prop_adj",
-            "duplicates": 118,
+            "duplicates": 116,
             "time_range": [0, 0],
             "type": "float",
             "missing": 0,
-            "mean": 5.729249,
-            "sd": 11.300618,
+            "mean": 5.662787,
+            "sd": 11.237645,
             "min": 0,
-            "max": 75.370598
+            "max": 75.299564
           },
           {
             "name": "abs.error.race_native.pums_baseline",
@@ -1522,9 +1522,9 @@
             "type": "float",
             "missing": 0,
             "mean": 90.615,
-            "sd": 82.626749,
+            "sd": 83.534752,
             "min": 0,
-            "max": 592.471561
+            "max": 593.946521
           },
           {
             "name": "income_lt50.pums_baseline",
@@ -1583,13 +1583,13 @@
           },
           {
             "name": "error.income_lt50.prop_adj",
-            "duplicates": 6,
+            "duplicates": 7,
             "time_range": [0, 0],
             "type": "float",
             "missing": 0,
             "mean": 1.185,
-            "sd": 65.555405,
-            "min": -331.218521,
+            "sd": 63.108327,
+            "min": -323.866132,
             "max": 237
           },
           {
@@ -1649,14 +1649,14 @@
           },
           {
             "name": "abs.error.income_lt50.prop_adj",
-            "duplicates": 15,
+            "duplicates": 16,
             "time_range": [0, 0],
             "type": "float",
             "missing": 0,
-            "mean": 42.597677,
-            "sd": 49.751803,
+            "mean": 40.607933,
+            "sd": 48.236724,
             "min": 0,
-            "max": 331.218521
+            "max": 323.866132
           },
           {
             "name": "abs.error.income_lt50.pums_baseline",
@@ -1731,9 +1731,9 @@
             "type": "float",
             "missing": 0,
             "mean": 146.665,
-            "sd": 81.691236,
-            "min": 0.209011,
-            "max": 378.302913
+            "sd": 83.469266,
+            "min": 0.147341,
+            "max": 392.532432
           },
           {
             "name": "income_gt200.pums_baseline",
@@ -1797,9 +1797,9 @@
             "type": "float",
             "missing": 0,
             "mean": 0.31,
-            "sd": 56.498236,
-            "min": -200.907684,
-            "max": 155.20992
+            "sd": 60.527216,
+            "min": -196.186491,
+            "max": 183.493691
           },
           {
             "name": "error.income_gt200.pums_baseline",
@@ -1858,14 +1858,14 @@
           },
           {
             "name": "abs.error.income_gt200.prop_adj",
-            "duplicates": 9,
+            "duplicates": 8,
             "time_range": [0, 0],
             "type": "float",
             "missing": 0,
-            "mean": 41.84485,
-            "sd": 37.84649,
+            "mean": 45.408955,
+            "sd": 39.891172,
             "min": 0,
-            "max": 200.907684
+            "max": 196.186491
           },
           {
             "name": "abs.error.income_gt200.pums_baseline",
@@ -1940,9 +1940,9 @@
             "type": "float",
             "missing": 0,
             "mean": 185.025,
-            "sd": 112.694751,
-            "min": 0.735608,
-            "max": 649.889717
+            "sd": 113.979693,
+            "min": 0.518564,
+            "max": 659.54938
           },
           {
             "name": "income_100_200.pums_baseline",
@@ -2006,8 +2006,8 @@
             "type": "float",
             "missing": 0,
             "mean": 1.145,
-            "sd": 63.423928,
-            "min": -190.832986,
+            "sd": 63.306458,
+            "min": -209.288044,
             "max": 229
           },
           {
@@ -2067,12 +2067,12 @@
           },
           {
             "name": "abs.error.income_100_200.prop_adj",
-            "duplicates": 9,
+            "duplicates": 7,
             "time_range": [0, 0],
             "type": "float",
             "missing": 0,
-            "mean": 47.126029,
-            "sd": 42.330715,
+            "mean": 46.870248,
+            "sd": 42.440143,
             "min": 0,
             "max": 229
           },
@@ -2149,7 +2149,7 @@
             "type": "float",
             "missing": 0,
             "mean": 125.335,
-            "sd": 92.825908,
+            "sd": 94.25784,
             "min": 0,
             "max": 703
           },
@@ -2210,13 +2210,13 @@
           },
           {
             "name": "error.income_50_100.prop_adj",
-            "duplicates": 3,
+            "duplicates": 4,
             "time_range": [0, 0],
             "type": "float",
             "missing": 0,
             "mean": 1.835,
-            "sd": 64.074948,
-            "min": -189.945731,
+            "sd": 60.572523,
+            "min": -185.980778,
             "max": 367
           },
           {
@@ -2280,8 +2280,8 @@
             "time_range": [0, 0],
             "type": "float",
             "missing": 0,
-            "mean": 44.49915,
-            "sd": 46.031056,
+            "mean": 41.883344,
+            "sd": 43.69651,
             "min": 0,
             "max": 367
           },
@@ -2331,7 +2331,7 @@
           }
         ]
       },
-      "sha512": "ab3daa2ea601b00f6e29166cf35274c0e757e89559728d926eeec184bfaef3c378b4d98323a33bf8d470081b2813eee0be7e8f9c391103eefe229e9dcbb5ec32"
+      "sha512": "c53a5055387467a1c5859f9e7b1872e3d54d94b203c6c17e97997deaeb9a1a4700777d20d0da97e74ab0ee902f912d63de1e25038d80d6d443e10047401cb6ba"
     }
   ]
 }
