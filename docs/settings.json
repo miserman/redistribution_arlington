@@ -1,331 +1,287 @@
 {
-    "settings": {
-        "theme_dark": true,
-        "color_scale_center": "median",
-        "digits": 2,
-        "summary_selection": "all",
-        "color_by_order": false,
-        "boxplots": true,
-        "partial_init": true,
-        "palette": "purple",
-        "hide_url_parameters": false,
-        "background_shapes": true,
-        "iqr_box": true,
-        "polygon_outline": 1.5,
-        "table_autoscroll": true,
-        "table_scroll_behavior": "smooth",
-        "hide_tooltips": false,
-        "map_animations": "all",
-        "trace_limit": 200,
-        "map_overlay": true,
-        "circle_radius": 7,
-        "tracking": false,
-        "table_autosort": true,
-        "background_top": false,
-        "background_polygon_outline": 2.0
+  "settings": {
+    "theme_dark": true,
+    "color_scale_center": "median",
+    "digits": 2,
+    "summary_selection": "all",
+    "color_by_order": false,
+    "boxplots": true,
+    "partial_init": true,
+    "palette": "purple",
+    "hide_url_parameters": false,
+    "background_shapes": true,
+    "iqr_box": true,
+    "polygon_outline": 1.5,
+    "table_autoscroll": true,
+    "table_scroll_behavior": "smooth",
+    "hide_tooltips": false,
+    "map_animations": "all",
+    "trace_limit": 200,
+    "map_overlay": true,
+    "circle_radius": 7,
+    "tracking": false,
+    "table_autosort": true,
+    "background_top": false,
+    "background_polygon_outline": 2
+  },
+  "metadata": {
+    "url": "",
+    "package": "data/datapackage.json",
+    "datasets": [
+      "results"
+    ],
+    "variables": {},
+    "entity_info": {},
+    "files": "results.csv"
+  },
+  "dataviews": {
+    "view_a": {
+      "palette": "",
+      "y": "color_a",
+      "time_agg": "last",
+      "time_filters": []
     },
-    "metadata": {
-        "url": "",
-        "package": "data/datapackage.json",
-        "datasets": [
-            "results"
-        ],
-        "variables": {},
-        "files": "results.csv"
-    },
-    "dataviews": {
-        "view_a": {
-            "palette": "",
-            "y": "color_a",
-            "time_agg": "last",
-            "time_filters": []
+    "view_b": {
+      "palette": "",
+      "y": "color_b",
+      "time_agg": "last",
+      "time_filters": []
+    }
+  },
+  "plotly": {
+    "plot_a": {
+      "layout": {
+        "showlegend": false,
+        "xaxis": {
+          "fixedrange": true
         },
-        "view_b": {
-            "palette": "",
-            "y": "color_b",
-            "time_agg": "last",
-            "time_filters": []
+        "yaxis": {
+          "fixedrange": true,
+          "zeroline": false
+        },
+        "hovermode": "closest",
+        "margin": {
+          "t": 25,
+          "r": 10,
+          "b": 40,
+          "l": 60
         }
+      },
+      "config": {
+        "modeBarButtonsToRemove": ["select2d", "lasso2d", "sendDataToCloud"],
+        "showSendToCloud": false,
+        "responsive": true,
+        "showTips": false,
+        "displaylogo": false,
+        "modeBarButtonsToAdd": ["hoverclosest", "hovercompare"]
+      },
+      "data": [
+        {
+          "hoverinfo": "text",
+          "mode": "lines+markers",
+          "type": "scatter"
+        }
+      ],
+      "subto": ["map_a", "legend_a"]
+    },
+    "plot_b": {
+      "layout": {
+        "showlegend": false,
+        "xaxis": {
+          "fixedrange": true
+        },
+        "yaxis": {
+          "fixedrange": true,
+          "zeroline": false
+        },
+        "hovermode": "closest",
+        "margin": {
+          "t": 25,
+          "r": 10,
+          "b": 40,
+          "l": 60
+        }
+      },
+      "config": {
+        "modeBarButtonsToRemove": ["select2d", "lasso2d", "sendDataToCloud"],
+        "showSendToCloud": false,
+        "responsive": true,
+        "showTips": false,
+        "displaylogo": false,
+        "modeBarButtonsToAdd": ["hoverclosest", "hovercompare"]
+      },
+      "data": [
+        {
+          "hoverinfo": "text",
+          "mode": "lines+markers",
+          "type": "scatter"
+        }
+      ],
+      "subto": ["map_b", "legend_b"]
+    }
+  },
+  "map": {
+    "map_a": {
+      "shapes": [
+        {
+          "name": "results",
+          "url": "https://raw.githubusercontent.com/uva-bi-sdad/sdc.geographies/main/NCR/Census%20Geographies/Block%20Group/2020/data/distribution/ncr_geo_census_cb_2020_census_block_groups.geojson",
+          "id_property": "geoid"
+        }
+      ],
+      "overlays": {},
+      "options": {
+        "attributionControl": false,
+        "scrollWheelZoom": false,
+        "center": [38.8809, -77.1022],
+        "zoom": 12,
+        "height": "400px",
+        "overlays_from_measures": true,
+        "subto": ["plot_a", "legend_a"]
+      },
+      "tiles": {
+        "light": {
+          "url": "https://stamen-tiles-{s}.a.ssl.fastly.net/toner-lite/{z}/{x}/{y}{r}.png"
+        },
+        "dark": {
+          "url": "https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png"
+        }
+      }
+    },
+    "map_b": {
+      "shapes": [
+        {
+          "name": "results",
+          "url": "https://raw.githubusercontent.com/uva-bi-sdad/sdc.geographies/main/NCR/Census%20Geographies/Block%20Group/2020/data/distribution/ncr_geo_census_cb_2020_census_block_groups.geojson",
+          "id_property": "geoid"
+        }
+      ],
+      "overlays": {},
+      "options": {
+        "attributionControl": false,
+        "scrollWheelZoom": false,
+        "center": [38.8809, -77.1022],
+        "zoom": 12,
+        "height": "400px",
+        "overlays_from_measures": true,
+        "subto": ["plot_b", "legend_b"]
+      },
+      "tiles": {
+        "light": {
+          "url": "https://stamen-tiles-{s}.a.ssl.fastly.net/toner-lite/{z}/{x}/{y}{r}.png"
+        },
+        "dark": {
+          "url": "https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png"
+        }
+      }
+    },
+    "_raw": []
+  },
+  "legend": {
+    "legend_a": {
+      "palette": "settings.palette",
+      "subto": ["map_a", "plot_a"]
+    },
+    "legend_b": {
+      "palette": "settings.palette",
+      "subto": ["map_b", "plot_b"]
+    }
+  },
+  "credits": {
+    "bootstrap": {
+      "name": "Bootstrap",
+      "url": "https://getbootstrap.com",
+      "version": "5.3.0"
+    },
+    "colorbrewer": {
+      "name": "ColorBrewer",
+      "url": "https://colorbrewer2.org",
+      "description": "Discrete color palettes"
+    },
+    "scico": {
+      "name": "Scico",
+      "url": "https://github.com/thomasp85/scico",
+      "description": "Implementation of color palettes by Fabio Crameri"
+    },
+    "leaflet": {
+      "name": "Leaflet",
+      "url": "https://leafletjs.com",
+      "version": "1.9.4",
+      "description": "A JS library for interactive maps"
     },
     "plotly": {
-        "plot_a": {
-            "layout": {
-                "showlegend": false,
-                "xaxis": {
-                    "fixedrange": true
-                },
-                "yaxis": {
-                    "fixedrange": true,
-                    "zeroline": false
-                },
-                "hovermode": "closest",
-                "margin": {
-                    "t": 25.0,
-                    "r": 10.0,
-                    "b": 40.0,
-                    "l": 60.0
-                }
-            },
-            "config": {
-                "modeBarButtonsToRemove": [
-                    "select2d",
-                    "lasso2d",
-                    "sendDataToCloud"
-                ],
-                "showSendToCloud": false,
-                "responsive": true,
-                "showTips": false,
-                "displaylogo": false,
-                "modeBarButtonsToAdd": [
-                    "hoverclosest",
-                    "hovercompare"
-                ]
-            },
-            "data": [
-                {
-                    "hoverinfo": "text",
-                    "mode": "lines+markers",
-                    "type": "scatter"
-                }
-            ],
-            "subto": [
-                "map_a",
-                "legend_a"
-            ]
-        },
-        "plot_b": {
-            "layout": {
-                "showlegend": false,
-                "xaxis": {
-                    "fixedrange": true
-                },
-                "yaxis": {
-                    "fixedrange": true,
-                    "zeroline": false
-                },
-                "hovermode": "closest",
-                "margin": {
-                    "t": 25.0,
-                    "r": 10.0,
-                    "b": 40.0,
-                    "l": 60.0
-                }
-            },
-            "config": {
-                "modeBarButtonsToRemove": [
-                    "select2d",
-                    "lasso2d",
-                    "sendDataToCloud"
-                ],
-                "showSendToCloud": false,
-                "responsive": true,
-                "showTips": false,
-                "displaylogo": false,
-                "modeBarButtonsToAdd": [
-                    "hoverclosest",
-                    "hovercompare"
-                ]
-            },
-            "data": [
-                {
-                    "hoverinfo": "text",
-                    "mode": "lines+markers",
-                    "type": "scatter"
-                }
-            ],
-            "subto": [
-                "map_b",
-                "legend_b"
-            ]
-        }
-    },
-    "map": {
-        "map_a": {
-            "shapes": [
-                {
-                    "name": "results",
-                    "url": "https://raw.githubusercontent.com/uva-bi-sdad/sdc.geographies/main/NCR/Census%20Geographies/Block%20Group/2020/data/distribution/ncr_geo_census_cb_2020_census_block_groups.geojson",
-                    "id_property": "geoid"
-                }
-            ],
-            "overlays": {},
-            "options": {
-                "attributionControl": false,
-                "scrollWheelZoom": false,
-                "center": [
-                    38.88087765252438,
-                    -77.10222244262697
-                ],
-                "zoom": 12.0,
-                "height": "400px",
-                "overlays_from_measures": true,
-                "subto": [
-                    "plot_a",
-                    "legend_a"
-                ]
-            },
-            "tiles": {
-                "light": {
-                    "url": "https://stamen-tiles-{s}.a.ssl.fastly.net/toner-lite/{z}/{x}/{y}{r}.png"
-                },
-                "dark": {
-                    "url": "https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png"
-                }
-            }
-        },
-        "map_b": {
-            "shapes": [
-                {
-                    "name": "results",
-                    "url": "https://raw.githubusercontent.com/uva-bi-sdad/sdc.geographies/main/NCR/Census%20Geographies/Block%20Group/2020/data/distribution/ncr_geo_census_cb_2020_census_block_groups.geojson",
-                    "id_property": "geoid"
-                }
-            ],
-            "overlays": {},
-            "options": {
-                "attributionControl": false,
-                "scrollWheelZoom": false,
-                "center": [
-                    38.88087765252438,
-                    -77.10222244262697
-                ],
-                "zoom": 12.0,
-                "height": "400px",
-                "overlays_from_measures": true,
-                "subto": [
-                    "plot_b",
-                    "legend_b"
-                ]
-            },
-            "tiles": {
-                "light": {
-                    "url": "https://stamen-tiles-{s}.a.ssl.fastly.net/toner-lite/{z}/{x}/{y}{r}.png"
-                },
-                "dark": {
-                    "url": "https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png"
-                }
-            }
-        },
-        "_raw": []
-    },
-    "legend": {
-        "legend_a": {
-            "palette": "settings.palette",
-            "subto": [
-                "map_a",
-                "plot_a"
-            ]
-        },
-        "legend_b": {
-            "palette": "settings.palette",
-            "subto": [
-                "map_b",
-                "plot_b"
-            ]
-        }
-    },
-    "credits": {
-        "bootstrap": {
-            "name": "Bootstrap",
-            "url": "https://getbootstrap.com",
-            "version": "5.3.0"
-        },
-        "colorbrewer": {
-            "name": "ColorBrewer",
-            "url": "https://colorbrewer2.org",
-            "description": "Discrete color palettes"
-        },
-        "scico": {
-            "name": "Scico",
-            "url": "https://github.com/thomasp85/scico",
-            "description": "Implementation of color palettes by Fabio Crameri"
-        },
-        "leaflet": {
-            "name": "Leaflet",
-            "url": "https://leafletjs.com",
-            "version": "1.9.3",
-            "description": "A JS library for interactive maps"
-        },
-        "plotly": {
-            "name": "Plotly",
-            "url": "https://plotly.com/javascript/getting-started",
-            "version": "2.20.0"
-        }
-    },
-    "combobox": {
-        "color_a": {
-            "strict": true,
-            "search": true
-        },
-        "y_a": {
-            "strict": true,
-            "search": true
-        },
-        "x_a": {
-            "strict": true,
-            "search": true
-        },
-        "color_b": {
-            "strict": true,
-            "search": true
-        },
-        "y_b": {
-            "strict": true,
-            "search": true
-        },
-        "x_b": {
-            "strict": true,
-            "search": true
-        }
-    },
-    "button": {
-        "DownloadAllData": {
-            "effects": "export",
-            "dataview": {},
-            "query": {
-                "features": {
-                    "geoid": "id"
-                }
-            },
-            "api": false
-        }
-    },
-    "info": {
-        "info_a": {
-            "title": "features.name",
-            "body": [
-                {
-                    "name": "variables.long_name",
-                    "value": "color_a",
-                    "style": "stack"
-                }
-            ],
-            "default": [],
-            "floating": false,
-            "subto": [
-                "map_a",
-                "legend_a",
-                "plot_a"
-            ],
-            "variable_info": false
-        },
-        "info_b": {
-            "title": "features.name",
-            "body": [
-                {
-                    "name": "variables.long_name",
-                    "value": "color_b",
-                    "style": "stack"
-                }
-            ],
-            "default": [],
-            "floating": false,
-            "subto": [
-                "map_b",
-                "legend_b",
-                "plot_b"
-            ],
-            "variable_info": false
-        }
+      "name": "Plotly",
+      "url": "https://plotly.com/javascript/getting-started",
+      "version": "2.20.0"
     }
+  },
+  "combobox": {
+    "color_a": {
+      "strict": true,
+      "search": true
+    },
+    "y_a": {
+      "strict": true,
+      "search": true
+    },
+    "x_a": {
+      "strict": true,
+      "search": true
+    },
+    "color_b": {
+      "strict": true,
+      "search": true
+    },
+    "y_b": {
+      "strict": true,
+      "search": true
+    },
+    "x_b": {
+      "strict": true,
+      "search": true
+    }
+  },
+  "button": {
+    "DownloadAllData": {
+      "effects": "export",
+      "dataview": {},
+      "query": {
+        "features": {
+          "geoid": "id"
+        }
+      },
+      "api": false
+    }
+  },
+  "info": {
+    "info_a": {
+      "title": "features.name",
+      "body": [
+        {
+          "name": "variables.long_name",
+          "value": "color_a",
+          "style": "stack"
+        }
+      ],
+      "default": [],
+      "floating": false,
+      "subto": ["map_a", "legend_a", "plot_a"],
+      "variable_info": false
+    },
+    "info_b": {
+      "title": "features.name",
+      "body": [
+        {
+          "name": "variables.long_name",
+          "value": "color_b",
+          "style": "stack"
+        }
+      ],
+      "default": [],
+      "floating": false,
+      "subto": ["map_b", "legend_b", "plot_b"],
+      "variable_info": false
+    }
+  },
+  "aggregated": true
 }
