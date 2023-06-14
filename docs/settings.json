@@ -22,7 +22,8 @@
     "tracking": false,
     "table_autosort": true,
     "background_top": false,
-    "background_polygon_outline": 2
+    "background_polygon_outline": 2,
+    "show_empty_times": false
   },
   "metadata": {
     "url": "",
